@@ -51,7 +51,7 @@ function contact() {
               className={styles.cntnimg}
               src="/images/cntnt.png"
               width="400"
-              height="40"
+              height="400"
             ></Image>
           </div>
         </div>
