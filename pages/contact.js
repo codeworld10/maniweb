@@ -50,8 +50,8 @@ function contact() {
             <Image
               className={styles.cntnimg}
               src="/images/cntnt.png"
-              width="500"
-              height="420"
+              width="400"
+              height="40"
             ></Image>
           </div>
         </div>
