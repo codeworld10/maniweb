@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Ubuntu&display=swap");
+
+.asection__main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 650px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    79deg,
+    rgba(0, 0, 0, 1) 40%,
+    rgba(0, 0, 0, 1) 90%,
+    rgba(51, 51, 51, 1) 90%
+  );
+}
+.sertxt {
+  font-size: 30px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  padding: 7px 10px 7px 12px;
+}
+.abtani:hover {
+  color: #f00f80;
+}
+.abtani {
+  transform: translate(-150px, -50px) rotate(-180deg) scale(3);
+  animation: revolveScale 3.4s forwards;
+}
+@keyframes revolveScale {
+  60% {
+    transform: translate(20px, 20px) rotate(30deg) scale(0.3);
+  }
+
+  100% {
+    transform: translate(0) rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+.img_top {
+  border-radius: 50px;
+  padding: 10px 10px 10px 10px;
+  object-fit: cover;
+}
+
+.aboutst {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  padding: 3px 3px 3px 3px;
+}
+.story {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  opacity: 0;
+  transform: translate(-150px, 0) scale(0.3);
+  animation: leftRight 3.5s forwards;
+  animation-delay: 2s;
+}
+@keyframes leftRight {
+  40% {
+    transform: translate(50px, 0) scale(0.7);
+    opacity: 1;
+    color: #f00f80;
+  }
+
+  60% {
+    color: #0f40ba;
+  }
+
+  80% {
+    transform: translate(0) scale(2);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0) scale(1);
+    opacity: 1;
+  }
+}
+.story:hover {
+  color: #f00f80;
+}
+.aboutmee {
+  font-size: 19px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  width: 950px;
+}
+
+.main_abt {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.skil {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  opacity: 0;
+  transform: translate(-150px, 0) scale(0.3);
+  animation: leftRight 3.5s forwards;
+  animation-delay: 2s;
+}
+@keyframes leftRight {
+  40% {
+    transform: translate(50px, 0) scale(0.7);
+    opacity: 1;
+    color: #f00f80;
+  }
+
+  60% {
+    color: #0f40ba;
+  }
+
+  80% {
+    transform: translate(0) scale(2);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0) scale(1);
+    opacity: 1;
+  }
+}
+.skil:hover {
+  color: #f00f80;
+}
+.skills_d {
+  display: flex;
+  justify-content: center;
+}
+.set_para {
+  width: 910px;
+  font-size: 18px;
+}
+
+.see_pimg:hover{
+  animation: zoom-in-zoom-out 7s ease-out infinite;
+}
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.see_pimg{
+object-fit: cover;
+border-radius: 20px;
+
+}
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.my_setup{
+  background-color: #1d1d1d;
+  padding: 10px 10px 10px 10px;
+}
+
+@media (max-width: 850px) {
+  .asection__main {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 850px;
+  }
+  .sertxt {
+    text-align: center;
+    font-size: 24px;
+  }
+  .ser_para {
+    text-align: center;
+  }
+  .aboutmee {
+    padding-left: 12px;
+    padding-right: 5px;
+  }
+  .aboutst {
+    font-size: 20px;
+  }
+  .set_para {
+    padding-left: 12px;
+  }
+}
+
