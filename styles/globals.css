@@ -1007,6 +1007,9 @@ text-align: center;
     cursor: pointer;
     align-items: center;
   }
+  .serteext {
+    margin-left: 0px;
+  }
   .topnav {
     display: block;
     overflow: hidden;
@@ -1182,7 +1185,7 @@ text-align: center;
     display: none;
   }
   .head {
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
   }
   .how {
