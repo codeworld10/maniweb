@@ -14,7 +14,7 @@ function index() {
 
         <meta
           name="description"
-          content="Are you looking a website developer. then you are at the right place. I will create and design professional websites for you in cheap rates."
+          content="Are you looking a website developer. then you are at the right place. I will create and design professional websites for your Business or Company."
         />
         <meta
           name="keywords"
