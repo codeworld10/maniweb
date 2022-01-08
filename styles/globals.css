@@ -1643,6 +1643,17 @@ text-align: center;
 
 
 @media (max-width: 290px) {
+  .bodydown{   position: fixed;
+    width: 800px;
+    height: 200px;
+    padding: 10px;
+    
+    top: 90%;
+    left: 20%;
+    margin-top: -100px;/* Negative half of height. */
+    margin-left: -1px
+   }
+ 
   div .section1 {
     height: 900px;
   }

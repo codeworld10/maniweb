@@ -33,8 +33,8 @@ function aboutme() {
           <Image
             className={styles.img_top}
             src="/images/mee.jpeg"
-            width="500"
-            height="500"
+            width="400"
+            height="400"
           ></Image>
         </div>
       </div>
