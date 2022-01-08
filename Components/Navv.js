@@ -79,7 +79,7 @@ function Navv() {
 
       <header className="mobile-container ">
         <div className="logomob">
-          <Image src="/images/Maniweb.png" width="200" height="200"></Image>
+          <Image src="/images/Maniweb.png" width="150" height="150"></Image>
         </div>
         <nav className="topnav">
           <div className="burger">
