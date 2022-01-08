@@ -164,7 +164,7 @@ body {
 
 div .section1 {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin: auto;
   align-items: center;
   height: 600px;
@@ -1263,11 +1263,9 @@ text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 880px;
+    height: 800px;
   }
-  .text {
-    margin-top: 150px;
-  }
+ 
 
   .img {
     margin-right: 0px;
