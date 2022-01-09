@@ -91,9 +91,7 @@ div .contact_main{
 height: 700px;
 }
 
-.cnt_text{
-  font-size: 22px;
-}
+
 .quick{
   font-size: 22px;
 }
@@ -115,17 +113,13 @@ height: 700px;
    div .contact_main{
       height: 500px;
     }
-    .cnt_text{
-      font-size: 16px;
-    }
+    
     .quick{
       font-size: 16px;
     }
   }
   @media (max-width: 224px) {
-    .cnt_text{
-      font-size: 13px;
-    }
+   
     .quick{
       font-size: 13px;
     }
