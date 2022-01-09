@@ -5,7 +5,6 @@ import Head from "next/head";
 import Footer from "../Components/Footer";
 import Action from "../Components/Action";
 
-
 function index() {
   return (
     <>
@@ -22,7 +21,10 @@ function index() {
         />
         <meta name="author" content="Usman" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="google-site-verification" content="8bUUelhJ0BI6lihtctl8Z4z0WDDIODpITpFxGf5QUpE" />
+        <meta
+          name="google-site-verification"
+          content="8bUUelhJ0BI6lihtctl8Z4z0WDDIODpITpFxGf5QUpE"
+        />
       </Head>
       <Navv />
       {/* section1 starts */}
@@ -65,15 +67,9 @@ function index() {
       </div>
       <div className="para3">
         <p>
-          We aim to provide you a reasonable offer. I started my business
-          locally and now
+          We aim to provide you a reasonable offer. I have started my business.
+          locally and now <br></br> try to expand my business to the next level by offereing my services online from national to international clients.
         </p>
-        <span>
-          <p>
-            try to expand my business to the next level by offering my services
-            online from national to international.
-          </p>
-        </span>
       </div>
 
       <div className="section2">
@@ -266,7 +262,7 @@ function index() {
           <button className="abt_me">About Me</button>
         </Link>
       </div>
-    
+
       <Action />
       <Footer />
     </>
