@@ -181,22 +181,12 @@ div .section1 {
 }
 
 .head {
-  font-size: 25px;
+ 
   color: white;
   font-family: "Raleway", sans-serif;
-  transform: translate(-150px, -50px) rotate(-180deg) scale(3);
-  animation: revolveScale 3.4s forwards;
+ 
 }
-@keyframes revolveScale {
-  60% {
-    transform: translate(20px, 20px) rotate(30deg) scale(0.3);
-  }
 
-  100% {
-    transform: translate(0) rotate(0) scale(1);
-    opacity: 1;
-  }
-}
 .topimg {
   animation: zoom-in-zoom-out 4s ease-out infinite;
 }
@@ -222,7 +212,7 @@ div .section1 {
   margin-right: 80px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .butto {
@@ -268,12 +258,12 @@ div .section1 {
   font-family: "Raleway", sans-serif;
   text-align: center;
   font-weight: 600;
-  font-size: 19px;
+  font-size: 17px;
 }
 .how {
   text-align: center;
   font-family: "Ubuntu", sans-serif;
-  font-size: 25px;
+  
 
  
 }
@@ -434,7 +424,7 @@ div .seecicon2:hover {
   text-align: center;
   margin-top: 20px;
   font-family: "Ubuntu", sans-serif;
-  font-size: 28px;
+  font-size: 25px;
 }
 .cho_icon {
   padding: 10px 10px 10px 10px;
@@ -496,26 +486,14 @@ div .sermain {
   justify-content: space-around;
   align-items: center;
 }
-.serani {
-  transform: translate(-150px, -50px) rotate(-180deg) scale(3);
-  animation: revolveScale 3.4s forwards;
-}
+
 .serani:hover{
   color: #f00f80;
 }
-@keyframes revolveScale {
-  60% {
-    transform: translate(20px, 20px) rotate(30deg) scale(0.3);
-  }
 
-  100% {
-    transform: translate(0) rotate(0) scale(1);
-    opacity: 1;
-  }
-}
 
 .serteext {
-  font-size: 25px;
+ 
   color: white;
   font-family: "Raleway", sans-serif;
   margin-left: 16px;
@@ -523,7 +501,7 @@ div .sermain {
 
 .ser_para {
   color: white;
-  font-size: 20px;
+  font-size: 17px;
   text-align: left;
   font-family: "Raleway", sans-serif;
 }
@@ -779,7 +757,7 @@ text-align: center;
 
 @media (max-width: 1333px) {
   .head {
-    font-size: 28px;
+   
     margin-left: 7px;
   }
   .para {
@@ -805,11 +783,11 @@ text-align: center;
     margin-left: -20px
   }
   .head {
-    font-size: 22px;
+    
     margin-left: 7px;
   }
   .para {
-    font-size: 18px;
+    font-size: 17px;
     margin-left: 7px;
   }
  
@@ -930,6 +908,7 @@ text-align: center;
   }
   .serteext {
     margin-left: 0px;
+    font-size: 19px;
   }
   .topnav {
     display: block;
@@ -1109,12 +1088,10 @@ text-align: center;
     display: none;
   }
   .head {
-    font-size: 18px;
+   
     text-align: center;
   }
-  .how {
-    font-size: 17px;
-  }
+
   .para {
     text-align: center;
     margin-right: 0px;
@@ -1182,7 +1159,7 @@ text-align: center;
   /* top nav styles */
 
   .para {
-    font-size: 22px;
+    font-size: 17px;
   }
   .container {
     display: block;
@@ -1694,7 +1671,7 @@ text-align: center;
   }
   .serteext {
     text-align: center;
-    font-size: 24px;
+    font-size: 19px;
   }
   .ser_para {
     text-align: center;

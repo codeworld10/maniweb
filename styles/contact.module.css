@@ -13,29 +13,19 @@ div .contact_main{
 }
 .cnt_text{
     color: white;
-    font-size: 30px;
+    
     padding: 10px 10px 10px 10px;
     font-family: "Raleway", sans-serif;
 }
-.headcont{
-  transform: translate(-150px, -50px) rotate(-180deg) scale(3);
-	animation: revolveScale 3.4s forwards;
-}
-@keyframes revolveScale {
-	60% {
-		transform: translate(20px, 20px) rotate(30deg) scale(.3);
-	}
 
-	100% {
-		transform: translate(0) rotate(0) scale(1);
-		opacity: 1;
-	}
-}
+
 .headcont:hover{
   color: #f00f80;
  
 }
-
+.spen{
+  font-size: 17px;
+}
 
 .ct_para{
     font-size: 19px;
