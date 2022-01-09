@@ -50,7 +50,7 @@ function aboutme() {
       </div>
       <div className={styles.main_abt}>
         <div className={styles.aboutmee}>
-          <p>
+          <p className={styles.stres}>
             My name is Mani, the nickname of Usman. I am 21 years old and I
             started learning how to code and build websites back in 2016 after
             my father's early death. I was in much pain, and there was a gap of

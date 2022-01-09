@@ -53,7 +53,7 @@ function index() {
           <Image
             className="topimg"
             src="/images/homtop.png"
-            width="500"
+            width="420"
             height="420"
           ></Image>
         </div>

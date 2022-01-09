@@ -181,7 +181,7 @@ div .section1 {
 }
 
 .head {
-  font-size: 30px;
+  font-size: 25px;
   color: white;
   font-family: "Raleway", sans-serif;
   transform: translate(-150px, -50px) rotate(-180deg) scale(3);
@@ -198,7 +198,7 @@ div .section1 {
   }
 }
 .topimg {
-  animation: zoom-in-zoom-out 7s ease-out infinite;
+  animation: zoom-in-zoom-out 4s ease-out infinite;
 }
 @keyframes zoom-in-zoom-out {
   0% {
@@ -222,7 +222,7 @@ div .section1 {
   margin-right: 80px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .butto {
@@ -515,7 +515,7 @@ div .sermain {
 }
 
 .serteext {
-  font-size: 30px;
+  font-size: 25px;
   color: white;
   font-family: "Raleway", sans-serif;
   margin-left: 16px;
@@ -523,7 +523,7 @@ div .sermain {
 
 .ser_para {
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   text-align: left;
   font-family: "Raleway", sans-serif;
 }
