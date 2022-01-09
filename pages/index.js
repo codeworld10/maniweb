@@ -22,6 +22,7 @@ function index() {
         />
         <meta name="author" content="Usman" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google-site-verification" content="8bUUelhJ0BI6lihtctl8Z4z0WDDIODpITpFxGf5QUpE" />
       </Head>
       <Navv />
       {/* section1 starts */}
