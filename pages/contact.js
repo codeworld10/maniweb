@@ -27,9 +27,9 @@ function contact() {
     <>
       <Head>
   <title>Contact Us | Mani Web Dev</title>
-  <meta name="description" content="Free Web tutorials"/>
-  <meta name="keywords" content="HTML, CSS, JavaScript"/>
-  <meta name="author" content="John Doe"/>
+  <meta name="description" content="Get in touch with us. contact with us today if you have any query or you want to say just Hi."/>
+  <meta name="keywords" content="Contact information of maniwebdev, maniwebdev website developer, maniwebdev freelance services, best freelancer for hire, best freelance website developer for hire,"/>
+  <meta name="author" content="Usman"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </Head>
 
@@ -50,6 +50,7 @@ function contact() {
             <Image
               className={styles.cntnimg}
               src="/images/cntnt.png"
+              alt="Contact with maniwebdev"
               width="400"
               height="400"
             ></Image>
@@ -62,6 +63,7 @@ function contact() {
           <Image
             onClick={facecnt}
             src="/images/fpic.png"
+            alt="contact with maniwebdev on facebook page"
             width="70"
             height="70"
           ></Image>
@@ -70,6 +72,7 @@ function contact() {
           <Image
             onClick={instacnt}
             src="/images/insta.png"
+            alt="contact with maniwebdev on instagram"
             width="70"
             height="70"
           ></Image>
@@ -78,6 +81,7 @@ function contact() {
           <Image
             onClick={linkecnt}
             src="/images/link.png"
+            alt="contact with maniwebdev on linkedin"
             width="70"
             height="70"
           ></Image>
@@ -86,6 +90,7 @@ function contact() {
           <Image
             onClick={twitcnt}
             src="/images/twit.png"
+            alt="contact with maniwebdev on twitter"
             width="70"
             height="70"
           ></Image>
@@ -94,6 +99,7 @@ function contact() {
           <Image
             onClick={whatcnt}
             src="/images/what.png"
+            alt="contact with maniwebdev on whatsapp"
             width="70"
             height="70"
           ></Image>

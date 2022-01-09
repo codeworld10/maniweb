@@ -39,6 +39,7 @@ function services() {
           <Image
             className="sertoup"
             src="/images/sertop.png"
+            alt="hire wordpress designer"
             width="500"
             height="420"
           ></Image>
@@ -52,6 +53,7 @@ function services() {
           <Image
             className="serimg"
             src="/images/webdev.png"
+            alt="freelance web developer website"
             width="500"
             height="420"
           ></Image>
@@ -86,6 +88,7 @@ function services() {
           <Image
             className="serimg1"
             src="/images/webdesign.png"
+            alt="hire best website developer freelancer"
             width="540"
             height="420"
           ></Image>
@@ -97,6 +100,7 @@ function services() {
           <Image
             className="serimg2"
             src="/images/redweb.png"
+            alt="find freelance website developer"
             width="540"
             height="420"
           ></Image>
@@ -130,6 +134,7 @@ function services() {
           <Image
             className="serimg3"
             src="/images/seoo.png"
+            alt="search engine optimization service in maniwebdev"
             width="540"
             height="420"
           ></Image>
@@ -144,6 +149,7 @@ function services() {
           <Image
             className="toolimg"
             src="/images/htm.png"
+            alt="mani web dev create website with html"
             width="50"
             height="50"
           ></Image>
@@ -153,6 +159,7 @@ function services() {
           <Image
             className="toolimg"
             src="/images/cs3.png"
+            alt="mani web dev creates website with css3"
             width="50"
             height="50"
           ></Image>
@@ -162,6 +169,7 @@ function services() {
           <Image
             className="toolimg"
             src="/images/js.png"
+            alt="mani web dev creates website with javascript"
             width="50"
             height="50"
           ></Image>
@@ -171,6 +179,7 @@ function services() {
           <Image
             className="toolimg"
             src="/images/rea.png"
+            alt="mani web dev creates website with reactjs"
             width="50"
             height="50"
           ></Image>
@@ -183,6 +192,7 @@ function services() {
           <Image
             className="toolimg1"
             src="/images/nex.png"
+            alt="mani web dev creates website with nextjs"
             width="50"
             height="50"
           ></Image>
@@ -192,6 +202,7 @@ function services() {
           <Image
             className="toolimg1"
             src="/images/word.png"
+            alt="mani web dev creates websites with wordpess"
             width="50"
             height="50"
           ></Image>
@@ -201,6 +212,7 @@ function services() {
           <Image
             className="toolimg1"
             src="/images/fig.png"
+            alt="mani web dev design website with figma"
             width="50"
             height="50"
           ></Image>
