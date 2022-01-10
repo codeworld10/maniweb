@@ -234,6 +234,7 @@ body {
 .sere_img {
   animation: shake-animation 3.72s ease infinite;
   transform-origin: 50% 50%;
+  cursor: pointer;
 }
 @keyframes shake-animation {
   0% {
@@ -270,6 +271,7 @@ body {
   font-size: 23px;
   color: #f00f80;
   font-family: "Raleway", sans-serif;
+  cursor: pointer;
 }
 
 /* --------------------Building menu for pc look --------------*/
