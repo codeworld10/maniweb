@@ -68,7 +68,9 @@ function index() {
       <div className="para3">
         <p>
           We aim to provide you a reasonable offer. I have started my business.
-          locally and now <br></br> try to expand my business to the next level by offereing my services online from national to international clients.
+          locally and now <br></br> try to expand my business to the next level
+          by offereing my services online from national to international
+          clients.
         </p>
       </div>
 

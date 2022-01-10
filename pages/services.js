@@ -138,7 +138,6 @@ function services() {
             width="540"
             height="420"
           ></Image>
-       
         </div>
       </div>
       <div className="tol">
@@ -153,7 +152,9 @@ function services() {
             width="50"
             height="50"
           ></Image>
-             <span><p className="tlnam">HTML5</p></span>
+          <span>
+            <p className="tlnam">HTML5</p>
+          </span>
         </div>
         <div className="tollimg">
           <Image
@@ -163,7 +164,9 @@ function services() {
             width="50"
             height="50"
           ></Image>
-            <span><p className="tlnam">CSS3</p></span>
+          <span>
+            <p className="tlnam">CSS3</p>
+          </span>
         </div>
         <div className="tollimg">
           <Image
@@ -173,7 +176,9 @@ function services() {
             width="50"
             height="50"
           ></Image>
-            <span><p className="tlnam">Javascript</p></span>
+          <span>
+            <p className="tlnam">Javascript</p>
+          </span>
         </div>
         <div className="tollimg">
           <Image
@@ -183,7 +188,9 @@ function services() {
             width="50"
             height="50"
           ></Image>
-            <span><p className="tlnam">React Js</p></span>
+          <span>
+            <p className="tlnam">React Js</p>
+          </span>
         </div>
       </div>
 
@@ -196,7 +203,9 @@ function services() {
             width="50"
             height="50"
           ></Image>
-            <span><p className="tlnam">Next Js</p></span>
+          <span>
+            <p className="tlnam">Next Js</p>
+          </span>
         </div>
         <div className="tollimg1">
           <Image
@@ -206,7 +215,9 @@ function services() {
             width="50"
             height="50"
           ></Image>
-            <span><p className="tlnam">WordPress</p></span>
+          <span>
+            <p className="tlnam">WordPress</p>
+          </span>
         </div>
         <div className="tollimg1">
           <Image
@@ -216,16 +227,23 @@ function services() {
             width="50"
             height="50"
           ></Image>
-            <span><p className="tlnam">Figma</p></span>
+          <span>
+            <p className="tlnam">Figma</p>
+          </span>
         </div>
       </div>
-     
+
       <div className="qute">
-        <div className="qutehe"><h3>Get A Free Quote</h3>
+        <div className="qutehe">
+          <h3>Get A Free Quote</h3>
         </div>
-        <div className="qupra"><p className="qupra1">Feel Free To Contact us if you'd like a quote or more information.</p></div>
-      <br></br>
-      <Link href="/contact">
+        <div className="qupra">
+          <p className="qupra1">
+            Feel Free To Contact us if you'd like a quote or more information.
+          </p>
+        </div>
+        <br></br>
+        <Link href="/contact">
           <button className="serbtnn1">Tell Us About Your Project</button>
         </Link>
       </div>

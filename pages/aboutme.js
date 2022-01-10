@@ -10,8 +10,14 @@ function aboutme() {
     <>
       <Head>
         <title>About Me | Mani Web Dev</title>
-        <meta name="description" content="Here is the story of my mani web dev life and little about my skills HTML5, CSS3, Javascript, React, Nextjs, figma." />
-        <meta name="keywords" content="mani web dev story, maniwebdev website developer, freelance website developer for hire, best freelance developer near me." />
+        <meta
+          name="description"
+          content="Here is the story of my mani web dev life and little about my skills HTML5, CSS3, Javascript, React, Nextjs, figma."
+        />
+        <meta
+          name="keywords"
+          content="mani web dev story, maniwebdev website developer, freelance website developer for hire, best freelance developer near me."
+        />
         <meta name="author" content="Usman" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
@@ -32,7 +38,7 @@ function aboutme() {
         <div className={styles.ser__tops}>
           <Image
             className={styles.img_top}
-            alt="mani web dev website developer story"
+            alt="mani web dev website developer story and skills"
             src="/images/usm.jpeg"
             width="330"
             height="330"
@@ -87,7 +93,7 @@ function aboutme() {
           this i'm thinking to approve app development and digital marketing.
         </b>
       </div>
-     
+
       <Action />
       <Footer />
     </>

@@ -1,29 +1,21 @@
-
-import Link from "next/link"
+import Link from "next/link";
 function Footer() {
-    return (
-        <>
-        <footer className="fote">
+  return (
+    <>
+      <footer className="fote">
         <div className="links">
-            <div className="lin_ku">
+          <div className="lin_ku">
             <Link href="/privacy">
-                <a className="plcy">Privacy Policy</a>
-              </Link>
-            </div>
-            <div className="term">
-            <Link href="/privacy">
-                <a className="trm">Terms</a>
-              </Link>
-            </div>
-            
-          
+              <a className="plcy">Privacy Policy</a>
+            </Link>
+          </div>
         </div>
-        <div className='footer'>
-        <p className='ftrpara'>© 2022 ManiWebDev All rights reserved</p>  
+        <div className="footer">
+          <p className="ftrpara">© 2022 ManiWebDev All rights reserved</p>
         </div>
-        </footer>
-        </>
-    )
+      </footer>
+    </>
+  );
 }
 
-export default Footer
+export default Footer;
