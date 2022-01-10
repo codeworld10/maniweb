@@ -37,14 +37,14 @@ function contact() {
       <Navv />
       <div className={styles.contact_main}>
         <div className={styles.cnt_text}>
-          <h1 className={styles.headcont}>Get In Touch</h1>
+          <h1 className={styles.headcont}>Have Any Query?</h1>
           <span className={styles.spen}>
             <p>
-              If you have any question about the service feel free to contact
-              us.
+              If you have any question or need help about<br></br> the service feel free to contact
+              us We are excited to see you.
             </p>
           </span>
-          <span className= {styles.spen}><p>Email:<br></br> usman000033@gmail.com</p></span>
+         
         </div>
         <div className={styles.contactimg}>
           <div className={styles.contact_img}>
