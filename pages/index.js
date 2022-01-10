@@ -25,6 +25,10 @@ function index() {
           name="google-site-verification"
           content="8bUUelhJ0BI6lihtctl8Z4z0WDDIODpITpFxGf5QUpE"
         />
+        <meta
+          name="p:domain_verify"
+          content="8cca891bf62b699c49c89a16eef4146a"
+        />
       </Head>
       <Navv />
       {/* section1 starts */}
