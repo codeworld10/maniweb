@@ -223,7 +223,7 @@ function services() {
       <div className="qute">
         <div className="qutehe"><h3>Get A Free Quote</h3>
         </div>
-        <div className="qupra"><p className="qupra1">Feel Free To Contact if you'd like a quote or more information.</p></div>
+        <div className="qupra"><p className="qupra1">Feel Free To Contact us if you'd like a quote or more information.</p></div>
       <br></br>
       <Link href="/contact">
           <button className="serbtnn1">Tell Us About Your Project</button>
