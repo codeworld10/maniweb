@@ -700,6 +700,10 @@ div .sermain {
   margin-left: 16px;
 }
 
+.ser_top{
+  padding: 3px 3px 3px 3px;
+}
+
 .ser_para {
   color: white;
   font-size: 17px;

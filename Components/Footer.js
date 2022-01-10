@@ -10,6 +10,11 @@ function Footer() {
                 <a className="plcy">Privacy Policy</a>
               </Link>
             </div>
+            <div className="term">
+            <Link href="/privacy">
+                <a className="trm">Terms</a>
+              </Link>
+            </div>
             
           
         </div>

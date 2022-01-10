@@ -33,9 +33,9 @@ function aboutme() {
           <Image
             className={styles.img_top}
             alt="mani web dev website developer story"
-            src="/images/mee.jpeg"
-            width="300"
-            height="300"
+            src="/images/usm.jpeg"
+            width="330"
+            height="330"
           ></Image>
         </div>
       </div>
