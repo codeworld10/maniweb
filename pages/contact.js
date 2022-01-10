@@ -4,6 +4,7 @@ import Image from "next/image";
 import Footer from "../Components/Footer";
 import Action from "../Components/Action";
 import Head from "next/head"
+import Form from "../Components/Form";
 function contact() {
 
     const instacnt = () => {
@@ -57,6 +58,9 @@ function contact() {
           </div>
         </div>
       </div>
+
+      <Form/>
+
       <div className={styles.quick}><h2>For Quick Response</h2></div>
       <div className={styles.social_cnt}>
         <div className={styles.cntmedia}>
