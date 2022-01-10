@@ -10,7 +10,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-/* --------------------contact form --------------*/
+/*--------------------contact form --------------*/
 
 .formwork {
   color: white;
@@ -39,7 +39,6 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 20px;
- 
 }
 .btrr {
   color: white;
@@ -64,151 +63,126 @@ body {
 }
 
 @media (max-width: 809px) {
- .formwork{
-   width: 650px;
- }
+  .formwork {
+    width: 650px;
+  }
   .input100 {
     width: 620px;
     height: 30px;
-  
   }
   .messagee {
     width: 620px;
     height: 100px;
-  
   }
 }
 
 @media (max-width: 694px) {
-  .formwork{
+  .formwork {
     width: 550px;
   }
-   .input100 {
-     width: 520px;
-     height: 30px;
-   
-   }
-   .messagee {
-     width: 520px;
-     height: 100px;
-   
-   }
+  .input100 {
+    width: 520px;
+    height: 30px;
+  }
+  .messagee {
+    width: 520px;
+    height: 100px;
+  }
 }
 
 @media (max-width: 582px) {
-  .formwork{
+  .formwork {
     width: 450px;
   }
-   .input100 {
-     width: 420px;
-     height: 30px;
-   
-   }
-   .messagee {
-     width: 420px;
-     height: 100px;
-   
-   }
+  .input100 {
+    width: 420px;
+    height: 30px;
+  }
+  .messagee {
+    width: 420px;
+    height: 100px;
+  }
 }
 @media (max-width: 489px) {
-  .formwork{
+  .formwork {
     width: 350px;
   }
-   .input100 {
-     width: 320px;
-     height: 30px;
-   
-   }
-   .messagee {
-     width: 320px;
-     height: 100px;
-   
-   }
+  .input100 {
+    width: 320px;
+    height: 30px;
+  }
+  .messagee {
+    width: 320px;
+    height: 100px;
+  }
 }
 
 @media (max-width: 396px) {
-  .formwork{
+  .formwork {
     width: 300px;
   }
-   .input100 {
-     width: 260px;
-     height: 30px;
-   
-   }
-   .messagee {
-     width: 260px;
-     height: 100px;
-   
-   }
-
+  .input100 {
+    width: 260px;
+    height: 30px;
+  }
+  .messagee {
+    width: 260px;
+    height: 100px;
+  }
 }
 @media (max-width: 343px) {
-  .formwork{
+  .formwork {
     width: 270px;
   }
-   .input100 {
-     width: 230px;
-     height: 30px;
-   
-   }
-   .messagee {
-     width: 230px;
-     height: 100px;
-   
-   }
-
+  .input100 {
+    width: 230px;
+    height: 30px;
+  }
+  .messagee {
+    width: 230px;
+    height: 100px;
+  }
 }
 @media (max-width: 309px) {
-  .formwork{
+  .formwork {
     width: 230px;
   }
-   .input100 {
-     width: 200px;
-     height: 30px;
-   
-   }
-   .messagee {
-     width: 200px;
-     height: 100px;
-   
-   }
-
-
+  .input100 {
+    width: 200px;
+    height: 30px;
+  }
+  .messagee {
+    width: 200px;
+    height: 100px;
+  }
 }
 @media (max-width: 277px) {
-
-  .formwork{
+  .formwork {
     width: 200px;
   }
-   .input100 {
-     width: 170px;
-     height: 30px;
-   
-   }
-   .messagee {
-     width: 170px;
-     height: 100px;
-   
-   }
-
+  .input100 {
+    width: 170px;
+    height: 30px;
+  }
+  .messagee {
+    width: 170px;
+    height: 100px;
+  }
 }
 
 @media (max-width: 242px) {
-  .formwork{
+  .formwork {
     width: 170px;
   }
-   .input100 {
-     width: 130px;
-     height: 30px;
-   
-   }
-   .messagee {
-     width: 130px;
-     height: 100px;
-   
-   }
+  .input100 {
+    width: 130px;
+    height: 30px;
+  }
+  .messagee {
+    width: 130px;
+    height: 100px;
+  }
 }
-
 
 /* --------------------Whatsapp call now button --------------*/
 .bodydown {
@@ -220,7 +194,6 @@ body {
   margin-top: -100px; /* Negative half of height. */
   margin-left: -250px; /* Negative half of width. */
 }
-
 
 .pri_v {
   margin-left: 20px;
@@ -291,7 +264,6 @@ body {
 .bodydown {
   display: flex;
   align-items: center;
-  
 }
 .call {
   margin: 6px;
@@ -382,10 +354,8 @@ div .section1 {
 }
 
 .head {
- 
   color: white;
   font-family: "Raleway", sans-serif;
- 
 }
 
 .topimg {
@@ -464,11 +434,7 @@ div .section1 {
 .how {
   text-align: center;
   font-family: "Ubuntu", sans-serif;
-  
-
- 
 }
-
 
 .how:hover {
   color: #f00f80;
@@ -545,7 +511,6 @@ div .secicon2:hover {
   transition: 3s;
 }
 
-
 .pre {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -607,7 +572,6 @@ div .seecicon2:hover {
   transition: 1s;
   background-color: #f00f80;
 }
-
 
 .re {
   font-family: "Raleway", sans-serif;
@@ -688,19 +652,17 @@ div .sermain {
   align-items: center;
 }
 
-.serani:hover{
+.serani:hover {
   color: #f00f80;
 }
 
-
 .serteext {
- 
   color: white;
   font-family: "Raleway", sans-serif;
   margin-left: 16px;
 }
 
-.ser_top{
+.ser_top {
   padding: 3px 3px 3px 3px;
 }
 
@@ -796,8 +758,6 @@ div .sermain {
   text-align: center;
   font-size: 30px;
   font-family: "Ubuntu", sans-serif;
- 
- 
 }
 
 .wido:hover {
@@ -873,8 +833,6 @@ div .serpara2 {
   text-align: center;
   font-size: 25px;
   font-family: "Ubuntu", sans-serif;
- 
- 
 }
 
 .tol:hover {
@@ -912,10 +870,10 @@ div .serpara2 {
   transform: rotate(360deg);
   transition: 3s;
 }
-div .toolimg1{
-text-align: center;
+div .toolimg1 {
+  text-align: center;
 }
-.tlnam{
+.tlnam {
   color: white;
   text-align: center;
 }
@@ -947,7 +905,7 @@ text-align: center;
   transform: scale(1.1);
   transition: 4s;
 }
-.qute{
+.qute {
   background-color: #f00f80;
   margin-top: 25px;
   height: 250px;
@@ -957,18 +915,18 @@ text-align: center;
   flex-direction: column;
   align-items: center;
   border-radius: 5px 5px 65px 5px;
-line-height: 4px;
+  line-height: 4px;
 }
-.qutehe{
+.qutehe {
   font-size: 25px;
 }
-.qupra1{
+.qupra1 {
   font-size: 22px;
   line-height: 25px;
   text-align: center;
   padding: 3px 3px 3px 3px;
 }
-.serbtnn1{
+.serbtnn1 {
   color: white;
   background-color: rgb(0, 0, 0);
   padding: 12px 25px;
@@ -977,9 +935,7 @@ line-height: 4px;
   border: 2px solid #6e6e6e;
   border-radius: 15px;
   cursor: pointer;
- 
 }
-
 
 /*--------------------                over        ------------services page over------------------     over                                ------------------- */
 
@@ -991,7 +947,6 @@ line-height: 4px;
 
 @media (max-width: 1333px) {
   .head {
-   
     margin-left: 7px;
   }
   .para {
@@ -1002,29 +957,25 @@ line-height: 4px;
   }
 }
 
-
-
 @media (max-width: 998px) {
   .bodydown {
     position: fixed;
     width: 800px;
     height: 200px;
     padding: 10px;
-    
+
     top: 90%;
     left: 50%;
-    margin-top: -100px;/* Negative half of height. */
-    margin-left: -20px
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -20px;
   }
   .head {
-    
     margin-left: 7px;
   }
   .para {
     font-size: 17px;
     margin-left: 7px;
   }
- 
 }
 @media (max-width: 987px) {
   div .section2 {
@@ -1033,7 +984,7 @@ line-height: 4px;
     padding: 5px 5px 5px 5px;
     background-color: #1d1d1d;
   }
- 
+
   .re {
     font-family: "Raleway", sans-serif;
   }
@@ -1049,7 +1000,6 @@ line-height: 4px;
     padding: 5px 5px 5px 5px;
     background-color: #1d1d1d;
   }
- 
 
   .ree {
     font-family: "Raleway", sans-serif;
@@ -1105,16 +1055,14 @@ line-height: 4px;
 @media (max-width: 797px) {
   div .section1 {
     display: flex;
-   
+
     flex-direction: column;
     align-items: center;
     height: 800px;
   }
- 
 }
 
 @media (max-width: 931px) {
-
 }
 
 @media (max-width: 775px) {
@@ -1125,7 +1073,6 @@ line-height: 4px;
     align-items: center;
     height: 800px;
   }
- 
 }
 
 @media (max-width: 750px) {
@@ -1134,11 +1081,11 @@ line-height: 4px;
     width: 800px;
     height: 200px;
     padding: 10px;
-    
+
     top: 90%;
     left: 50%;
-    margin-top: -100px;/* Negative half of height. */
-    margin-left: -20px
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -20px;
   }
   .serteext {
     margin-left: 0px;
@@ -1212,7 +1159,7 @@ line-height: 4px;
     color: rgb(255, 255, 255);
     font-size: 25px;
   }
- 
+
   #menu .action:hover {
     color: #f00f80;
   }
@@ -1233,7 +1180,6 @@ line-height: 4px;
     align-items: center;
 
     background-color: #1d1d1d;
-    
   }
   div .secicon {
     width: 650px;
@@ -1310,11 +1256,11 @@ line-height: 4px;
     width: 800px;
     height: 200px;
     padding: 10px;
-    
+
     top: 90%;
     left: 50%;
-    margin-top: -100px;/* Negative half of height. */
-    margin-left: -20px
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -20px;
   }
 }
 @media (max-width: 650px) {
@@ -1322,7 +1268,6 @@ line-height: 4px;
     display: none;
   }
   .head {
-   
     text-align: center;
   }
 
@@ -1355,7 +1300,6 @@ line-height: 4px;
 }
 
 @media (max-width: 638px) {
-
   div .secicon {
     width: 550px;
     height: 180px;
@@ -1386,7 +1330,6 @@ line-height: 4px;
     height: 180px;
     margin: 5px;
   }
-
 }
 
 @media (max-width: 600px) {
@@ -1404,7 +1347,6 @@ line-height: 4px;
     justify-content: center;
     height: 800px;
   }
- 
 
   .img {
     margin-right: 0px;
@@ -1428,7 +1370,6 @@ line-height: 4px;
     font-size: 16px;
   }
 }
-
 
 @media (max-width: 589px) {
   div .secicon {
@@ -1464,7 +1405,6 @@ line-height: 4px;
 }
 
 @media (max-width: 538px) {
-
   div .secicon {
     width: 450px;
     height: 200px;
@@ -1500,13 +1440,12 @@ line-height: 4px;
     width: 800px;
     height: 200px;
     padding: 10px;
-    
+
     top: 90%;
     left: 50%;
-    margin-top: -100px;/* Negative half of height. */
-    margin-left: -20px
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -20px;
   }
-
 }
 
 @media (max-width: 492px) {
@@ -1594,11 +1533,11 @@ line-height: 4px;
     width: 800px;
     height: 200px;
     padding: 10px;
-    
+
     top: 90%;
     left: 50%;
-    margin-top: -100px;/* Negative half of height. */
-    margin-left: -20px
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -20px;
   }
 }
 @media (max-width: 384px) {
@@ -1634,7 +1573,6 @@ line-height: 4px;
   }
 }
 
-
 @media (max-width: 360px) {
   div .section1 {
     height: 800px;
@@ -1659,11 +1597,11 @@ line-height: 4px;
     width: 800px;
     height: 200px;
     padding: 10px;
-    
+
     top: 90%;
     left: 20%;
-    margin-top: -100px;/* Negative half of height. */
-    margin-left: -2px
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -2px;
   }
 }
 @media (max-width: 320px) {
@@ -1683,7 +1621,6 @@ line-height: 4px;
 }
 
 @media (max-width: 323px) {
-
   div .secicon {
     width: 250px;
     height: 242px;
@@ -1714,11 +1651,9 @@ line-height: 4px;
     height: 220px;
     margin: 5px;
   }
-
 }
 
 @media (max-width: 287px) {
-
   div .secicon {
     width: 200px;
     height: 264px;
@@ -1749,35 +1684,35 @@ line-height: 4px;
     height: 242px;
     margin: 5px;
   }
-
 }
 
-@media (max-width: 299px){
- .bodydown{    position: fixed;
-  width: 800px;
-  height: 200px;
-  padding: 10px;
-  
-  top: 90%;
-  left: 30%;
-  margin-top: -100px;/* Negative half of height. */
-  margin-left: -2px
- }
-}
-
-
-@media (max-width: 290px) {
-  .bodydown{   position: fixed;
+@media (max-width: 299px) {
+  .bodydown {
+    position: fixed;
     width: 800px;
     height: 200px;
     padding: 10px;
-    
+
+    top: 90%;
+    left: 30%;
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -2px;
+  }
+}
+
+@media (max-width: 290px) {
+  .bodydown {
+    position: fixed;
+    width: 800px;
+    height: 200px;
+    padding: 10px;
+
     top: 90%;
     left: 20%;
-    margin-top: -100px;/* Negative half of height. */
-    margin-left: -1px
-   }
- 
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -1px;
+  }
+
   div .section1 {
     height: 900px;
   }
@@ -1813,16 +1748,17 @@ line-height: 4px;
 }
 
 @media (max-width: 257px) {
-  .bodydown{   position: fixed;
+  .bodydown {
+    position: fixed;
     width: 800px;
     height: 200px;
     padding: 10px;
-    
+
     top: 90%;
     left: 30%;
-    margin-top: -100px;/* Negative half of height. */
-    margin-left: -2px
-   }
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -2px;
+  }
 }
 
 @media (max-width: 240px) {
@@ -1839,7 +1775,6 @@ line-height: 4px;
 }
 
 @media (max-width: 232px) {
-
   div .secicon {
     width: 150px;
     height: 350px;
@@ -1870,7 +1805,6 @@ line-height: 4px;
     height: 270px;
     margin: 5px;
   }
-
 }
 /*--------------------                over        ------------Home page over------------------     over                                ------------------- */
 /*--------------------                over        ------------Home page over------------------     over                                ------------------- */
@@ -2082,4 +2016,3 @@ line-height: 4px;
     height: 350px;
   }
 }
-
