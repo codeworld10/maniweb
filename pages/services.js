@@ -219,9 +219,14 @@ function services() {
             <span><p className="tlnam">Figma</p></span>
         </div>
       </div>
-      <div className="serbtn">
-        <Link href="/contact">
-          <button className="serbtn1">Contact Me</button>
+     
+      <div className="qute">
+        <div className="qutehe"><h3>Get A Free Quote</h3>
+        </div>
+        <div className="qupra"><p className="qupra1">Feel Free To Contact if you'd like a quote or more information.</p></div>
+      <br></br>
+      <Link href="/contact">
+          <button className="serbtnn1">Tell Us About Your Project</button>
         </Link>
       </div>
       <Action />
