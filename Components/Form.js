@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 
 const Result =() => {
     return (
-        <p>success</p>
+        <p className="frmpr_r">Thank you for your inquiry. We will get in touch with you soon!</p>
     )
 }
 

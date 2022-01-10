@@ -2,7 +2,7 @@ import Navv from "../Components/Navv";
 import Image from "next/image";
 import Footer from "../Components/Footer";
 import Link from "next/link";
-import Action from "../Components/Action";
+
 import Head from "next/head";
 
 function services() {
@@ -247,7 +247,7 @@ function services() {
           <button className="serbtnn1">Tell Us About Your Project</button>
         </Link>
       </div>
-      <Action />
+    
 
       <Footer />
     </>

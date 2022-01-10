@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
 import Footer from "../Components/Footer";
-import Action from "../Components/Action";
+
 
 function index() {
   return (
@@ -269,7 +269,7 @@ function index() {
         </Link>
       </div>
 
-      <Action />
+   
       <Footer />
     </>
   );

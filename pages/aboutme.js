@@ -3,7 +3,7 @@ import Navv from "../Components/Navv";
 import Image from "next/image";
 import styles from "../styles/aboutme.module.css";
 import Head from "next/head";
-import Action from "../Components/Action";
+
 
 function aboutme() {
   return (
@@ -94,7 +94,7 @@ function aboutme() {
         </b>
       </div>
 
-      <Action />
+    
       <Footer />
     </>
   );

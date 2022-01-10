@@ -61,6 +61,11 @@ body {
   justify-content: center;
   margin-right: 50px;
 }
+.frmpr_r {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+}
 
 @media (max-width: 809px) {
   .formwork {
@@ -184,17 +189,6 @@ body {
   }
 }
 
-/* --------------------Whatsapp call now button --------------*/
-.bodydown {
-  position: fixed;
-  width: 500px;
-  height: 200px;
-  top: 90%;
-  right: 2px;
-  margin-top: -100px; /* Negative half of height. */
-  margin-left: -250px; /* Negative half of width. */
-}
-
 .pri_v {
   margin-left: 20px;
   margin-right: 10px;
@@ -231,11 +225,7 @@ body {
   background-color: black;
   margin-top: 15px;
 }
-.sere_img {
-  animation: shake-animation 3.72s ease infinite;
-  transform-origin: 50% 50%;
-  cursor: pointer;
-}
+
 @keyframes shake-animation {
   0% {
     transform: translate(0, 0);
@@ -261,17 +251,6 @@ body {
   100% {
     transform: translate(0, 0);
   }
-}
-.bodydown {
-  display: flex;
-  align-items: center;
-}
-.call {
-  margin: 6px;
-  font-size: 23px;
-  color: #f00f80;
-  font-family: "Raleway", sans-serif;
-  cursor: pointer;
 }
 
 /* --------------------Building menu for pc look --------------*/
@@ -960,17 +939,6 @@ div .toolimg1 {
 }
 
 @media (max-width: 998px) {
-  .bodydown {
-    position: fixed;
-    width: 800px;
-    height: 200px;
-    padding: 10px;
-
-    top: 90%;
-    left: 50%;
-    margin-top: -100px; /* Negative half of height. */
-    margin-left: -20px;
-  }
   .head {
     margin-left: 7px;
   }
@@ -1078,17 +1046,6 @@ div .toolimg1 {
 }
 
 @media (max-width: 750px) {
-  .bodydown {
-    position: fixed;
-    width: 800px;
-    height: 200px;
-    padding: 10px;
-
-    top: 90%;
-    left: 50%;
-    margin-top: -100px; /* Negative half of height. */
-    margin-left: -20px;
-  }
   .serteext {
     margin-left: 0px;
     font-size: 19px;
@@ -1252,17 +1209,6 @@ div .toolimg1 {
     width: 600px;
     height: 180px;
     margin: 5px;
-  }
-  .bodydown {
-    position: fixed;
-    width: 800px;
-    height: 200px;
-    padding: 10px;
-
-    top: 90%;
-    left: 50%;
-    margin-top: -100px; /* Negative half of height. */
-    margin-left: -20px;
   }
 }
 @media (max-width: 650px) {
@@ -1437,17 +1383,6 @@ div .toolimg1 {
     height: 180px;
     margin: 5px;
   }
-  .bodydown {
-    position: fixed;
-    width: 800px;
-    height: 200px;
-    padding: 10px;
-
-    top: 90%;
-    left: 50%;
-    margin-top: -100px; /* Negative half of height. */
-    margin-left: -20px;
-  }
 }
 
 @media (max-width: 492px) {
@@ -1529,19 +1464,6 @@ div .toolimg1 {
   }
 }
 
-@media (max-width: 410px) {
-  .bodydown {
-    position: fixed;
-    width: 800px;
-    height: 200px;
-    padding: 10px;
-
-    top: 90%;
-    left: 50%;
-    margin-top: -100px; /* Negative half of height. */
-    margin-left: -20px;
-  }
-}
 @media (max-width: 384px) {
   div .secicon {
     width: 300px;
@@ -1585,25 +1507,6 @@ div .toolimg1 {
   }
   .pp2 {
     font-size: 16px;
-  }
-  .bodydown {
-    position: fixed;
-    top: 90%;
-    right: 95%;
-    width: 100%;
-    cursor: pointer;
-    align-items: center;
-  }
-  .bodydown {
-    position: fixed;
-    width: 800px;
-    height: 200px;
-    padding: 10px;
-
-    top: 90%;
-    left: 20%;
-    margin-top: -100px; /* Negative half of height. */
-    margin-left: -2px;
   }
 }
 @media (max-width: 320px) {
@@ -1688,33 +1591,7 @@ div .toolimg1 {
   }
 }
 
-@media (max-width: 299px) {
-  .bodydown {
-    position: fixed;
-    width: 800px;
-    height: 200px;
-    padding: 10px;
-
-    top: 90%;
-    left: 30%;
-    margin-top: -100px; /* Negative half of height. */
-    margin-left: -2px;
-  }
-}
-
 @media (max-width: 290px) {
-  .bodydown {
-    position: fixed;
-    width: 800px;
-    height: 200px;
-    padding: 10px;
-
-    top: 90%;
-    left: 20%;
-    margin-top: -100px; /* Negative half of height. */
-    margin-left: -1px;
-  }
-
   div .section1 {
     height: 900px;
   }
@@ -1746,20 +1623,6 @@ div .toolimg1 {
   }
   .pp2 {
     font-size: 16px;
-  }
-}
-
-@media (max-width: 257px) {
-  .bodydown {
-    position: fixed;
-    width: 800px;
-    height: 200px;
-    padding: 10px;
-
-    top: 90%;
-    left: 30%;
-    margin-top: -100px; /* Negative half of height. */
-    margin-left: -2px;
   }
 }
 

@@ -2,7 +2,7 @@ import Navv from "../Components/Navv";
 import styles from "../styles/contact.module.css";
 import Image from "next/image";
 import Footer from "../Components/Footer";
-import Action from "../Components/Action";
+
 import Head from "next/head"
 import Form from "../Components/Form";
 function contact() {
@@ -110,7 +110,7 @@ function contact() {
         </div>
       </div>
      
-      <Action/>
+     
       <Footer />
     </>
   );
