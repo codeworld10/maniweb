@@ -28,8 +28,8 @@ function contact() {
     <>
       <Head>
   <title>Contact Us | Mani Web Dev</title>
-  <meta name="description" content="Get in touch with us. contact with us today if you have any query or you want to say just Hi."/>
-  <meta name="keywords" content="Contact information of maniwebdev, maniwebdev website developer, maniwebdev freelance services, best freelancer for hire, best freelance website developer for hire,"/>
+  <meta name="description" content="Get in touch with us. contact with us today if you have any query or just want to say just Hi."/>
+  <meta name="keywords" content="Contact information of maniwebdev, maniwebdev website developer, maniwebdev website design, maniwebdev freelance services, best freelancer for hire, best freelance website developer for hire,"/>
   <meta name="author" content="Usman"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </Head>

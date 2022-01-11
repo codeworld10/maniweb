@@ -16,7 +16,7 @@ function aboutme() {
         />
         <meta
           name="keywords"
-          content="mani web dev story, maniwebdev website developer, freelance website developer for hire, best freelance developer near me."
+          content="mani web dev story, maniwebdev website developer, freelance website developer for hire, best freelance developer near me. website design services, best freelance website developer,"
         />
         <meta name="author" content="Usman" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

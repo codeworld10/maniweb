@@ -16,7 +16,7 @@ function services() {
         />
         <meta
           name="keywords"
-          content="Website services, Website developer,freelance website developer sites,freelance wordpress developer needed,denver freelance wordpress developer,hire wordpress developer,wordpress freelancer near me,web developer for hire,website designer freelancer,front end web developer for hire, front end web developer for hire, best website developer near me,"
+          content="maniwebdev, Website services, Website developer,freelance website developer sites,freelance wordpress developer needed,denver freelance wordpress developer,hire wordpress developer,wordpress freelancer near me,web developer for hire,website designer freelancer,front end web developer for hire, front end web developer for hire, best website developer near me, website design services."
         />
         <meta name="author" content="Usman" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

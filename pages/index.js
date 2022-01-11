@@ -13,11 +13,11 @@ function index() {
 
         <meta
           name="description"
-          content="Are you looking a website developer. then you are at the right place. I will create and design professional websites for your Business or Company."
+          content="Are you looking a website developer. then you are at the right place. maniwebdev will create and design professional websites for your Business or Company."
         />
         <meta
           name="keywords"
-          content=" freelance Website developer near me, Website company near me, Front end developer, Wordpress developer, Website desingner, Cheap website developer, cheap website developer company,"
+          content=" maniwebdev,freelance Website developer near me, Website company near me, Front end developer, Wordpress developer, Website desingner, Cheap website developer, cheap website developer company, website developer, website designer,"
         />
         <meta name="author" content="Usman" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
