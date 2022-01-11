@@ -30,7 +30,7 @@ function index() {
           name="p:domain_verify"
           content="8cca891bf62b699c49c89a16eef4146a"
         />
-        <meta name="pinterest-rich-pin" content="false" />
+        <meta name="pinterest-rich-pin" content="true" />
        
 
       </Head>
