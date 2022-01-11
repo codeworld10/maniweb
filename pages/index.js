@@ -5,6 +5,7 @@ import Head from "next/head";
 import Footer from "../Components/Footer";
 
 
+
 function index() {
   return (
     <>
@@ -29,6 +30,9 @@ function index() {
           name="p:domain_verify"
           content="8cca891bf62b699c49c89a16eef4146a"
         />
+        <meta name="pinterest-rich-pin" content="false" />
+       
+
       </Head>
       <Navv />
       {/* section1 starts */}

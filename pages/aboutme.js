@@ -5,6 +5,7 @@ import styles from "../styles/aboutme.module.css";
 import Head from "next/head";
 
 
+
 function aboutme() {
   return (
     <>
@@ -20,6 +21,8 @@ function aboutme() {
         />
         <meta name="author" content="Usman" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+ 
       </Head>
 
       <Navv />
