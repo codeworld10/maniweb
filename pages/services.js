@@ -20,6 +20,7 @@ function services() {
         />
         <meta name="author" content="Usman" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
       </Head>
 
       <Navv />
