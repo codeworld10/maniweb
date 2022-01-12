@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
 import Footer from "../Components/Footer";
+import Gtag from "../Components/Gtag"
 
 function index() {
   return (
@@ -28,6 +29,7 @@ function index() {
           name="p:domain_verify"
           content="8cca891bf62b699c49c89a16eef4146a"
         />
+        <Gtag/>
       </Head>
       <Navv />
       {/* section1 starts */}
