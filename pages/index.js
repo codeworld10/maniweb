@@ -59,7 +59,8 @@ function index() {
           <Image
             className="topimg"
             src="/images/homtop.png"
-            alt="Freelance website developer"
+            
+            alt="maniwebdev Freelance website developer"
             width="420"
             height="420"
           ></Image>
@@ -83,7 +84,7 @@ function index() {
             <Image
               className="topimg"
               src="/images/research.png"
-              alt="freelance website designer near me"
+              alt="maniwebdev freelance website designer near me"
               width="64"
               height="64"
             ></Image>
@@ -104,7 +105,7 @@ function index() {
             <Image
               className="topimg"
               src="/images/design.png"
-              alt="cheap freeelance website designer"
+              alt="maniwebdev cheap freeelance website designer"
               width="64"
               height="64"
             ></Image>
@@ -125,7 +126,7 @@ function index() {
             <Image
               className="topimg"
               src="/images/development.png"
-              alt="cheap freelance website developer near me"
+              alt="maniwebdev cheap freelance website developer near me"
               width="64"
               height="64"
             ></Image>
@@ -149,7 +150,7 @@ function index() {
             <Image
               className="toopimg"
               src="/images/webtest.png"
-              alt="best freelance developer near me"
+              alt="maniwebdev best freelance developer near me"
               width="64"
               height="64"
             ></Image>
@@ -169,7 +170,7 @@ function index() {
             <Image
               className="toopimg"
               src="/images/liveweb.png"
-              alt="best freelance designer near me"
+              alt="maniwebdev best freelance designer near me"
               width="64"
               height="64"
             ></Image>
@@ -217,7 +218,7 @@ function index() {
           <Image
             className="iconimg"
             src="/images/responsive.png"
-            alt="responsive website icon image"
+            alt="maniwebdev responsive website icon image"
             width="64"
             height="64"
           ></Image>
@@ -229,7 +230,7 @@ function index() {
           <Image
             className="iconimg"
             src="/images/low.png"
-            alt="low cost in maniwebde icon image"
+            alt="maniwebdev low cost in maniwebde icon image"
             width="64"
             height="64"
           ></Image>
@@ -241,7 +242,7 @@ function index() {
           <Image
             className="iconimg"
             src="/images/support.png"
-            alt="freelancer website developer for hire"
+            alt="maniwebdevfreelancer website developer for hire"
             width="64"
             height="64"
           ></Image>
@@ -253,7 +254,7 @@ function index() {
           <Image
             className="iconimg"
             src="/images/revision.png"
-            alt="hire freelancer website developer"
+            alt="maniwebdev hire freelancer website developer"
             width="64"
             height="64"
           ></Image>

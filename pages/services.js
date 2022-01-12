@@ -40,7 +40,7 @@ function services() {
           <Image
             className="sertoup"
             src="/images/sertop.png"
-            alt="hire wordpress designer"
+            alt="maniwebdev hire wordpress designer"
             width="500"
             height="420"
           ></Image>
@@ -54,7 +54,7 @@ function services() {
           <Image
             className="serimg"
             src="/images/webdev.png"
-            alt="freelance web developer website"
+            alt="maniwebdev freelance web developer website"
             width="500"
             height="420"
           ></Image>
@@ -89,7 +89,7 @@ function services() {
           <Image
             className="serimg1"
             src="/images/webdesign.png"
-            alt="hire best website developer freelancer"
+            alt="maniwebdev hire best website developer freelancer"
             width="540"
             height="420"
           ></Image>
@@ -101,7 +101,7 @@ function services() {
           <Image
             className="serimg2"
             src="/images/redweb.png"
-            alt="find freelance website developer"
+            alt="maniwebdev find freelance website developer"
             width="540"
             height="420"
           ></Image>
@@ -135,7 +135,7 @@ function services() {
           <Image
             className="serimg3"
             src="/images/seoo.png"
-            alt="search engine optimization service in maniwebdev"
+            alt="maniwebdev search engine optimization service in maniwebdev"
             width="540"
             height="420"
           ></Image>
