@@ -4,7 +4,7 @@ import Footer from "../Components/Footer";
 import Link from "next/link";
 
 import Head from "next/head";
-import Gtag from "../Components/Gtag";
+
 
 function services() {
   return (
