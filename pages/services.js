@@ -20,7 +20,6 @@ function services() {
         />
         <meta name="author" content="Usman" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
       </Head>
 
       <Navv />
@@ -248,7 +247,6 @@ function services() {
           <button className="serbtnn1">Tell Us About Your Project</button>
         </Link>
       </div>
-    
 
       <Footer />
     </>
