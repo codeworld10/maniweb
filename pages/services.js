@@ -4,6 +4,7 @@ import Footer from "../Components/Footer";
 import Link from "next/link";
 
 import Head from "next/head";
+import Gtag from "../Components/Gtag";
 
 function services() {
   return (
@@ -20,6 +21,7 @@ function services() {
         />
         <meta name="author" content="Usman" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
       </Head>
 
       <Navv />
