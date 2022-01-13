@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-function Gtag() {
+function gtag() {
     return (
         <>
        
@@ -18,4 +18,4 @@ function Gtag() {
     )
 }
 
-export default Gtag;
+export default gtag;
