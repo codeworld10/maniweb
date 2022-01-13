@@ -1,9 +1,28 @@
 import Footer from "../Components/Footer";
 import Navv from "../Components/Navv";
+import Head from "next/head";
+
 
 function privacy() {
   return (
     <>
+     <Head>
+        <title>Services | Mani Web Dev</title>
+        <meta
+          name="description"
+          content="Mani Web dev provides best services to his clients with 100% satisfaction and guarantee. If you need website for your business website or you need company website, woocommerce website or nextjs website then feel free to contact Mani web dev."
+        />
+        <meta
+          name="keywords"
+          content="maniwebdev, maniwebdev privacy policy, maniwebdev website developer, website developer company, best freelance website developer, best website developer, best website designer, maniwebdev website developer,"
+        />
+        <meta name="author" content="Usman" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+      </Head>
+
+
+
       <Navv />
       <div className="pri_v">
         <h1>Privacy Policy</h1>
