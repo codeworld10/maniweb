@@ -7,7 +7,7 @@ function privacy() {
   return (
     <>
      <Head>
-        <title>Services | Mani Web Dev</title>
+        <title>Privacy Policy</title>
         <meta
           name="description"
           content="Mani Web dev provides best services to his clients with 100% satisfaction and guarantee. If you need website for your business website or you need company website, woocommerce website or nextjs website then feel free to contact Mani web dev."
