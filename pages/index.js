@@ -9,11 +9,11 @@ function index() {
   return (
     <>
       <Head>
-        <title>Home | Your Site Builder</title>
+        <title>Privacy Policy</title>
 
         <meta
           name="description"
-          content="Are you looking a website developer. then you are at the right place. maniwebdev will create and design professional websites for your Business or Company."
+          content="Privacy policy of maniwebdev please read the privacy policy of maniwebdev carefully. maniwebdev website developer privacy policy."
         />
         <meta
           name="keywords"
