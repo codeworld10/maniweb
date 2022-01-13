@@ -9,7 +9,7 @@ function index() {
   return (
     <>
       <Head>
-        <title>Privacy Policy</title>
+        <title>Home | Your Site Builder</title>
 
         <meta
           name="description"
