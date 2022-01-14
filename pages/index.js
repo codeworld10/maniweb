@@ -13,7 +13,7 @@ function index() {
 
         <meta
           name="description"
-          content="Privacy policy of maniwebdev please read the privacy policy of maniwebdev carefully. maniwebdev website developer privacy policy."
+          content= "maniwebdev is providing best website development services from national to international clients. maniwebdev best website developer and designer. We work with passion and guarantee."
         />
         <meta
           name="keywords"
