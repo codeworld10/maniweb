@@ -68,8 +68,8 @@ function contact() {
             onClick={facecnt}
             src="/images/fpic.png"
             alt="contact with maniwebdev on facebook page"
-            width="60"
-            height="60"
+            width="50"
+            height="50"
           ></Image>
         </div>
         <div className={styles.cntmedia}>
@@ -77,8 +77,8 @@ function contact() {
             onClick={instacnt}
             src="/images/insta.png"
             alt="contact with maniwebdev on instagram"
-            width="60"
-            height="60"
+            width="50"
+            height="50"
           ></Image>
         </div>
         <div className={styles.cntmedia}>
@@ -86,8 +86,8 @@ function contact() {
             onClick={linkecnt}
             src="/images/link.png"
             alt="contact with maniwebdev on linkedin"
-            width="60"
-            height="60"
+            width="50"
+            height="50"
           ></Image>
         </div>
         <div className={styles.cntmedia}>
@@ -95,8 +95,8 @@ function contact() {
             onClick={twitcnt}
             src="/images/twit.png"
             alt="contact with maniwebdev on twitter"
-            width="60"
-            height="60"
+            width="50"
+            height="50"
           ></Image>
         </div>
         <div className={styles.cntmedia}>
@@ -104,8 +104,8 @@ function contact() {
             onClick={whatcnt}
             src="/images/what.png"
             alt="contact with maniwebdev on whatsapp"
-            width="60"
-            height="60"
+            width="50"
+            height="50"
           ></Image>
         </div>
       </div>
