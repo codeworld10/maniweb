@@ -1030,6 +1030,13 @@ div .toolimg1 {
     align-items: center;
     height: 800px;
   }
+  div .text{
+    text-align: center;
+  }
+  .para {
+    text-align: center;
+    margin-right: 0px;
+  }
 }
 
 @media (max-width: 931px) {
