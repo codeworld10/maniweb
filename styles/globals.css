@@ -360,7 +360,7 @@ div .section1 {
 
 .para {
   line-height: 26px;
-  color: grey;
+  color: white;
   margin-right: 80px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -433,7 +433,7 @@ div .section2 {
   display: flex;
   justify-content: center;
   padding: 10px 5px 5px 20px;
-  background-color: #1d1d1d;
+  background-color: #ffffff;
 }
 div .secicon {
   width: 320px;
@@ -485,11 +485,11 @@ div .secicon2:hover {
 }
 .he1:hover {
   transform: rotate(360deg);
-  transition: 3s;
+  transition: 1s;
 }
 .he2:hover {
   transform: rotate(-360deg);
-  transition: 3s;
+  transition: 1s;
 }
 
 .pre {
@@ -503,7 +503,7 @@ div .section3 {
   display: flex;
   justify-content: center;
   padding: 10px 5px 5px 20px;
-  background-color: #1d1d1d;
+  background-color: #ffffff;
 }
 div .seecicon {
   width: 320px;
@@ -566,6 +566,94 @@ div .seecicon2:hover {
   font-size: 16px;
   line-height: 23px;
 }
+
+div .cardmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardimg {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.testih {
+  font-family: "Raleway", sans-serif;
+}
+.testih:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+}
+.test {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+}
+.card {
+  width: 350px;
+  margin: 6px;
+  background-color: white;
+  border: 3px solid pink;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 3px 11px 5px -4px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 3px 11px 5px -4px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 3px 11px 5px -4px rgba(0, 0, 0, 0.7);
+}
+.card:hover {
+  background-color: #f00f80;
+}
+.card2:hover {
+  background-color: #f00f80;
+}
+.card3:hover {
+  background-color: #f00f80;
+}
+.card2 {
+  width: 350px;
+  margin: 6px;
+  background-color: white;
+  border: 3px solid pink;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 3px 11px 5px -4px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 3px 11px 5px -4px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 3px 11px 5px -4px rgba(0, 0, 0, 0.7);
+}
+.card3 {
+  width: 350px;
+  margin: 6px;
+  background-color: white;
+  border: 3px solid pink;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 3px 11px 5px -4px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 3px 11px 5px -4px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 3px 11px 5px -4px rgba(0, 0, 0, 0.7);
+}
+.testip {
+  font-size: 18px;
+  text-align: center;
+  padding: 0px 10px 1px 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+.revi{
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
 .cho {
   text-align: center;
   margin-top: 20px;
@@ -586,7 +674,7 @@ div .seecicon2:hover {
 }
 .iconimg:hover {
   transform: rotate(360deg);
-  transition: 3s ease-out;
+  transition: 1s ease-out;
 }
 .cho:hover {
   color: #f00f80;
@@ -729,7 +817,7 @@ div .sermain {
   font-family: "Raleway", sans-serif;
   font-size: 35px;
   transform: rotate(360deg);
-  transition: 4s;
+  transition: 1s;
 }
 
 .serhead:hover {
@@ -772,11 +860,11 @@ div .sermain {
 }
 .sertext1:hover {
   transform: scale(1.1);
-  transition: 4s;
+  transition: 1s;
 }
 .sertext2:hover {
   transform: scale(1.1);
-  transition: 4s;
+  transition: 1s;
 }
 div .serpara {
   width: 500px;
@@ -823,7 +911,7 @@ div .serpara2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #1d1d1d;
+  background-color: #6464648e;
   padding: 7px 7px 7px 7px;
 }
 .tolls1 {
@@ -831,7 +919,7 @@ div .serpara2 {
   justify-content: space-around;
   align-items: center;
   padding: 7px 7px 7px 7px;
-  background-color: #1d1d1d;
+  background-color: #6464648e;
 }
 
 .serbtn1 {
@@ -845,17 +933,17 @@ div .serpara2 {
 }
 .toolimg:hover {
   transform: rotate(360deg);
-  transition: 3s;
+  transition: 1s;
 }
 .toolimg1:hover {
   transform: rotate(360deg);
-  transition: 3s;
+  transition: 1s;
 }
 div .toolimg1 {
   text-align: center;
 }
 .tlnam {
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 .serbtn1:hover {
@@ -884,7 +972,7 @@ div .toolimg1 {
 }
 .sertext4:hover {
   transform: scale(1.1);
-  transition: 4s;
+  transition: 1s;
 }
 .qute {
   background-color: #f00f80;
@@ -935,6 +1023,28 @@ div .toolimg1 {
   }
   .text {
     padding: 20px;
+  }
+}
+@media (max-width: 1333px) {
+  .card {
+    width: 300px;
+  }
+  .card2 {
+    width: 300px;
+  }
+  .card3 {
+    width: 300px;
+  }
+}
+@media (max-width: 1020px) {
+  .card {
+    width: 280px;
+  }
+  .card2 {
+    width: 280px;
+  }
+  .card3 {
+    width: 270px;
   }
 }
 
@@ -988,6 +1098,17 @@ div .toolimg1 {
     font-size: 16px;
   }
 }
+@media (max-width: 943px) {
+  .card {
+    width: 260px;
+  }
+  .card2 {
+    width: 260px;
+  }
+  .card3 {
+    width: 250px;
+  }
+}
 
 @media (max-width: 931px) {
   div .secicon {
@@ -1021,6 +1142,56 @@ div .toolimg1 {
     margin: 5px;
   }
 }
+@media (max-width: 880px) {
+  .card {
+    width: 240px;
+  }
+  .card2 {
+    width: 240px;
+  }
+  .card3 {
+    width: 230px;
+  }
+}
+@media (max-width: 833px) {
+  .card {
+    width: 220px;
+  }
+  .card2 {
+    width: 230px;
+  }
+  .card3 {
+    width: 220px;
+  }
+}
+@media (max-width: 784px) {
+  .card {
+    width: 210px;
+  }
+  .card2 {
+    width: 220px;
+  }
+  .card3 {
+    width: 210px;
+  }
+}
+@media (max-width: 753px) {
+  div .cardmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 550px;
+  }
+  .card2 {
+    width: 550px;
+  }
+  .card3 {
+    width: 550px;
+  }
+}
 
 @media (max-width: 797px) {
   div .section1 {
@@ -1030,7 +1201,7 @@ div .toolimg1 {
     align-items: center;
     height: 800px;
   }
-  div .text{
+  div .text {
     text-align: center;
   }
   .para {
@@ -1324,6 +1495,15 @@ div .toolimg1 {
   .pp2 {
     font-size: 16px;
   }
+  .card {
+    width: 530px;
+  }
+  .card2 {
+    width: 530px;
+  }
+  .card3 {
+    width: 530px;
+  }
 }
 
 @media (max-width: 589px) {
@@ -1359,6 +1539,29 @@ div .toolimg1 {
   }
 }
 
+@media (max-width: 573px) {
+  .card {
+    width: 510px;
+  }
+  .card2 {
+    width: 510px;
+  }
+  .card3 {
+    width: 510px;
+  }
+}
+@media (max-width: 547px) {
+  .card {
+    width: 490px;
+  }
+  .card2 {
+    width: 490px;
+  }
+  .card3 {
+    width: 490px;
+  }
+}
+
 @media (max-width: 538px) {
   div .secicon {
     width: 450px;
@@ -1389,6 +1592,29 @@ div .toolimg1 {
     width: 450px;
     height: 180px;
     margin: 5px;
+  }
+}
+@media (max-width: 533px) {
+  .card {
+    width: 460px;
+  }
+  .card2 {
+    width: 460px;
+  }
+  .card3 {
+    width: 460px;
+  }
+}
+
+@media (max-width: 495px) {
+  .card {
+    width: 440px;
+  }
+  .card2 {
+    width: 440px;
+  }
+  .card3 {
+    width: 440px;
   }
 }
 
@@ -1424,6 +1650,17 @@ div .toolimg1 {
     margin: 5px;
   }
 }
+@media (max-width: 475px) {
+  .card {
+    width: 410px;
+  }
+  .card2 {
+    width: 410px;
+  }
+  .card3 {
+    width: 410px;
+  }
+}
 
 @media (max-width: 441px) {
   div .secicon {
@@ -1456,6 +1693,15 @@ div .toolimg1 {
     height: 200px;
     margin: 5px;
   }
+  .card {
+    width: 380px;
+  }
+  .card2 {
+    width: 380px;
+  }
+  .card3 {
+    width: 380px;
+  }
 }
 
 @media (max-width: 430px) {
@@ -1468,6 +1714,28 @@ div .toolimg1 {
   }
   .pp2 {
     font-size: 16px;
+  }
+}
+@media (max-width: 417px) {
+  .card {
+    width: 350px;
+  }
+  .card2 {
+    width: 350px;
+  }
+  .card3 {
+    width: 350px;
+  }
+}
+@media (max-width: 391px) {
+  .card {
+    width: 320px;
+  }
+  .card2 {
+    width: 320px;
+  }
+  .card3 {
+    width: 320px;
   }
 }
 
@@ -1515,6 +1783,27 @@ div .toolimg1 {
   .pp2 {
     font-size: 16px;
   }
+  .card {
+    width: 300px;
+  }
+  .card2 {
+    width: 300px;
+  }
+  .card3 {
+    width: 300px;
+  }
+}
+
+@media (max-width: 337px) {
+  .card {
+    width: 280px;
+  }
+  .card2 {
+    width: 280px;
+  }
+  .card3 {
+    width: 280px;
+  }
 }
 @media (max-width: 320px) {
   div .section1 {
@@ -1529,6 +1818,15 @@ div .toolimg1 {
   }
   .cho {
     font-size: 25px;
+  }
+  .card {
+    width: 260px;
+  }
+  .card2 {
+    width: 260px;
+  }
+  .card3 {
+    width: 260px;
   }
 }
 
@@ -1562,6 +1860,18 @@ div .toolimg1 {
     width: 250px;
     height: 220px;
     margin: 5px;
+  }
+}
+
+@media (max-width: 297px) {
+  .card {
+    width: 240px;
+  }
+  .card2 {
+    width: 240px;
+  }
+  .card3 {
+    width: 240px;
   }
 }
 
@@ -1620,6 +1930,18 @@ div .toolimg1 {
     padding: 7px 16px;
   }
 }
+
+@media (max-width: 275px) {
+  .card {
+    width: 220px;
+  }
+  .card2 {
+    width: 220px;
+  }
+  .card3 {
+    width: 220px;
+  }
+}
 @media (max-width: 268px) {
   div .section1 {
     height: 900px;
@@ -1630,6 +1952,17 @@ div .toolimg1 {
   }
   .pp2 {
     font-size: 16px;
+  }
+}
+@media (max-width: 255px) {
+  .card {
+    width: 200px;
+  }
+  .card2 {
+    width: 200px;
+  }
+  .card3 {
+    width: 200px;
   }
 }
 
@@ -1643,6 +1976,18 @@ div .toolimg1 {
   }
   .pp2 {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 239px) {
+  .card {
+    width: 180px;
+  }
+  .card2 {
+    width: 180px;
+  }
+  .card3 {
+    width: 180px;
   }
 }
 
@@ -1676,6 +2021,39 @@ div .toolimg1 {
     width: 150px;
     height: 270px;
     margin: 5px;
+  }
+}
+@media (max-width: 211px) {
+  .card {
+    width: 160px;
+  }
+  .card2 {
+    width: 160px;
+  }
+  .card3 {
+    width: 160px;
+  }
+}
+@media (max-width: 190px) {
+  .card {
+    width: 135px;
+  }
+  .card2 {
+    width: 135px;
+  }
+  .card3 {
+    width: 135px;
+  }
+}
+@media (max-width: 175px) {
+  .card {
+    width: 100px;
+  }
+  .card2 {
+    width: 100px;
+  }
+  .card3 {
+    width: 100px;
   }
 }
 /*--------------------                over        ------------Home page over------------------     over                                ------------------- */
