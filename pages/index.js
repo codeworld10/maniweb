@@ -270,7 +270,9 @@ function index() {
           </span>
         </div>
       </div>
-      <div className="revi"><p>NOTE! All These Reviews Are Available On My Profiles.</p></div>
+      <div className="revi">
+        <p>NOTE! All These Reviews Are Available On My Profiles.</p>
+      </div>
       <div className="choose">
         <div className="cho">
           <h3>Why Choose Me?</h3>
