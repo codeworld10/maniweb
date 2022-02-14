@@ -1062,7 +1062,7 @@ div .toolimg1 {
     display: flex;
     justify-content: center;
     padding: 5px 5px 5px 5px;
-    background-color: #1d1d1d;
+   
   }
 
   .re {
@@ -1078,7 +1078,7 @@ div .toolimg1 {
     display: flex;
     justify-content: center;
     padding: 5px 5px 5px 5px;
-    background-color: #1d1d1d;
+    
   }
 
   .ree {
@@ -1306,7 +1306,7 @@ div .toolimg1 {
     justify-content: space-between;
     align-items: center;
 
-    background-color: #1d1d1d;
+    
     margin-top: 10px;
   }
 
@@ -1316,7 +1316,7 @@ div .toolimg1 {
     justify-content: space-between;
     align-items: center;
 
-    background-color: #1d1d1d;
+    
   }
   div .secicon {
     width: 650px;
