@@ -316,6 +316,7 @@ body {
 
 .active:hover {
   color: #f00f80;
+  border-bottom: 1px solid white;
 }
 
 div .section1 {
