@@ -59,19 +59,19 @@ function Navv() {
           </ul>
           <div className="social">
             <div className="media">
-            <Image onClick={face} src="/images/fbb.png" width="20" height="25"></Image>
+            <Image onClick={face} src="/images/fbb.png" alt="maniwebdev Freelance website developer and designer" width="20" height="25"></Image>
             </div>
             <div className="media">
-              <Image onClick={insta} src="/images/iniis.png" width="20" height="25"></Image>
+              <Image onClick={insta} src="/images/iniis.png" alt="maniwebdev best website developer near me" width="20" height="25"></Image>
             </div>
             <div className="media">
-              <Image onClick={linke} src="/images/lii.png" width="20" height="25"></Image>
+              <Image onClick={linke} src="/images/lii.png" alt="maniwebdev website developer" width="20" height="25"></Image>
             </div>
             <div className="media">
-              <Image onClick={twit} src="/images/twii.png" width="20" height="25"></Image>
+              <Image onClick={twit} src="/images/twii.png" alt="maniwebdev Freelance web developer for hire" width="20" height="25"></Image>
             </div>
             <div className="media">
-              <Image onClick={what} src="/images/whee.png" width="20" height="25"></Image>
+              <Image onClick={what} src="/images/whee.png" alt="maniwebdev website developer services" width="20" height="25"></Image>
             </div>
           </div>
         </div>
