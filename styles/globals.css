@@ -650,7 +650,7 @@ div .cardmain {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
 }
-.revi{
+.revi {
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -1063,7 +1063,6 @@ div .toolimg1 {
     display: flex;
     justify-content: center;
     padding: 5px 5px 5px 5px;
-   
   }
 
   .re {
@@ -1079,7 +1078,6 @@ div .toolimg1 {
     display: flex;
     justify-content: center;
     padding: 5px 5px 5px 5px;
-    
   }
 
   .ree {
@@ -1273,6 +1271,7 @@ div .toolimg1 {
     display: flex;
     font-family: "Raleway", sans-serif;
   }
+
   .logomain {
     display: none;
   }
@@ -1300,6 +1299,7 @@ div .toolimg1 {
 
   #menu .action:hover {
     color: #f00f80;
+    border-bottom: 1px solid white;
   }
   div .section2 {
     display: flex;
@@ -1307,7 +1307,6 @@ div .toolimg1 {
     justify-content: space-between;
     align-items: center;
 
-    
     margin-top: 10px;
   }
 
@@ -1316,8 +1315,6 @@ div .toolimg1 {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
-    
   }
   div .secicon {
     width: 650px;
