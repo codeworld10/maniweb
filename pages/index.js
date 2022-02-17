@@ -30,6 +30,7 @@ function index() {
           content="8cca891bf62b699c49c89a16eef4146a"
           
         />
+        <meta name="facebook-domain-verification" content="zbf1k5wh1s6xdap2occ0q3w3z557ix" />
         <FBPIXEL/>
       </Head>
       <Navv />
