@@ -3,7 +3,7 @@ import Navv from "../Components/Navv";
 import Image from "next/image";
 import styles from "../styles/aboutme.module.css";
 import Head from "next/head";
-
+import FBPIXEL from "../Components/FBPIXEL";
 
 
 function aboutme() {
@@ -22,7 +22,7 @@ function aboutme() {
         <meta name="author" content="Usman" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
- 
+        <FBPIXEL/>
       </Head>
 
       <Navv />

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
 import Footer from "../Components/Footer";
+import FBPIXEL from "../Components/FBPIXEL";
 
 function index() {
   return (
@@ -27,7 +28,9 @@ function index() {
         <meta
           name="p:domain_verify"
           content="8cca891bf62b699c49c89a16eef4146a"
+          
         />
+        <FBPIXEL/>
       </Head>
       <Navv />
       {/* section1 starts */}

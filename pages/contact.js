@@ -5,6 +5,7 @@ import Footer from "../Components/Footer";
 
 import Head from "next/head"
 import Form from "../Components/Form";
+import FBPIXEL from "../Components/FBPIXEL";
 function contact() {
 
     const instacnt = () => {
@@ -32,6 +33,7 @@ function contact() {
   <meta name="keywords" content="Contact information of maniwebdev, maniwebdev website developer, maniwebdev website design, maniwebdev freelance services, best freelancer for hire, best freelance website developer for hire,"/>
   <meta name="author" content="Usman"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <FBPIXEL/>
 </Head>
 
       <Navv />
