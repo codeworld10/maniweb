@@ -317,6 +317,7 @@ body {
 .active:hover {
   color: #f00f80;
   border-bottom: 1px solid white;
+  border-top: 1px solid white;
 }
 
 div .section1 {
@@ -1209,8 +1210,6 @@ div .toolimg1 {
   }
 }
 
-@media (max-width: 931px) {
-}
 
 @media (max-width: 775px) {
   div .section1 {
@@ -1300,6 +1299,7 @@ div .toolimg1 {
   #menu .action:hover {
     color: #f00f80;
     border-bottom: 1px solid white;
+    border-top: 1px solid white;
   }
   div .section2 {
     display: flex;
