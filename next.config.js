@@ -1,1 +1,8 @@
-export const webpack5 = false;
+module.exports = {
+  reactStrictMode: true,
+  i18n: {
+    locales: ["en"],
+    defaultLocale: "en",
+  },
+  webpack5: false,
+}
