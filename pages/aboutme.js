@@ -6,7 +6,7 @@ import Head from "next/head";
 import FBPIXEL from "../Components/FBPIXEL";
 
 
-function aboutme() {
+const  aboutme = () => {
   return (
     <>
       <Head>
@@ -75,27 +75,106 @@ function aboutme() {
             social media. He is from Austria, Europe. He is an IT expert and I
             talked to him since that time. He supported me and he taught me
             valuable lessons in making business and Design. He decided to refer
-            me to his friends. So, I started working again for clients. Now it's
-            the end of 2021. I am going to build my brand here and looking
-            forward to getting offers for doing websites worldwide someday. I
-            will help and guide private persons to make their websites, and
-            small companies grow online. In short, the most important lesson is
-            never to give up and always focus on your goals because hard time is
-            only for brave people.
+            me to his friends. So I have started working again. 
           </p>
         </div>
+        
       </div>
-      <div className={styles.skil}>
-        <h2>What Is Next?</h2>
+      
+     
+      <div className="tol">
+        <h3>Tools That I Use</h3>
       </div>
-      <div className={styles.skills_d}>
-        <b className={styles.set_para}>
-          Currently I am building websites (Business, Portfolio, Ecommerce etc
-          almost in all niches) with HTML, CSS, javascript, React, Nextjs and
-          Wordpress. Now I try to polish my backend skills day by day. After
-          this i'm thinking to approve app development and digital marketing.
-        </b>
+      <div className="tolls">
+        <div className="tollimg">
+          <Image
+            className="toolimg"
+            src="/images/htm.png"
+            alt="mani web dev create website with html"
+            width="50"
+            height="50"
+          ></Image>
+          <span>
+            <p className="tlnam">HTML5</p>
+          </span>
+        </div>
+        <div className="tollimg">
+          <Image
+            className="toolimg"
+            src="/images/cs3.png"
+            alt="mani web dev creates website with css3"
+            width="50"
+            height="50"
+          ></Image>
+          <span>
+            <p className="tlnam">CSS3</p>
+          </span>
+        </div>
+        <div className="tollimg">
+          <Image
+            className="toolimg"
+            src="/images/js.png"
+            alt="mani web dev creates website with javascript"
+            width="50"
+            height="50"
+          ></Image>
+          <span>
+            <p className="tlnam">Javascript</p>
+          </span>
+        </div>
+        <div className="tollimg">
+          <Image
+            className="toolimg"
+            src="/images/rea.png"
+            alt="mani web dev creates website with reactjs"
+            width="50"
+            height="50"
+          ></Image>
+          <span>
+            <p className="tlnam">React Js</p>
+          </span>
+        </div>
       </div>
+
+      <div className="tolls1">
+        <div className="tollimg1">
+          <Image
+            className="toolimg1"
+            src="/images/nex.png"
+            alt="mani web dev creates website with nextjs"
+            width="50"
+            height="50"
+          ></Image>
+          <span>
+            <p className="tlnam">Next Js</p>
+          </span>
+        </div>
+        <div className="tollimg1">
+          <Image
+            className="toolimg1"
+            src="/images/word.png"
+            alt="mani web dev creates websites with wordpess"
+            width="50"
+            height="50"
+          ></Image>
+          <span>
+            <p className="tlnam">WordPress</p>
+          </span>
+        </div>
+        <div className="tollimg1">
+          <Image
+            className="toolimg1"
+            src="/images/fig.png"
+            alt="mani web dev design website with figma"
+            width="50"
+            height="50"
+          ></Image>
+          <span>
+            <p className="tlnam">Figma</p>
+          </span>
+        </div>
+      </div>
+     
 
     
       <Footer />

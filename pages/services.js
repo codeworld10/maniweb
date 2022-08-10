@@ -6,7 +6,7 @@ import FBPIXEL from "../Components/FBPIXEL";
 import Head from "next/head";
 
 
-function services() {
+const services = () => {
   return (
     <>
       <Head>
@@ -142,98 +142,7 @@ function services() {
           ></Image>
         </div>
       </div>
-      <div className="tol">
-        <h3>Tools That I Use</h3>
-      </div>
-      <div className="tolls">
-        <div className="tollimg">
-          <Image
-            className="toolimg"
-            src="/images/htm.png"
-            alt="mani web dev create website with html"
-            width="50"
-            height="50"
-          ></Image>
-          <span>
-            <p className="tlnam">HTML5</p>
-          </span>
-        </div>
-        <div className="tollimg">
-          <Image
-            className="toolimg"
-            src="/images/cs3.png"
-            alt="mani web dev creates website with css3"
-            width="50"
-            height="50"
-          ></Image>
-          <span>
-            <p className="tlnam">CSS3</p>
-          </span>
-        </div>
-        <div className="tollimg">
-          <Image
-            className="toolimg"
-            src="/images/js.png"
-            alt="mani web dev creates website with javascript"
-            width="50"
-            height="50"
-          ></Image>
-          <span>
-            <p className="tlnam">Javascript</p>
-          </span>
-        </div>
-        <div className="tollimg">
-          <Image
-            className="toolimg"
-            src="/images/rea.png"
-            alt="mani web dev creates website with reactjs"
-            width="50"
-            height="50"
-          ></Image>
-          <span>
-            <p className="tlnam">React Js</p>
-          </span>
-        </div>
-      </div>
-
-      <div className="tolls1">
-        <div className="tollimg1">
-          <Image
-            className="toolimg1"
-            src="/images/nex.png"
-            alt="mani web dev creates website with nextjs"
-            width="50"
-            height="50"
-          ></Image>
-          <span>
-            <p className="tlnam">Next Js</p>
-          </span>
-        </div>
-        <div className="tollimg1">
-          <Image
-            className="toolimg1"
-            src="/images/word.png"
-            alt="mani web dev creates websites with wordpess"
-            width="50"
-            height="50"
-          ></Image>
-          <span>
-            <p className="tlnam">WordPress</p>
-          </span>
-        </div>
-        <div className="tollimg1">
-          <Image
-            className="toolimg1"
-            src="/images/fig.png"
-            alt="mani web dev design website with figma"
-            width="50"
-            height="50"
-          ></Image>
-          <span>
-            <p className="tlnam">Figma</p>
-          </span>
-        </div>
-      </div>
+      
 
       <div className="qute">
         <div className="qutehe">

@@ -1,5 +1,5 @@
 import Link from "next/link";
-function Footer() {
+const Footer = () => {
   return (
     <>
       <footer className="fote">

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function global() {
+const global = () => {
   return (
     <div>
     <p className='priv'>

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-function Navv() {
+const Navv = () => {
   const handle = () => {
     var x = document.getElementById("menu");
     if (x.style.display === "block") {

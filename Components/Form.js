@@ -8,7 +8,7 @@ const Result =() => {
     )
 }
 
-function Form(props) {
+ const Form =(props) => {
    
   const [result, showResult] = useState(false);
   const form = useRef();

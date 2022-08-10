@@ -6,7 +6,7 @@ import Footer from "../Components/Footer";
 import Head from "next/head"
 import Form from "../Components/Form";
 import FBPIXEL from "../Components/FBPIXEL";
-function contact() {
+const contact = () => {
 
     const instacnt = () => {
         window.open("https://www.instagram.com/maniwebdev/");

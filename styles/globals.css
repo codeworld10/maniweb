@@ -574,88 +574,10 @@ div .cardmain {
   justify-content: center;
   align-items: center;
 }
-.cardimg {
-  border-radius: 50%;
-  object-fit: cover;
-}
-.testih {
-  font-family: "Raleway", sans-serif;
-}
-.testih:hover {
-  transform: rotate(360deg);
-  transition: 1s;
-}
-.test {
-  text-align: center;
-  font-size: 25px;
-  font-family: "Ubuntu", sans-serif;
-}
-.card {
-  width: 350px;
-  margin: 6px;
-  background-color: white;
-  border: 3px solid pink;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px 10px 10px 10px;
-  box-shadow: 3px 11px 5px -4px rgba(0, 0, 0, 0.7);
-  -webkit-box-shadow: 3px 11px 5px -4px rgba(0, 0, 0, 0.7);
-  -moz-box-shadow: 3px 11px 5px -4px rgba(0, 0, 0, 0.7);
-}
-.card:hover {
-  background-color: #f00f80;
-}
-.card2:hover {
-  background-color: #f00f80;
-}
-.card3:hover {
-  background-color: #f00f80;
-}
-.card2 {
-  width: 350px;
-  margin: 6px;
-  background-color: white;
-  border: 3px solid pink;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px 10px 10px 10px;
-  box-shadow: 3px 11px 5px -4px rgba(0, 0, 0, 0.7);
-  -webkit-box-shadow: 3px 11px 5px -4px rgba(0, 0, 0, 0.7);
-  -moz-box-shadow: 3px 11px 5px -4px rgba(0, 0, 0, 0.7);
-}
-.card3 {
-  width: 350px;
-  margin: 6px;
-  background-color: white;
-  border: 3px solid pink;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px 10px 10px 10px;
-  box-shadow: 3px 11px 5px -4px rgba(0, 0, 0, 0.7);
-  -webkit-box-shadow: 3px 11px 5px -4px rgba(0, 0, 0, 0.7);
-  -moz-box-shadow: 3px 11px 5px -4px rgba(0, 0, 0, 0.7);
-}
-.testip {
-  font-size: 18px;
-  text-align: left;
-  padding: 0px 10px 1px 10px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-}
-.revi {
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-}
+
+
+
+
 .cho {
   text-align: center;
   margin-top: 20px;
@@ -674,10 +596,7 @@ div .cardmain {
   margin-left: 30px;
   margin-right: 30px;
 }
-.iconimg:hover {
-  transform: rotate(360deg);
-  transition: 1s ease-out;
-}
+
 .cho:hover {
   color: #f00f80;
 }
@@ -701,6 +620,12 @@ div .cardmain {
 .priv{
   text-align: center;
   margin-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.aboutmee{
+ 
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -1033,28 +958,8 @@ div .toolimg1 {
     padding: 20px;
   }
 }
-@media (max-width: 1333px) {
-  .card {
-    width: 300px;
-  }
-  .card2 {
-    width: 300px;
-  }
-  .card3 {
-    width: 300px;
-  }
-}
-@media (max-width: 1020px) {
-  .card {
-    width: 280px;
-  }
-  .card2 {
-    width: 280px;
-  }
-  .card3 {
-    width: 270px;
-  }
-}
+
+
 
 @media (max-width: 998px) {
   .head {
@@ -1104,17 +1009,7 @@ div .toolimg1 {
     font-size: 16px;
   }
 }
-@media (max-width: 943px) {
-  .card {
-    width: 260px;
-  }
-  .card2 {
-    width: 260px;
-  }
-  .card3 {
-    width: 250px;
-  }
-}
+
 
 @media (max-width: 931px) {
   div .secicon {
@@ -1148,56 +1043,10 @@ div .toolimg1 {
     margin: 5px;
   }
 }
-@media (max-width: 880px) {
-  .card {
-    width: 240px;
-  }
-  .card2 {
-    width: 240px;
-  }
-  .card3 {
-    width: 230px;
-  }
-}
-@media (max-width: 833px) {
-  .card {
-    width: 220px;
-  }
-  .card2 {
-    width: 230px;
-  }
-  .card3 {
-    width: 220px;
-  }
-}
-@media (max-width: 784px) {
-  .card {
-    width: 210px;
-  }
-  .card2 {
-    width: 220px;
-  }
-  .card3 {
-    width: 210px;
-  }
-}
-@media (max-width: 753px) {
-  div .cardmain {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .card {
-    width: 550px;
-  }
-  .card2 {
-    width: 550px;
-  }
-  .card3 {
-    width: 550px;
-  }
-}
+
+
+
+
 
 @media (max-width: 797px) {
   div .section1 {
@@ -1499,15 +1348,7 @@ div .toolimg1 {
   .pp2 {
     font-size: 16px;
   }
-  .card {
-    width: 530px;
-  }
-  .card2 {
-    width: 530px;
-  }
-  .card3 {
-    width: 530px;
-  }
+
 }
 
 @media (max-width: 589px) {
@@ -1543,28 +1384,8 @@ div .toolimg1 {
   }
 }
 
-@media (max-width: 573px) {
-  .card {
-    width: 510px;
-  }
-  .card2 {
-    width: 510px;
-  }
-  .card3 {
-    width: 510px;
-  }
-}
-@media (max-width: 547px) {
-  .card {
-    width: 490px;
-  }
-  .card2 {
-    width: 490px;
-  }
-  .card3 {
-    width: 490px;
-  }
-}
+
+
 
 @media (max-width: 538px) {
   div .secicon {
@@ -1598,29 +1419,9 @@ div .toolimg1 {
     margin: 5px;
   }
 }
-@media (max-width: 533px) {
-  .card {
-    width: 460px;
-  }
-  .card2 {
-    width: 460px;
-  }
-  .card3 {
-    width: 460px;
-  }
-}
 
-@media (max-width: 495px) {
-  .card {
-    width: 440px;
-  }
-  .card2 {
-    width: 440px;
-  }
-  .card3 {
-    width: 440px;
-  }
-}
+
+
 
 @media (max-width: 492px) {
   div .secicon {
@@ -1654,17 +1455,7 @@ div .toolimg1 {
     margin: 5px;
   }
 }
-@media (max-width: 475px) {
-  .card {
-    width: 410px;
-  }
-  .card2 {
-    width: 410px;
-  }
-  .card3 {
-    width: 410px;
-  }
-}
+
 
 @media (max-width: 441px) {
   div .secicon {
@@ -1697,15 +1488,6 @@ div .toolimg1 {
     height: 200px;
     margin: 5px;
   }
-  .card {
-    width: 380px;
-  }
-  .card2 {
-    width: 380px;
-  }
-  .card3 {
-    width: 380px;
-  }
 }
 
 @media (max-width: 430px) {
@@ -1720,28 +1502,8 @@ div .toolimg1 {
     font-size: 16px;
   }
 }
-@media (max-width: 417px) {
-  .card {
-    width: 350px;
-  }
-  .card2 {
-    width: 350px;
-  }
-  .card3 {
-    width: 350px;
-  }
-}
-@media (max-width: 391px) {
-  .card {
-    width: 320px;
-  }
-  .card2 {
-    width: 320px;
-  }
-  .card3 {
-    width: 320px;
-  }
-}
+
+
 
 @media (max-width: 384px) {
   div .secicon {
@@ -1787,28 +1549,10 @@ div .toolimg1 {
   .pp2 {
     font-size: 16px;
   }
-  .card {
-    width: 300px;
-  }
-  .card2 {
-    width: 300px;
-  }
-  .card3 {
-    width: 300px;
-  }
+
 }
 
-@media (max-width: 337px) {
-  .card {
-    width: 280px;
-  }
-  .card2 {
-    width: 280px;
-  }
-  .card3 {
-    width: 280px;
-  }
-}
+
 @media (max-width: 320px) {
   div .section1 {
     height: 800px;
@@ -1823,15 +1567,7 @@ div .toolimg1 {
   .cho {
     font-size: 25px;
   }
-  .card {
-    width: 260px;
-  }
-  .card2 {
-    width: 260px;
-  }
-  .card3 {
-    width: 260px;
-  }
+
 }
 
 @media (max-width: 323px) {
@@ -1867,17 +1603,7 @@ div .toolimg1 {
   }
 }
 
-@media (max-width: 297px) {
-  .card {
-    width: 240px;
-  }
-  .card2 {
-    width: 240px;
-  }
-  .card3 {
-    width: 240px;
-  }
-}
+
 
 @media (max-width: 287px) {
   div .secicon {
@@ -1935,17 +1661,7 @@ div .toolimg1 {
   }
 }
 
-@media (max-width: 275px) {
-  .card {
-    width: 220px;
-  }
-  .card2 {
-    width: 220px;
-  }
-  .card3 {
-    width: 220px;
-  }
-}
+
 @media (max-width: 268px) {
   div .section1 {
     height: 900px;
@@ -1958,17 +1674,7 @@ div .toolimg1 {
     font-size: 16px;
   }
 }
-@media (max-width: 255px) {
-  .card {
-    width: 200px;
-  }
-  .card2 {
-    width: 200px;
-  }
-  .card3 {
-    width: 200px;
-  }
-}
+
 
 @media (max-width: 240px) {
   div .section1 {
@@ -1983,17 +1689,7 @@ div .toolimg1 {
   }
 }
 
-@media (max-width: 239px) {
-  .card {
-    width: 180px;
-  }
-  .card2 {
-    width: 180px;
-  }
-  .card3 {
-    width: 180px;
-  }
-}
+
 
 @media (max-width: 232px) {
   div .secicon {
@@ -2027,39 +1723,9 @@ div .toolimg1 {
     margin: 5px;
   }
 }
-@media (max-width: 211px) {
-  .card {
-    width: 160px;
-  }
-  .card2 {
-    width: 160px;
-  }
-  .card3 {
-    width: 160px;
-  }
-}
-@media (max-width: 190px) {
-  .card {
-    width: 135px;
-  }
-  .card2 {
-    width: 135px;
-  }
-  .card3 {
-    width: 135px;
-  }
-}
-@media (max-width: 175px) {
-  .card {
-    width: 100px;
-  }
-  .card2 {
-    width: 100px;
-  }
-  .card3 {
-    width: 100px;
-  }
-}
+
+
+
 /*--------------------                over        ------------Home page over------------------     over                                ------------------- */
 /*--------------------                over        ------------Home page over------------------     over                                ------------------- */
 /*--------------------                over        ------------Home page over------------------     over                                ------------------- */

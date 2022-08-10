@@ -1,6 +1,6 @@
 import React from "react";
 
-function globalterms() {
+const globalterms = () => {
   return (
     <div>
       <p className="priv">

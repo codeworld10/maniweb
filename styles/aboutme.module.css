@@ -71,16 +71,10 @@
 .skil:hover {
   color: #f00f80;
 }
-.skills_d {
-  display: flex;
-  justify-content: center;
-}
-.set_para {
-  width: 910px;
-  font-size: 17px;
-}
+
 .stres{
   font-size: 17px;
+ 
 }
 
 .see_pimg:hover{
@@ -134,8 +128,8 @@ border-radius: 20px;
   }
   
   .aboutmee {
-    padding-left: 12px;
-    padding-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .aboutst {
     font-size: 20px;
@@ -143,5 +137,6 @@ border-radius: 20px;
   .set_para {
     padding-left: 12px;
   }
+ 
 }
 

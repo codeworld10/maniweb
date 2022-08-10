@@ -3,7 +3,7 @@ import Navv from "../Components/Navv";
 import Head from "next/head";
 
 
-function privacy() {
+const  privacy = () => {
   return (
     <>
      <Head>
