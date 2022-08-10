@@ -474,17 +474,17 @@ div .secicon2 {
 div .secicon:hover {
   transform: translate(10px, -10px);
   transition: 1s;
-  background-color: #f00f80;
+  background-color: #f714866c;
 }
 div .secicon1:hover {
   transform: translate(10px, -10px);
   transition: 1s;
-  background-color: #f00f80;
+  background-color: #f714866c;
 }
 div .secicon2:hover {
   transform: translate(10px, -10px);
   transition: 1s;
-  background-color: #f00f80;
+  background-color: #f714866c;
 }
 .he1:hover {
   transform: rotate(360deg);
@@ -544,17 +544,17 @@ div .seecicon2 {
 div .seecicon:hover {
   transform: translate(10px, -10px);
   transition: 1s;
-  background-color: #f00f80;
+  background-color: #f714866c;
 }
 div .seecicon1:hover {
   transform: translate(10px, -10px);
   transition: 1s;
-  background-color: #f00f80;
+  background-color: #f714866c;
 }
 div .seecicon2:hover {
   transform: translate(10px, -10px);
   transition: 1s;
-  background-color: #f00f80;
+  background-color: #f714866c;
 }
 
 .re {
