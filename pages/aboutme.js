@@ -73,7 +73,7 @@ const  aboutme = () => {
             But I continued my studies and polished my skills more and more and
             tried to get website projects. At the end of 2019, I met a guy on
             social media. He is from Austria, Europe. He is an IT expert and I
-            talked to him since that time. He supported me and he taught me
+            talked to him since that time. He taught me
             valuable lessons in making business and Design. He decided to refer
             me to his friends. So I have started working again. 
           </p>

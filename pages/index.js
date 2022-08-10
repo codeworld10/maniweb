@@ -97,7 +97,7 @@ const index = () => {
             <span className="pre">
               <p className="pp1">
                 I do deep research on my project about business competition
-                ranking etc. So that I will come out with a good idea, That will
+                ranking. So that I will come out with a good idea, That will
                 satisfy you.
               </p>
             </span>
@@ -117,7 +117,7 @@ const index = () => {
             </span>
             <span className="pre">
               <p className="pp1">
-                This is the part of my creative work. I will offer you my ideas
+                This is part of my creative work. I will offer you my ideas
                 of design and do consider changes, or you have already thought
                 about design and share your ideas with me.
               </p>
@@ -138,7 +138,7 @@ const index = () => {
             </span>
             <span className="pre">
               <p className="pp1">
-                It's time to convert our ideas into reality. Create Pages,
+                It's time to convert our ideas into reality. Create pages,
                 upload content, adding responsive layouts and SEO for Google
                 ranking.
               </p>
@@ -204,7 +204,7 @@ const index = () => {
             <span className="pree">
               <p className="pp2">
                 Hooray! Now it's time to deliver your business website to you.
-                when you are 100% satisfied with my work.
+                When you are 100% satisfied with my work.
               </p>
             </span>
           </div>
