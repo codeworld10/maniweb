@@ -266,7 +266,7 @@ const index = () => {
         </div>
       </div>
       <div className="abt">
-        <Link href="/aboutme">
+        <Link href="/aboutme"> 
           <button className="abt_me">About Me</button>
         </Link>
       </div>
