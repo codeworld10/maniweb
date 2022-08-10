@@ -67,8 +67,8 @@ const  aboutme = () => {
             5 months in my learning. At this time, it was hard to survive. So I
             did a hard part-time job in a general store. After that, I started
             again to continue learning about how to code. Then, in the middle of
-            2018, I tried to test myself. I created an account on Fiverr,
-            Upwork, and started giving my services online. After this, I worked
+            2018, I tried to test myself. I created an account on freelancing websites
+             and started giving my services online. After this, I worked
             on some projects, and then suddenly, I couldn't get orders anymore.
             But I continued my studies and polished my skills more and more and
             tried to get website projects. At the end of 2019, I met a guy on

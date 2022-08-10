@@ -362,7 +362,7 @@ div .section1 {
 
 .para {
   line-height: 26px;
-  color: white;
+  color: grey;
   margin-right: 80px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -413,6 +413,7 @@ div .section1 {
   text-align: center;
   font-weight: 600;
   font-size: 17px;
+  color: grey;
 }
 .how {
   text-align: center;
@@ -574,7 +575,14 @@ div .cardmain {
   justify-content: center;
   align-items: center;
 }
-
+.pp1 {
+  font-size: 16px;
+  color: grey;
+}
+.pp2 {
+  font-size: 16px;
+  color: grey;
+}
 
 
 
@@ -630,6 +638,10 @@ div .cardmain {
   padding-right: 15px;
 }
 
+.frtxt{
+  color: grey;
+}
+
 /*--------------------                over        ------------Home page over------------------     over                                ------------------- */
 /*--------------------                over        ------------Home page over------------------     over                                ------------------- */
 /*--------------------                over        ------------Home page over------------------     over                                ------------------- */
@@ -669,7 +681,7 @@ div .sermain {
 }
 
 .ser_para {
-  color: white;
+  color: grey;
   font-size: 17px;
   text-align: left;
   font-family: "Raleway", sans-serif;
@@ -938,7 +950,19 @@ div .toolimg1 {
   border-radius: 15px;
   cursor: pointer;
 }
+.serpara {
+  color: grey;
+}
 
+.serpara1 {
+  color: grey;
+}
+.serpara2 {
+  color: grey;
+}
+.serpara4 {
+  color: grey;
+}
 /*--------------------                over        ------------services page over------------------     over                                ------------------- */
 
 /*--------------------                start        ------------about page start------------------     start  --*/
@@ -985,6 +1009,7 @@ div .toolimg1 {
   }
   .pp1 {
     font-size: 16px;
+    color: grey;
   }
   div .section3 {
     display: flex;
@@ -1007,6 +1032,7 @@ div .toolimg1 {
   }
   .pp2 {
     font-size: 16px;
+    color: grey;
   }
 }
 
@@ -1204,9 +1230,11 @@ div .toolimg1 {
 
   .pp1 {
     font-size: 16px;
+    color: grey;
   }
   .pp2 {
     font-size: 16px;
+    color: grey;
   }
 }
 
@@ -1272,9 +1300,11 @@ div .toolimg1 {
   }
   .pp1 {
     font-size: 16px;
+    color: grey;
   }
   .pp2 {
     font-size: 16px;
+    color: grey;
   }
 }
 
@@ -1344,9 +1374,11 @@ div .toolimg1 {
   }
   .pp1 {
     font-size: 16px;
+    color: grey;
   }
   .pp2 {
     font-size: 16px;
+    color: grey;
   }
 
 }
@@ -1497,9 +1529,11 @@ div .toolimg1 {
 
   .pp1 {
     font-size: 16px;
+    color: grey;
   }
   .pp2 {
     font-size: 16px;
+    color: grey;
   }
 }
 
@@ -1545,9 +1579,11 @@ div .toolimg1 {
 
   .pp1 {
     font-size: 16px;
+    color: grey;
   }
   .pp2 {
     font-size: 16px;
+    color: grey;
   }
 
 }
@@ -1560,9 +1596,11 @@ div .toolimg1 {
 
   .pp1 {
     font-size: 16px;
+    color: grey;
   }
   .pp2 {
     font-size: 16px;
+    color: grey;
   }
   .cho {
     font-size: 25px;
@@ -1672,6 +1710,7 @@ div .toolimg1 {
   }
   .pp2 {
     font-size: 16px;
+    color: grey;
   }
 }
 
@@ -1683,9 +1722,11 @@ div .toolimg1 {
 
   .pp1 {
     font-size: 16px;
+    color: grey;
   }
   .pp2 {
     font-size: 16px;
+    color: grey;
   }
 }
 

@@ -36,6 +36,7 @@
   text-align: center;
   font-family: "Raleway", sans-serif;
   padding: 3px 3px 3px 3px;
+  color: grey;
 }
 .story {
   text-align: center;
@@ -74,7 +75,11 @@
 
 .stres{
   font-size: 17px;
+  color: grey;
  
+}
+.ser_para {
+  color: grey;
 }
 
 .see_pimg:hover{
