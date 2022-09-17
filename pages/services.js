@@ -5,7 +5,6 @@ import Link from "next/link";
 import FBPIXEL from "../Components/FBPIXEL";
 import Head from "next/head";
 
-
 const services = () => {
   return (
     <>
@@ -21,9 +20,8 @@ const services = () => {
         />
         <meta name="author" content="Usman" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
       </Head>
-      <FBPIXEL/>
+      <FBPIXEL />
       <Navv />
 
       <div className="sermain">
@@ -47,6 +45,7 @@ const services = () => {
           ></Image>
         </div>
       </div>
+
       <div className="wido">
         <h2>What I Do?</h2>
       </div>
@@ -142,7 +141,6 @@ const services = () => {
           ></Image>
         </div>
       </div>
-      
 
       <div className="qute">
         <div className="qutehe">
@@ -162,6 +160,6 @@ const services = () => {
       <Footer />
     </>
   );
-}
+};
 
 export default services;

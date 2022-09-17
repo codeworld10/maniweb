@@ -137,6 +137,18 @@ const  aboutme = () => {
       </div>
 
       <div className="tolls1">
+      <div className="tollimg1">
+      <Image
+        className="toolimg1"
+        src="/images/rea.png"
+        alt="mani web dev creates website with nextjs"
+        width="50"
+        height="50"
+      ></Image>
+      <span>
+        <p className="tlnam">React Native</p>
+      </span>
+    </div>
         <div className="tollimg1">
           <Image
             className="toolimg1"
@@ -175,6 +187,56 @@ const  aboutme = () => {
         </div>
       </div>
      
+      <div className="tolls1">
+      <div className="tollimg1">
+      <Image
+        className="toolimg1"
+        src="/images/mongo.png"
+        alt="mani web dev creates website with nextjs"
+        width="50"
+        height="50"
+      ></Image>
+      <span>
+        <p className="tlnam">MongoDb</p>
+      </span>
+    </div>
+        <div className="tollimg1">
+          <Image
+            className="toolimg1"
+            src="/images/js.png"
+            alt="mani web dev creates website with nextjs"
+            width="50"
+            height="50"
+          ></Image>
+          <span>
+            <p className="tlnam">ExpressJs</p>
+          </span>
+        </div>
+        <div className="tollimg1">
+          <Image
+            className="toolimg1"
+            src="/images/node.png"
+            alt="mani web dev creates websites with wordpess"
+            width="50"
+            height="50"
+          ></Image>
+          <span>
+            <p className="tlnam">NodeJs</p>
+          </span>
+        </div>
+        <div className="tollimg1">
+          <Image
+            className="toolimg1"
+            src="/images/illustrator.png"
+            alt="mani web dev design website with figma"
+            width="50"
+            height="50"
+          ></Image>
+          <span>
+            <p className="tlnam">Illustrator</p>
+          </span>
+        </div>
+      </div>
 
     
       <Footer />

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Ubuntu&display=swap");
+
 html,
 body {
   scroll-behavior: smooth;
@@ -8,6 +9,250 @@ body {
   line-height: 1.5;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+/*--------------------Landing page Global Worker --------------*/
+.Global-head {
+  text-align: center;
+  color: green;
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  
+}
+.Global-para {
+  text-align: center;
+  color: grey;
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+.Top-design {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  height: 600px;
+  width: 100%;
+  background: rgba(255, 192, 203, 0.75);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 192, 203, 0.3);
+}
+div .Global-images{
+  display: flex;
+  justify-content: space-around;
+  margin-top: -100px;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+
+.Global-app-about{
+  font-size: 28px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: green;
+}
+.Global-Para{
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: grey;
+}
+
+.details{
+  width: 350px;
+}
+
+
+.play-center{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  cursor: pointer;
+}
+.Global-about{
+ text-align: center;
+ margin-top: 30px;
+ font-size: 40px;
+ font-family: "Raleway", sans-serif;
+ font-weight: bolder;
+ color: green;
+}
+.About-flex{
+  display: flex;
+  justify-content: space-around;
+}
+.Global-App{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+}
+.Global_Follow{
+  text-align: center;
+  font-size: 28px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: green;
+}
+
+.Global-download{
+  text-align: center;
+  font-size: 24px;
+}
+.play-download{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.Community-img{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+.Global-community{
+  font-size: 28px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: green;
+}
+
+.Global-Social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Global-icon-cent{
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+
+/*--------------------Make landing page responsive--------------*/
+
+@media (max-width: 752px) {
+  .Global-head {
+    text-align: center;
+    color: green;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+    
+  }
+  .Global-para {
+    text-align: center;
+    color: grey;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+  }
+  div .Global-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+   padding-left: 15px;
+   padding-right: 15px;
+  }
+  .Global-about{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+    color: green;
+   }
+   .About-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Global-App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+  .details{
+    width: 560px;
+  }
+  .Global-app-about{
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: green;
+  }
+  .Global-community{
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: green;
+  }
+  .Global_Follow{
+    text-align: center;
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: green;
+  }
+}
+@media (max-width: 752px) {
+  .details{
+    width: 460px;
+  }
+}
+@media (max-width: 484px) {
+  .details{
+    width: 360px;
+    padding-left: 10;
+    padding-right: 10;
+  }
+}
+@media (max-width: 394px) {
+  .details{
+    width: 290px;
+    padding-left: 10;
+    padding-right: 10;
+  }
+}
+@media (max-width: 330px) {
+  .details{
+    width: 240px;
+    padding-left: 10;
+    padding-right: 10;
+  }
+}
+@media (max-width: 269px) {
+  .details{
+    width: 190px;
+    padding-left: 10;
+    padding-right: 10;
+  }
+}
+@media (max-width: 208px) {
+  .details{
+    width: 140px;
+    padding-left: 10;
+    padding-right: 10;
+  }
+}
+@media (max-width: 154) {
+  .details{
+    width: 90px;
+    padding-left: 10;
+    padding-right: 10;
+  }
 }
 
 /*--------------------contact form --------------*/
@@ -20,6 +265,7 @@ body {
   line-height: 30px;
   border-radius: 5px;
 }
+
 .input100 {
   width: 720px;
   height: 30px;
@@ -27,6 +273,7 @@ body {
   border: 1px solid #f00f80;
   border-radius: 5px;
 }
+
 .messagee {
   width: 720px;
   height: 100px;
@@ -40,6 +287,7 @@ body {
   justify-content: center;
   margin-top: 20px;
 }
+
 .btrr {
   color: white;
   background-color: rgb(70, 70, 70);
@@ -49,6 +297,7 @@ body {
   border: 2px solid #f00f80;
   border-radius: 15px;
 }
+
 .btrr:hover {
   background-color: #f00f80;
   color: #ffffff;
@@ -56,11 +305,13 @@ body {
   transform: scale(1.1);
   transition: 1s;
 }
+
 .ctbtn {
   display: flex;
   justify-content: center;
   margin-right: 50px;
 }
+
 .frmpr_r {
   text-align: center;
   font-size: 22px;
@@ -71,10 +322,12 @@ body {
   .formwork {
     width: 650px;
   }
+
   .input100 {
     width: 620px;
     height: 30px;
   }
+
   .messagee {
     width: 620px;
     height: 100px;
@@ -85,10 +338,12 @@ body {
   .formwork {
     width: 550px;
   }
+
   .input100 {
     width: 520px;
     height: 30px;
   }
+
   .messagee {
     width: 520px;
     height: 100px;
@@ -99,23 +354,28 @@ body {
   .formwork {
     width: 450px;
   }
+
   .input100 {
     width: 420px;
     height: 30px;
   }
+
   .messagee {
     width: 420px;
     height: 100px;
   }
 }
+
 @media (max-width: 489px) {
   .formwork {
     width: 350px;
   }
+
   .input100 {
     width: 320px;
     height: 30px;
   }
+
   .messagee {
     width: 320px;
     height: 100px;
@@ -126,49 +386,60 @@ body {
   .formwork {
     width: 300px;
   }
+
   .input100 {
     width: 260px;
     height: 30px;
   }
+
   .messagee {
     width: 260px;
     height: 100px;
   }
 }
+
 @media (max-width: 343px) {
   .formwork {
     width: 270px;
   }
+
   .input100 {
     width: 230px;
     height: 30px;
   }
+
   .messagee {
     width: 230px;
     height: 100px;
   }
 }
+
 @media (max-width: 309px) {
   .formwork {
     width: 230px;
   }
+
   .input100 {
     width: 200px;
     height: 30px;
   }
+
   .messagee {
     width: 200px;
     height: 100px;
   }
 }
+
 @media (max-width: 277px) {
   .formwork {
     width: 200px;
   }
+
   .input100 {
     width: 170px;
     height: 30px;
   }
+
   .messagee {
     width: 170px;
     height: 100px;
@@ -179,10 +450,12 @@ body {
   .formwork {
     width: 170px;
   }
+
   .input100 {
     width: 130px;
     height: 30px;
   }
+
   .messagee {
     width: 130px;
     height: 100px;
@@ -194,6 +467,7 @@ body {
   margin-right: 10px;
   padding: 20px 20px 20px 20px;
 }
+
 .plcy {
   color: white;
   text-decoration: none;
@@ -201,6 +475,7 @@ body {
   font-size: 20px;
   font-family: "Raleway", sans-serif;
 }
+
 .lin_ku {
   margin-top: 25px;
 }
@@ -210,6 +485,7 @@ body {
   justify-content: center;
   align-content: center;
 }
+
 .footer {
   width: 100%;
   height: 60px;
@@ -218,9 +494,11 @@ body {
   margin-top: 30px;
   text-align: center;
 }
+
 .ftrpara {
   margin-top: 10px;
 }
+
 .fote {
   background-color: black;
   margin-top: 15px;
@@ -230,24 +508,31 @@ body {
   0% {
     transform: translate(0, 0);
   }
+
   1.78571% {
     transform: translate(5px, 0);
   }
+
   3.57143% {
     transform: translate(0, 0);
   }
+
   5.35714% {
     transform: translate(5px, 0);
   }
+
   7.14286% {
     transform: translate(0, 0);
   }
+
   8.92857% {
     transform: translate(5px, 0);
   }
+
   10.71429% {
     transform: translate(0, 0);
   }
+
   100% {
     transform: translate(0, 0);
   }
@@ -266,31 +551,38 @@ body {
   display: inline-block;
   margin-top: 5px;
 }
+
 .navbar {
   height: 120px;
   background-color: black;
 }
+
 .logomain {
   position: absolute;
   left: 10px;
   top: 0px;
 }
+
 .logos {
   object-fit: cover;
 }
+
 .logomob {
   display: none;
 }
+
 .social {
   display: flex;
   position: absolute;
   right: 20px;
   top: 22px;
 }
+
 .media {
   margin: 5px;
   cursor: pointer;
 }
+
 .media:hover {
   transform: scale(1.7);
   transition: 1s;
@@ -344,13 +636,16 @@ div .section1 {
 .topimg {
   animation: zoom-in-zoom-out 4s ease-out infinite;
 }
+
 @keyframes zoom-in-zoom-out {
   0% {
     transform: scale(1, 1);
   }
+
   50% {
     transform: scale(1.1, 1.1);
   }
+
   100% {
     transform: scale(1, 1);
   }
@@ -373,6 +668,7 @@ div .section1 {
   margin-top: 25px;
   margin-left: 0px;
 }
+
 .btn {
   margin-right: 15px;
   color: white;
@@ -383,6 +679,7 @@ div .section1 {
   border: 2px solid #f00f80;
   border-radius: 15px;
 }
+
 .btn:hover {
   background-color: #f00f80;
   color: #ffffff;
@@ -390,6 +687,7 @@ div .section1 {
   transform: scale(1.1);
   transition: 1s;
 }
+
 .btn2:hover {
   background-color: #f00f80;
   color: #ffffff;
@@ -397,6 +695,7 @@ div .section1 {
   transform: scale(1.1);
   transition: 1s;
 }
+
 .btn2 {
   color: white;
   background-color: rgb(70, 70, 70);
@@ -406,6 +705,13 @@ div .section1 {
   border-radius: 15px;
   border: 2px solid #f00f80;
 }
+
+.porth {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+}
+
 /* ------------------section1 over--------------- */
 
 .para3 {
@@ -415,9 +721,11 @@ div .section1 {
   font-size: 17px;
   color: grey;
 }
+
 .how {
   text-align: center;
   font-family: "Ubuntu", sans-serif;
+  font-size: large;
 }
 
 .how:hover {
@@ -438,6 +746,7 @@ div .section2 {
   padding: 10px 5px 5px 20px;
   background-color: #ffffff;
 }
+
 div .secicon {
   width: 320px;
   height: 260px;
@@ -449,6 +758,7 @@ div .secicon {
   padding: 10px 10px 10px 10px;
   background-color: white;
 }
+
 div .secicon1 {
   width: 355px;
   height: 250px;
@@ -460,6 +770,7 @@ div .secicon1 {
   padding: 15px 15px 15px 15px;
   background-color: white;
 }
+
 div .secicon2 {
   width: 320px;
   height: 260px;
@@ -471,25 +782,25 @@ div .secicon2 {
   padding: 10px 10px 10px 10px;
   background-color: white;
 }
+
 div .secicon:hover {
   transform: translate(10px, -10px);
   transition: 1s;
   background-color: #f714866c;
 }
+
 div .secicon1:hover {
   transform: translate(10px, -10px);
   transition: 1s;
   background-color: #f714866c;
 }
+
 div .secicon2:hover {
   transform: translate(10px, -10px);
   transition: 1s;
   background-color: #f714866c;
 }
-.he1:hover {
-  transform: rotate(360deg);
-  transition: 1s;
-}
+
 .he2:hover {
   transform: rotate(-360deg);
   transition: 1s;
@@ -508,6 +819,7 @@ div .section3 {
   padding: 10px 5px 5px 20px;
   background-color: #ffffff;
 }
+
 div .seecicon {
   width: 320px;
   height: 250px;
@@ -519,6 +831,7 @@ div .seecicon {
   padding: 10px 10px 10px 10px;
   background-color: white;
 }
+
 div .seecicon1 {
   width: 360px;
   height: 250px;
@@ -530,6 +843,7 @@ div .seecicon1 {
   padding: 10px 10px 10px 10px;
   background-color: white;
 }
+
 div .seecicon2 {
   width: 330px;
   height: 250px;
@@ -541,16 +855,19 @@ div .seecicon2 {
   padding: 10px 10px 10px 10px;
   background-color: white;
 }
+
 div .seecicon:hover {
   transform: translate(10px, -10px);
   transition: 1s;
   background-color: #f714866c;
 }
+
 div .seecicon1:hover {
   transform: translate(10px, -10px);
   transition: 1s;
   background-color: #f714866c;
 }
+
 div .seecicon2:hover {
   transform: translate(10px, -10px);
   transition: 1s;
@@ -559,10 +876,13 @@ div .seecicon2:hover {
 
 .re {
   font-family: "Raleway", sans-serif;
+  cursor: pointer;
 }
+
 .ree {
   font-family: "Raleway", sans-serif;
 }
+
 .pree {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -575,16 +895,17 @@ div .cardmain {
   justify-content: center;
   align-items: center;
 }
+
 .pp1 {
   font-size: 16px;
   color: grey;
+  cursor: pointer;
 }
+
 .pp2 {
   font-size: 16px;
   color: grey;
 }
-
-
 
 .cho {
   text-align: center;
@@ -592,6 +913,7 @@ div .cardmain {
   font-family: "Ubuntu", sans-serif;
   font-size: 25px;
 }
+
 .cho_icon {
   padding: 10px 10px 10px 10px;
   display: flex;
@@ -608,10 +930,12 @@ div .cardmain {
 .cho:hover {
   color: #f00f80;
 }
+
 .abt {
   text-align: center;
   margin-top: 15px;
 }
+
 .abt_me {
   padding: 7px 15px;
   border-radius: 15px;
@@ -620,25 +944,26 @@ div .cardmain {
   cursor: pointer;
   border: 2px solid #f00f80;
 }
+
 .abt_me:hover {
   background-color: #f00f80;
   transform: scale(1.1);
   transition: 1s;
 }
-.priv{
+
+.priv {
   text-align: center;
   margin-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.aboutmee{
- 
+.aboutmee {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.frtxt{
+.frtxt {
   color: grey;
 }
 
@@ -682,80 +1007,100 @@ div .sermain {
 
 .ser_para {
   color: grey;
-  font-size: 17px;
+  font-size: 18px;
   text-align: left;
-  font-family: "Raleway", sans-serif;
 }
+
 .sertoup {
   animation: zoom-in-zoom-out 7s ease-out infinite;
 }
+
 @keyframes zoom-in-zoom-out {
   0% {
     transform: scale(1, 1);
   }
+
   50% {
     transform: scale(1.1, 1.1);
   }
+
   100% {
     transform: scale(1, 1);
   }
 }
+
 .serimg {
   animation: zoom-in-zoom-out 7s ease-out infinite;
 }
+
 @keyframes zoom-in-zoom-out {
   0% {
     transform: scale(1, 1);
   }
+
   50% {
     transform: scale(1.1, 1.1);
   }
+
   100% {
     transform: scale(1, 1);
   }
 }
+
 .serimg1 {
   animation: zoom-in-zoom-out 7s ease-out infinite;
 }
+
 @keyframes zoom-in-zoom-out {
   0% {
     transform: scale(1, 1);
   }
+
   50% {
     transform: scale(1.1, 1.1);
   }
+
   100% {
     transform: scale(1, 1);
   }
 }
+
 .serimg2 {
   animation: zoom-in-zoom-out 7s ease-out infinite;
 }
+
 @keyframes zoom-in-zoom-out {
   0% {
     transform: scale(1, 1);
   }
+
   50% {
     transform: scale(1.1, 1.1);
   }
+
   100% {
     transform: scale(1, 1);
   }
 }
+
 .serimg3 {
   animation: zoom-in-zoom-out 7s ease-out infinite;
 }
+
 @keyframes zoom-in-zoom-out {
   0% {
     transform: scale(1, 1);
   }
+
   50% {
     transform: scale(1.1, 1.1);
   }
+
   100% {
     transform: scale(1, 1);
   }
 }
+
 .serhead {
   color: rgb(255, 251, 251);
   text-align: center;
@@ -768,6 +1113,7 @@ div .sermain {
 .serhead:hover {
   color: #f00f80;
 }
+
 .wido {
   text-align: center;
   font-size: 30px;
@@ -777,6 +1123,7 @@ div .sermain {
 .wido:hover {
   color: #f00f80;
 }
+
 .sersec2 {
   display: flex;
   justify-content: space-around;
@@ -789,28 +1136,34 @@ div .sermain {
   justify-content: space-around;
   align-items: center;
 }
+
 .wbd1 {
   padding: 7px 7px 7px 7px;
   font-family: "Raleway", sans-serif;
   font-weight: 600px;
 }
+
 .wbd {
   padding: 7px 7px 7px 7px;
   font-family: "Raleway", sans-serif;
   font-weight: 600px;
 }
+
 .sertext:hover {
   transform: scale(1.1);
   transition: 4s;
 }
+
 .sertext1:hover {
   transform: scale(1.1);
   transition: 1s;
 }
+
 .sertext2:hover {
   transform: scale(1.1);
   transition: 1s;
 }
+
 div .serpara {
   width: 500px;
   height: 50px;
@@ -826,16 +1179,19 @@ div .serpara {
   font-weight: 600;
   padding: 7px 7px 7px 7px;
 }
+
 .wbd3 {
   padding: 7px 7px 7px 7px;
   font-family: "Raleway", sans-serif;
   font-weight: 900;
 }
+
 .sersec4 {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
 div .serpara2 {
   width: 500px;
   height: 50px;
@@ -843,6 +1199,7 @@ div .serpara2 {
   padding: 7px 7px 7px 7px;
   font-weight: 600;
 }
+
 .tol {
   text-align: center;
   font-size: 25px;
@@ -852,6 +1209,7 @@ div .serpara2 {
 .tol:hover {
   color: #f00f80;
 }
+
 .tolls {
   display: flex;
   justify-content: space-around;
@@ -859,6 +1217,7 @@ div .serpara2 {
   background-color: #6464648e;
   padding: 7px 7px 7px 7px;
 }
+
 .tolls1 {
   display: flex;
   justify-content: space-around;
@@ -876,21 +1235,26 @@ div .serpara2 {
   border: 2px solid #f00f80;
   border-radius: 15px;
 }
+
 .toolimg:hover {
   transform: rotate(360deg);
   transition: 1s;
 }
+
 .toolimg1:hover {
   transform: rotate(360deg);
   transition: 1s;
 }
+
 div .toolimg1 {
   text-align: center;
 }
+
 .tlnam {
   color: rgb(0, 0, 0);
   text-align: center;
 }
+
 .serbtn1:hover {
   background-color: #f00f80;
   color: #ffffff;
@@ -898,11 +1262,13 @@ div .toolimg1 {
   transform: scale(1.1);
   transition: 1s;
 }
+
 .sersec5 {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
 .serpara4 {
   width: 500px;
   height: 50px;
@@ -910,15 +1276,18 @@ div .toolimg1 {
   font-weight: 600;
   padding: 7px 7px 7px 12px;
 }
+
 .wbd4 {
   padding: 7px 7px 7px 11px;
   font-family: "Raleway", sans-serif;
   font-weight: 900;
 }
+
 .sertext4:hover {
   transform: scale(1.1);
   transition: 1s;
 }
+
 .qute {
   background-color: #f00f80;
   margin-top: 25px;
@@ -931,15 +1300,18 @@ div .toolimg1 {
   border-radius: 5px 5px 65px 5px;
   line-height: 4px;
 }
+
 .qutehe {
   font-size: 25px;
 }
+
 .qupra1 {
   font-size: 22px;
   line-height: 25px;
   text-align: center;
   padding: 3px 3px 3px 3px;
 }
+
 .serbtnn1 {
   color: white;
   background-color: rgb(0, 0, 0);
@@ -950,6 +1322,7 @@ div .toolimg1 {
   border-radius: 15px;
   cursor: pointer;
 }
+
 .serpara {
   color: grey;
 }
@@ -957,12 +1330,15 @@ div .toolimg1 {
 .serpara1 {
   color: grey;
 }
+
 .serpara2 {
   color: grey;
 }
+
 .serpara4 {
   color: grey;
 }
+
 /*--------------------                over        ------------services page over------------------     over                                ------------------- */
 
 /*--------------------                start        ------------about page start------------------     start  --*/
@@ -975,25 +1351,27 @@ div .toolimg1 {
   .head {
     margin-left: 7px;
   }
+
   .para {
     margin-left: 7px;
   }
+
   .text {
     padding: 20px;
   }
 }
 
-
-
 @media (max-width: 998px) {
   .head {
     margin-left: 7px;
   }
+
   .para {
     font-size: 17px;
     margin-left: 7px;
   }
 }
+
 @media (max-width: 987px) {
   div .section2 {
     display: flex;
@@ -1004,13 +1382,16 @@ div .toolimg1 {
   .re {
     font-family: "Raleway", sans-serif;
   }
+
   h2.he1 {
     font-size: 20px;
   }
+
   .pp1 {
     font-size: 16px;
     color: grey;
   }
+
   div .section3 {
     display: flex;
     justify-content: center;
@@ -1020,6 +1401,7 @@ div .toolimg1 {
   .ree {
     font-family: "Raleway", sans-serif;
   }
+
   h2.he2 {
     font-size: 20px;
   }
@@ -1030,12 +1412,12 @@ div .toolimg1 {
     font-size: 16px;
     line-height: 23px;
   }
+
   .pp2 {
     font-size: 16px;
     color: grey;
   }
 }
-
 
 @media (max-width: 931px) {
   div .secicon {
@@ -1043,36 +1425,37 @@ div .toolimg1 {
     height: 280px;
     margin: 5px;
   }
+
   div .secicon1 {
     width: 360px;
     height: 270px;
     margin: 5px;
   }
+
   div .secicon2 {
     width: 320px;
     height: 280px;
     margin: 5px;
   }
+
   div .seecicon {
     width: 320px;
     height: 270px;
     margin: 5px;
   }
+
   div .seecicon1 {
     width: 360px;
     height: 270px;
     margin: 5px;
   }
+
   div .seecicon2 {
     width: 320px;
     height: 270px;
     margin: 5px;
   }
 }
-
-
-
-
 
 @media (max-width: 797px) {
   div .section1 {
@@ -1082,15 +1465,16 @@ div .toolimg1 {
     align-items: center;
     height: 800px;
   }
+
   div .text {
     text-align: center;
   }
+
   .para {
     text-align: center;
     margin-right: 0px;
   }
 }
-
 
 @media (max-width: 775px) {
   div .section1 {
@@ -1107,6 +1491,7 @@ div .toolimg1 {
     margin-left: 0px;
     font-size: 19px;
   }
+
   .topnav {
     display: block;
     overflow: hidden;
@@ -1140,9 +1525,11 @@ div .toolimg1 {
     justify-content: center;
     background-color: rgb(0, 0, 0);
   }
+
   .me {
     background-color: gray;
   }
+
   .action {
     padding: 14px 16px;
     text-decoration: none;
@@ -1182,6 +1569,7 @@ div .toolimg1 {
     border-bottom: 1px solid white;
     border-top: 1px solid white;
   }
+
   div .section2 {
     display: flex;
     flex-direction: column;
@@ -1197,31 +1585,37 @@ div .toolimg1 {
     justify-content: space-between;
     align-items: center;
   }
+
   div .secicon {
     width: 650px;
     height: 180px;
     margin: 5px;
   }
+
   div .secicon1 {
     width: 650px;
     height: 180px;
     margin: 5px;
   }
+
   div .secicon2 {
     width: 650px;
     height: 180px;
     margin: 5px;
   }
+
   div .seecicon {
     width: 650px;
     height: 180px;
     margin: 5px;
   }
+
   div .seecicon1 {
     width: 650px;
     height: 180px;
     margin: 5px;
   }
+
   div .seecicon2 {
     width: 650px;
     height: 180px;
@@ -1232,6 +1626,7 @@ div .toolimg1 {
     font-size: 16px;
     color: grey;
   }
+
   .pp2 {
     font-size: 16px;
     color: grey;
@@ -1244,36 +1639,43 @@ div .toolimg1 {
     height: 180px;
     margin: 5px;
   }
+
   div .secicon1 {
     width: 600px;
     height: 195px;
     margin: 5px;
   }
+
   div .secicon2 {
     width: 600px;
     height: 180px;
     margin: 5px;
   }
+
   div .seecicon {
     width: 600px;
     height: 180px;
     margin: 5px;
   }
+
   div .seecicon1 {
     width: 600px;
     height: 180px;
     margin: 5px;
   }
+
   div .seecicon2 {
     width: 600px;
     height: 180px;
     margin: 5px;
   }
 }
+
 @media (max-width: 650px) {
   .media {
     display: none;
   }
+
   .head {
     text-align: center;
   }
@@ -1282,6 +1684,7 @@ div .toolimg1 {
     text-align: center;
     margin-right: 0px;
   }
+
   .butto {
     display: flex;
     justify-content: center;
@@ -1293,15 +1696,18 @@ div .toolimg1 {
     justify-content: space-between;
     align-items: center;
   }
+
   .choo_icons {
     align-items: center;
     display: flex;
     flex-direction: column;
   }
+
   .pp1 {
     font-size: 16px;
     color: grey;
   }
+
   .pp2 {
     font-size: 16px;
     color: grey;
@@ -1314,26 +1720,31 @@ div .toolimg1 {
     height: 180px;
     margin: 5px;
   }
+
   div .secicon1 {
     width: 550px;
     height: 195px;
     margin: 5px;
   }
+
   div .secicon2 {
     width: 550px;
     height: 180px;
     margin: 5px;
   }
+
   div .seecicon {
     width: 550px;
     height: 180px;
     margin: 5px;
   }
+
   div .seecicon1 {
     width: 550px;
     height: 180px;
     margin: 5px;
   }
+
   div .seecicon2 {
     width: 550px;
     height: 180px;
@@ -1347,9 +1758,11 @@ div .toolimg1 {
   .para {
     font-size: 17px;
   }
+
   .container {
     display: block;
   }
+
   div .section1 {
     display: flex;
     flex-direction: column;
@@ -1360,27 +1773,31 @@ div .toolimg1 {
   .img {
     margin-right: 0px;
   }
+
   .topimg {
     border-radius: 50%;
   }
+
   p .para {
     text-align: center;
 
     color: grey;
     width: 100%;
   }
+
   p .para {
     text-align: center;
   }
+
   .pp1 {
     font-size: 16px;
     color: grey;
   }
+
   .pp2 {
     font-size: 16px;
     color: grey;
   }
-
 }
 
 @media (max-width: 589px) {
@@ -1389,35 +1806,37 @@ div .toolimg1 {
     height: 200px;
     margin: 5px;
   }
+
   div .secicon1 {
     width: 500px;
     height: 195px;
     margin: 5px;
   }
+
   div .secicon2 {
     width: 500px;
     height: 180px;
     margin: 5px;
   }
+
   div .seecicon {
     width: 500px;
     height: 180px;
     margin: 5px;
   }
+
   div .seecicon1 {
     width: 500px;
     height: 180px;
     margin: 5px;
   }
+
   div .seecicon2 {
     width: 500px;
     height: 180px;
     margin: 5px;
   }
 }
-
-
-
 
 @media (max-width: 538px) {
   div .secicon {
@@ -1425,35 +1844,37 @@ div .toolimg1 {
     height: 200px;
     margin: 5px;
   }
+
   div .secicon1 {
     width: 450px;
     height: 195px;
     margin: 5px;
   }
+
   div .secicon2 {
     width: 450px;
     height: 200px;
     margin: 5px;
   }
+
   div .seecicon {
     width: 450px;
     height: 180px;
     margin: 5px;
   }
+
   div .seecicon1 {
     width: 450px;
     height: 200px;
     margin: 5px;
   }
+
   div .seecicon2 {
     width: 450px;
     height: 180px;
     margin: 5px;
   }
 }
-
-
-
 
 @media (max-width: 492px) {
   div .secicon {
@@ -1461,26 +1882,31 @@ div .toolimg1 {
     height: 200px;
     margin: 5px;
   }
+
   div .secicon1 {
     width: 400px;
     height: 215px;
     margin: 5px;
   }
+
   div .secicon2 {
     width: 400px;
     height: 200px;
     margin: 5px;
   }
+
   div .seecicon {
     width: 400px;
     height: 180px;
     margin: 5px;
   }
+
   div .seecicon1 {
     width: 400px;
     height: 200px;
     margin: 5px;
   }
+
   div .seecicon2 {
     width: 400px;
     height: 180px;
@@ -1488,33 +1914,37 @@ div .toolimg1 {
   }
 }
 
-
 @media (max-width: 441px) {
   div .secicon {
     width: 350px;
     height: 220px;
     margin: 5px;
   }
+
   div .secicon1 {
     width: 350px;
     height: 215px;
     margin: 5px;
   }
+
   div .secicon2 {
     width: 350px;
     height: 200px;
     margin: 5px;
   }
+
   div .seecicon {
     width: 350px;
     height: 200px;
     margin: 5px;
   }
+
   div .seecicon1 {
     width: 350px;
     height: 200px;
     margin: 5px;
   }
+
   div .seecicon2 {
     width: 350px;
     height: 200px;
@@ -1531,13 +1961,12 @@ div .toolimg1 {
     font-size: 16px;
     color: grey;
   }
+
   .pp2 {
     font-size: 16px;
     color: grey;
   }
 }
-
-
 
 @media (max-width: 384px) {
   div .secicon {
@@ -1545,26 +1974,31 @@ div .toolimg1 {
     height: 220px;
     margin: 5px;
   }
+
   div .secicon1 {
     width: 300px;
     height: 237px;
     margin: 5px;
   }
+
   div .secicon2 {
     width: 300px;
     height: 220px;
     margin: 5px;
   }
+
   div .seecicon {
     width: 300px;
     height: 200px;
     margin: 5px;
   }
+
   div .seecicon1 {
     width: 300px;
     height: 220px;
     margin: 5px;
   }
+
   div .seecicon2 {
     width: 300px;
     height: 200px;
@@ -1581,13 +2015,12 @@ div .toolimg1 {
     font-size: 16px;
     color: grey;
   }
+
   .pp2 {
     font-size: 16px;
     color: grey;
   }
-
 }
-
 
 @media (max-width: 320px) {
   div .section1 {
@@ -1598,14 +2031,15 @@ div .toolimg1 {
     font-size: 16px;
     color: grey;
   }
+
   .pp2 {
     font-size: 16px;
     color: grey;
   }
+
   .cho {
     font-size: 25px;
   }
-
 }
 
 @media (max-width: 323px) {
@@ -1614,26 +2048,31 @@ div .toolimg1 {
     height: 242px;
     margin: 5px;
   }
+
   div .secicon1 {
     width: 250px;
     height: 259px;
     margin: 5px;
   }
+
   div .secicon2 {
     width: 250px;
     height: 242px;
     margin: 5px;
   }
+
   div .seecicon {
     width: 250px;
     height: 220px;
     margin: 5px;
   }
+
   div .seecicon1 {
     width: 250px;
     height: 242px;
     margin: 5px;
   }
+
   div .seecicon2 {
     width: 250px;
     height: 220px;
@@ -1641,34 +2080,37 @@ div .toolimg1 {
   }
 }
 
-
-
 @media (max-width: 287px) {
   div .secicon {
     width: 200px;
     height: 264px;
     margin: 5px;
   }
+
   div .secicon1 {
     width: 200px;
     height: 281px;
     margin: 5px;
   }
+
   div .secicon2 {
     width: 200px;
     height: 264px;
     margin: 5px;
   }
+
   div .seecicon {
     width: 200px;
     height: 242px;
     margin: 5px;
   }
+
   div .seecicon1 {
     width: 200px;
     height: 252px;
     margin: 5px;
   }
+
   div .seecicon2 {
     width: 200px;
     height: 242px;
@@ -1680,12 +2122,14 @@ div .toolimg1 {
   div .section1 {
     height: 900px;
   }
+
   .butto {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
+
   .btn {
     display: flex;
     flex-direction: column;
@@ -1693,12 +2137,12 @@ div .toolimg1 {
     align-items: center;
     margin-right: 0px;
   }
+
   .btn2 {
     margin-top: 5px;
     padding: 7px 16px;
   }
 }
-
 
 @media (max-width: 268px) {
   div .section1 {
@@ -1708,12 +2152,12 @@ div .toolimg1 {
   .pp1 {
     font-size: 16px;
   }
+
   .pp2 {
     font-size: 16px;
     color: grey;
   }
 }
-
 
 @media (max-width: 240px) {
   div .section1 {
@@ -1724,13 +2168,12 @@ div .toolimg1 {
     font-size: 16px;
     color: grey;
   }
+
   .pp2 {
     font-size: 16px;
     color: grey;
   }
 }
-
-
 
 @media (max-width: 232px) {
   div .secicon {
@@ -1738,34 +2181,37 @@ div .toolimg1 {
     height: 350px;
     margin: 5px;
   }
+
   div .secicon1 {
     width: 150px;
     height: 361px;
     margin: 5px;
   }
+
   div .secicon2 {
     width: 150px;
     height: 320px;
     margin: 5px;
   }
+
   div .seecicon {
     width: 150px;
     height: 275px;
     margin: 5px;
   }
+
   div .seecicon1 {
     width: 150px;
     height: 292px;
     margin: 5px;
   }
+
   div .seecicon2 {
     width: 150px;
     height: 270px;
     margin: 5px;
   }
 }
-
-
 
 /*--------------------                over        ------------Home page over------------------     over                                ------------------- */
 /*--------------------                over        ------------Home page over------------------     over                                ------------------- */
@@ -1777,19 +2223,23 @@ div .toolimg1 {
     width: 400px;
     height: 120px;
   }
+
   .serpara1 {
     width: 400px;
     height: 120px;
   }
+
   div .serpara2 {
     width: 400px;
     height: 120px;
   }
+
   .serpara4 {
     width: 400px;
     height: 120px;
   }
 }
+
 @media (max-width: 865px) {
   div .sermain {
     display: flex;
@@ -1798,180 +2248,221 @@ div .toolimg1 {
     justify-content: center;
     height: 800px;
   }
+
   .serteext {
     text-align: center;
     font-size: 19px;
   }
+
   .ser_para {
     text-align: center;
   }
+
   div .serpara {
     width: 350px;
     height: 120px;
   }
+
   div .serpara1 {
     width: 350px;
     height: 140px;
   }
+
   div .serpara2 {
     width: 350px;
     height: 160px;
   }
+
   .serpara4 {
     width: 350px;
     height: 120px;
   }
 }
+
 @media (max-width: 750px) {
   .sersec2 {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   div .serpara {
     width: 500px;
     height: 120px;
   }
+
   .sersec3 {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   div .serpara1 {
     width: 500px;
     height: 140px;
   }
+
   .sersec4 {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   div .serpara2 {
     width: 500px;
     height: 120px;
   }
+
   .sersec5 {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .serpara4 {
     width: 500px;
     height: 120px;
   }
 }
+
 @media (max-width: 525px) {
   .wido {
     font-size: 25px;
   }
+
   .wbd4 {
     font-size: 22px;
   }
+
   .tol {
     font-size: 25px;
   }
+
   div .serpara {
     width: 400px;
     height: 150px;
   }
+
   div .serpara1 {
     width: 400px;
     height: 165px;
   }
+
   div .serpara2 {
     width: 400px;
     height: 150px;
   }
+
   .serpara4 {
     width: 400px;
     height: 165px;
   }
 }
+
 @media (max-width: 413px) {
   div .serpara {
     width: 350px;
     height: 170px;
   }
+
   div .serpara1 {
     width: 350px;
     height: 190px;
   }
+
   div .serpara2 {
     width: 350px;
     height: 170px;
   }
+
   .serpara4 {
     width: 350px;
     height: 190px;
   }
 }
+
 @media (max-width: 370px) {
   div .serpara {
     width: 300px;
     height: 200px;
   }
+
   div .serpara1 {
     width: 300px;
     height: 217px;
   }
+
   div .serpara2 {
     width: 300px;
     height: 200px;
   }
+
   .serpara4 {
     width: 300px;
     height: 225px;
   }
 }
+
 @media (max-width: 312px) {
   div .serpara {
     width: 250px;
     height: 250px;
   }
+
   div .serpara1 {
     width: 250px;
     height: 250px;
   }
+
   div .serpara2 {
     width: 250px;
     height: 250px;
   }
+
   .serpara4 {
     width: 265px;
     height: 250px;
   }
 }
+
 @media (max-width: 263px) {
   div .serpara {
     width: 200px;
     height: 300px;
   }
+
   div .serpara1 {
     width: 225px;
     height: 300px;
   }
+
   div .serpara2 {
     width: 225px;
     height: 300px;
   }
+
   .serpara4 {
     width: 225px;
     height: 300px;
   }
 }
+
 @media (max-width: 237px) {
   div .serpara {
     width: 185px;
     height: 350px;
   }
+
   div .serpara1 {
     width: 205px;
     height: 350px;
   }
+
   div .serpara2 {
     width: 205px;
     height: 350px;
   }
+
   .serpara4 {
     width: 205px;
     height: 350px;

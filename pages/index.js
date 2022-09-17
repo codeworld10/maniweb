@@ -6,6 +6,12 @@ import Footer from "../Components/Footer";
 import FBPIXEL from "../Components/FBPIXEL";
 
 const index = () => {
+  const worker = () => {
+    window.open("https://play.google.com/store/apps/details?id=com.maniwebdev.globalworker");
+  }
+  const carpenter = () => {
+    window.open("https://www.fahrnberger-tischler.at/");
+  }
   return (
     <>
       <Head>
@@ -70,35 +76,30 @@ const index = () => {
         </div>
       </div>
       <div className="how">
-        <h2>We Value Your Business</h2>
+      <h2>
+      Portfolio
+      </h2>
+     
       </div>
-      <div className="para3">
-        <p>
-          We aim to provide you a reasonable offer. I have started my business.
-          locally and now <br></br> try to expand my business to the next level
-          by offereing my services online from national to international
-          clients.
-        </p>
-      </div>
+
 
       <div className="section2">
         <div className="secicon">
           <div className="icon">
             <Image
               className="topimg"
-              src="/images/research.png"
+              src="/images/icon2.png"
               alt="maniwebdev freelance website designer near me"
               width="64"
               height="64"
             ></Image>
             <span className="re">
-              <h2 className="he1">Research & Analysis</h2>
+              <h2 onClick={worker} className="he1">Android App</h2>
             </span>
             <span className="pre">
-              <p className="pp1">
-                I do deep research on my project about business competition
-                ranking. So that I will come out with a good idea, That will
-                satisfy you.
+              <p className="pp1" onClick={worker}>
+               Technologies: React native, MongoDb, Expressjs, Nodejs
+               Amazon S3 bucket, Adobe illustrator, Figma.
               </p>
             </span>
           </div>
@@ -113,13 +114,13 @@ const index = () => {
               height="64"
             ></Image>
             <span className="re">
-              <h2 className="he1">Design</h2>
+              <h2 onClick={carpenter} className="he1">Carpenter Website</h2>
             </span>
             <span className="pre">
-              <p className="pp1">
-                This is part of my creative work. I will offer you my ideas
-                of design and do consider changes, or you have already thought
-                about design and share your ideas with me.
+              <p onClick={carpenter} className="pp1">
+              Technologies: Wordpress, Elementor, Ninja Forms,
+              Elementor header footer, Elementor essentional addons,
+              Design according to the client specifications.
               </p>
             </span>
           </div>
@@ -147,69 +148,6 @@ const index = () => {
         </div>
       </div>
 
-      <div className="section3">
-        <div className="seecicon">
-          <div className="icoon">
-            <Image
-              className="toopimg"
-              src="/images/webtest.png"
-              alt="maniwebdev best freelance developer near me"
-              width="64"
-              height="64"
-            ></Image>
-            <span className="ree">
-              <h2 className="he2">Testing Phase</h2>
-            </span>
-            <span className="pree">
-              <p className="pp2">
-                Website links pages are working, and the site is responsive for
-                different devices and page speed, etc.
-              </p>
-            </span>
-          </div>
-        </div>
-        <div className="seecicon1">
-          <div className="icoon">
-            <Image
-              className="toopimg"
-              src="/images/liveweb.png"
-              alt="maniwebdev best freelance designer near me"
-              width="64"
-              height="64"
-            ></Image>
-            <span className="ree">
-              <h2 className="he2">Putting Live</h2>
-            </span>
-            <span className="pree">
-              <p className="pp2">
-                Here i will push website content to the server, so that it will
-                be reachable to everyone with internet connection on this
-                planet.
-              </p>
-            </span>
-          </div>
-        </div>
-        <div className="seecicon2">
-          <div className="icoon">
-            <Image
-              className="toopimg"
-              src="/images/deliver.png"
-              alt="mani web dev professional website developer and designer"
-              width="64"
-              height="64"
-            ></Image>
-            <span className="ree">
-              <h2 className="he2">Delivery</h2>
-            </span>
-            <span className="pree">
-              <p className="pp2">
-                Hooray! Now it's time to deliver your business website to you.
-                When you are 100% satisfied with my work.
-              </p>
-            </span>
-          </div>
-        </div>
-      </div>
       <div className="choose">
         <div className="cho">
           <h3>Why Choose Me?</h3>
@@ -237,7 +175,7 @@ const index = () => {
             height="64"
           ></Image>
           <span>
-            <h4>Low Cost</h4>
+            <h4>Affordable</h4>
           </span>
         </div>
         <div className="choo_icons">
