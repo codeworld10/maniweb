@@ -17,9 +17,6 @@ const contact = () => {
       const linkecnt = () => {
         window.open("https://www.linkedin.com/in/muhammad-usman-8444bb21a/");
       }
-      const whatcnt = () => {
-        window.open("https://wa.me/+923413160032");
-      }
       const facecnt = () => {
         window.open("https://web.facebook.com/maniwebdev");
       }
@@ -101,18 +98,7 @@ const contact = () => {
             height="50"
           ></Image>
         </div>
-        <div className={styles.cntmedia}>
-          <Image
-            onClick={whatcnt}
-            src="/images/whee.png"
-            alt="contact with maniwebdev on whatsapp"
-            width="50"
-            height="50"
-          ></Image>
-        </div>
       </div>
-     
-     
       <Footer />
     </>
   );
