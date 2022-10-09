@@ -11,6 +11,85 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+/*--------------------Landing page Electric heater --------------*/
+.heater_top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(238, 163, 20, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(238, 163, 20, 0.3);
+  background: rgba(238, 163, 20, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(238, 163, 20, 0.3);
+  font-weight: bold;
+  height: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.heater {
+  border-radius: 20px;
+}
+.dreo {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.deals {
+  text-align: center;
+}
+.heat_btn {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.heat_design {
+  background-color: chocolate;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+@media (max-width: 823px) {
+  .heater_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 900px;
+  }
+  .prices {
+    text-align: center;
+    font-size: 26px;
+  }
+  .dreo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .Dreo_text {
+    text-align: center;
+  }
+  .Dreo_para {
+    text-align: center;
+  }
+}
+
 /*--------------------Landing page Global Worker --------------*/
 .Global-head {
   text-align: center;
@@ -18,7 +97,6 @@ body {
   font-size: 40px;
   font-family: "Raleway", sans-serif;
   font-weight: bolder;
-  
 }
 .Global-para {
   text-align: center;
@@ -42,57 +120,56 @@ body {
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 192, 203, 0.3);
 }
-div .Global-images{
+div .Global-images {
   display: flex;
   justify-content: space-around;
   margin-top: -100px;
- padding-left: 15px;
- padding-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.Global-app-about{
+.Global-app-about {
   font-size: 28px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   color: green;
 }
-.Global-Para{
+.Global-Para {
   font-size: 20px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   color: grey;
 }
 
-.details{
+.details {
   width: 350px;
 }
 
-
-.play-center{
+.play-center {
   display: flex;
   justify-content: center;
   padding-top: 100px;
   cursor: pointer;
 }
-.Global-about{
- text-align: center;
- margin-top: 30px;
- font-size: 40px;
- font-family: "Raleway", sans-serif;
- font-weight: bolder;
- color: green;
+.Global-about {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  color: green;
 }
-.About-flex{
+.About-flex {
   display: flex;
   justify-content: space-around;
 }
-.Global-App{
+.Global-App {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 25px;
 }
-.Global_Follow{
+.Global_Follow {
   text-align: center;
   font-size: 28px;
   font-family: "Raleway", sans-serif;
@@ -100,22 +177,22 @@ div .Global-images{
   color: green;
 }
 
-.Global-download{
+.Global-download {
   text-align: center;
   font-size: 24px;
 }
-.play-download{
+.play-download {
   display: flex;
   justify-content: center;
   cursor: pointer;
 }
-.Community-img{
+.Community-img {
   display: flex;
   justify-content: space-around;
   align-items: center;
   cursor: pointer;
 }
-.Global-community{
+.Global-community {
   font-size: 28px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -123,17 +200,16 @@ div .Global-images{
   color: green;
 }
 
-.Global-Social{
+.Global-Social {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.Global-icon-cent{
+.Global-icon-cent {
   padding-left: 10px;
   padding-right: 10px;
   cursor: pointer;
 }
-
 
 /*--------------------Make landing page responsive--------------*/
 
@@ -144,7 +220,6 @@ div .Global-images{
     font-size: 30px;
     font-family: "Raleway", sans-serif;
     font-weight: bolder;
-    
   }
   .Global-para {
     text-align: center;
@@ -153,53 +228,53 @@ div .Global-images{
     font-family: "Raleway", sans-serif;
     font-weight: 600;
   }
-  div .Global-images{
+  div .Global-images {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: -100px;
-   padding-left: 15px;
-   padding-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
-  .Global-about{
+  .Global-about {
     text-align: center;
     margin-top: 30px;
     font-size: 24px;
     font-family: "Raleway", sans-serif;
     font-weight: bolder;
     color: green;
-   }
-   .About-flex{
+  }
+  .About-flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .Global-App{
+  .Global-App {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 25px;
   }
-  .details{
+  .details {
     width: 560px;
   }
-  .Global-app-about{
+  .Global-app-about {
     font-size: 22px;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     color: green;
   }
-  .Global-community{
+  .Global-community {
     font-size: 22px;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     text-align: center;
     color: green;
   }
-  .Global_Follow{
+  .Global_Follow {
     text-align: center;
     font-size: 22px;
     font-family: "Raleway", sans-serif;
@@ -208,47 +283,47 @@ div .Global-images{
   }
 }
 @media (max-width: 752px) {
-  .details{
+  .details {
     width: 460px;
   }
 }
 @media (max-width: 484px) {
-  .details{
+  .details {
     width: 360px;
     padding-left: 10;
     padding-right: 10;
   }
 }
 @media (max-width: 394px) {
-  .details{
+  .details {
     width: 290px;
     padding-left: 10;
     padding-right: 10;
   }
 }
 @media (max-width: 330px) {
-  .details{
+  .details {
     width: 240px;
     padding-left: 10;
     padding-right: 10;
   }
 }
 @media (max-width: 269px) {
-  .details{
+  .details {
     width: 190px;
     padding-left: 10;
     padding-right: 10;
   }
 }
 @media (max-width: 208px) {
-  .details{
+  .details {
     width: 140px;
     padding-left: 10;
     padding-right: 10;
   }
 }
 @media (max-width: 154) {
-  .details{
+  .details {
     width: 90px;
     padding-left: 10;
     padding-right: 10;
