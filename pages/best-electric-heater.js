@@ -3,6 +3,15 @@ import Image from "next/image";
 import Footer from '../Components/Footer';
 
 const best_electric_heater = () => {
+  const Dreo1 = () => {
+    window.open("https://amzn.to/3EpJHaJ");
+  }
+  const Dreo2 = () => {
+    window.open("https://amzn.to/3ehTchn");
+  }
+  const Dr1 = () => {
+    window.open("https://amzn.to/3RLJdyz");
+  }
   return (
     <>
     <div className='heater_top'>
@@ -25,11 +34,6 @@ const best_electric_heater = () => {
     objectFit='cover'
   ></Image>
     </div>
-    </div>
-    <div>
-    <h2 className='deals'>
-    Best Deals On Electric Heaters
-    </h2>
     </div>
     <div className='dreo'>
     <div>
@@ -55,10 +59,10 @@ const best_electric_heater = () => {
     </div>
     </div>
     <div className="heat_btn">
-    <button className='heat_design'>Check On Amazon</button>
+    <button onClick={Dreo1} className='heat_design'>Check On Amazon</button>
     </div>
 
-    //second section of heater
+   
 
     <div className='dreo'>
     <div>
@@ -72,7 +76,7 @@ const best_electric_heater = () => {
     </div>
     <div>
    
-   <h2>
+   <h2 className='Dreo_text'>
    Dreo Space Heater for Indoor Use
    </h2>
    <p>
@@ -84,14 +88,14 @@ const best_electric_heater = () => {
     </div>
     </div>
     <div className="heat_btn">
-    <button className='heat_design'>Check On Amazon</button>
+    <button onClick={Dreo2} className='heat_design'>Check On Amazon</button>
     </div>
     
-// third section of heater
+
 
 <div className='dreo'>
 <div>
-<h2>
+<h2 className='Dreo_text'>
 Dr Infrared Heater Portable Space<br></br> Heater, 1500-Watt
 </h2>
 <p>
@@ -112,7 +116,7 @@ Price: $123.73
 </div>
 </div>
 <div className="heat_btn">
-<button className='heat_design'>Check On Amazon</button>
+<button onClick={Dr1} className='heat_design'>Check On Amazon</button>
 </div>
 <Footer />
     </>
