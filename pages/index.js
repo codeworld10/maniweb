@@ -7,11 +7,16 @@ import FBPIXEL from "../Components/FBPIXEL";
 
 const index = () => {
   const worker = () => {
-    window.open("https://play.google.com/store/apps/details?id=com.maniwebdev.globalworker");
-  }
+    window.open(
+      "https://play.google.com/store/apps/details?id=com.maniwebdev.globalworker"
+    );
+  };
   const carpenter = () => {
     window.open("https://www.fahrnberger-tischler.at/");
-  }
+  };
+  const insta = () => {
+    window.open("https://github.com/codeworld10/insta-clone");
+  };
   return (
     <>
       <Head>
@@ -34,10 +39,12 @@ const index = () => {
         <meta
           name="p:domain_verify"
           content="8cca891bf62b699c49c89a16eef4146a"
-          
         />
-        <meta name="facebook-domain-verification" content="zbf1k5wh1s6xdap2occ0q3w3z557ix" />
-        <FBPIXEL/>
+        <meta
+          name="facebook-domain-verification"
+          content="zbf1k5wh1s6xdap2occ0q3w3z557ix"
+        />
+        <FBPIXEL />
       </Head>
       <Navv />
       {/* section1 starts */}
@@ -76,12 +83,8 @@ const index = () => {
         </div>
       </div>
       <div className="how">
-      <h2>
-      Portfolio
-      </h2>
-     
+        <h2>Portfolio</h2>
       </div>
-
 
       <div className="section2">
         <div className="secicon">
@@ -94,12 +97,14 @@ const index = () => {
               height="64"
             ></Image>
             <span className="re">
-              <h2 onClick={worker} className="he1">Android App</h2>
+              <h2 onClick={worker} className="he1">
+                Android App
+              </h2>
             </span>
             <span className="pre">
               <p className="pp1" onClick={worker}>
-               Technologies: React native, MongoDb, Expressjs, Nodejs
-               Amazon S3 bucket, Adobe illustrator, Figma.
+                Technologies: React native, MongoDb, Expressjs, Nodejs Amazon S3
+                bucket, Adobe illustrator, Figma.
               </p>
             </span>
           </div>
@@ -114,13 +119,15 @@ const index = () => {
               height="64"
             ></Image>
             <span className="re">
-              <h2 onClick={carpenter} className="he1">Carpenter Website</h2>
+              <h2 onClick={carpenter} className="he1">
+                Carpenter Website
+              </h2>
             </span>
             <span className="pre">
               <p onClick={carpenter} className="pp1">
-              Technologies: Wordpress, Elementor, Ninja Forms,
-              Elementor header footer, Elementor essentional addons,
-              Design according to the client specifications.
+                Technologies: Wordpress, Elementor, Ninja Forms, Elementor
+                header footer, Elementor essentional addons, Design according to
+                the client specifications.
               </p>
             </span>
           </div>
@@ -129,19 +136,21 @@ const index = () => {
           <div className="icon">
             <Image
               className="topimg"
-              src="/images/development.png"
+              src="/images/iniis.png"
               alt="maniwebdev cheap freelance website developer near me"
               width="64"
               height="64"
             ></Image>
             <span className="re">
-              <h2 className="he1">Development</h2>
+              <h2 onClick={insta} className="he1">
+                Instagram
+              </h2>
             </span>
             <span className="pre">
-              <p className="pp1">
-                It's time to convert our ideas into reality. Create pages,
-                upload content, adding responsive layouts and SEO for Google
-                ranking.
+              <p onClick={insta} className="pp1">
+                Instagram, Login feed and profile page. Intresting thing is that
+                I have created the bottom tab nav without bottom tab navigation
+                package. Check out on my Github.
               </p>
             </span>
           </div>
@@ -204,7 +213,7 @@ const index = () => {
         </div>
       </div>
       <div className="abt">
-        <Link href="/aboutme"> 
+        <Link href="/aboutme">
           <button className="abt_me">About Me</button>
         </Link>
       </div>
@@ -212,6 +221,6 @@ const index = () => {
       <Footer />
     </>
   );
-}
+};
 
 export default index;
