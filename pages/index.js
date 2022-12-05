@@ -17,6 +17,15 @@ const index = () => {
   const insta = () => {
     window.open("https://github.com/codeworld10/insta-clone");
   };
+  const food = () => {
+    window.open("https://github.com/codeworld10/dilevero-clone");
+  };
+  const notes = () => {
+    window.open("https://github.com/codeworld10/notebook");
+  };
+  const fake = () => {
+    window.open("https://github.com/codeworld10/fake-API-fetching");
+  };
   return (
     <>
       <Head>
@@ -150,7 +159,76 @@ const index = () => {
               <p onClick={insta} className="pp1">
                 Instagram, Login feed and profile page. Intresting thing is that
                 I have created the bottom tab nav without bottom tab navigation
-                package. Check out on my Github.
+                package. Check Github.
+              </p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div className="section2">
+        <div className="secicon">
+          <div className="icon">
+            <Image
+              className="topimg"
+              src="/images/notebook.png"
+              alt="maniwebdev freelance website designer near me"
+              width="64"
+              height="64"
+            ></Image>
+            <span className="re">
+              <h2 onClick={notes} className="he1">
+                Notes App
+              </h2>
+            </span>
+            <span className="pre">
+              <p className="pp1" onClick={notes}>
+                Technologies: React native, MongoDb, Expressjs, Nodejs 
+                private notes app.
+              </p>
+            </span>
+          </div>
+        </div>
+        <div className="secicon1">
+          <div className="icon">
+            <Image
+              className="topimg"
+              src="/images/fake-api.png"
+              alt="maniwebdev cheap freeelance website designer"
+              width="64"
+              height="64"
+            ></Image>
+            <span className="re">
+              <h2 onClick={fake} className="he1">
+               Fake-API fetch
+              </h2>
+            </span>
+            <span className="pre">
+              <p onClick={fake} className="pp1">
+               fetching products from a fake-api and displaying them on the screen.
+               React native and fake-api.
+              </p>
+            </span>
+          </div>
+        </div>
+        <div className="secicon2">
+          <div className="icon">
+            <Image
+              className="topimg"
+              src="/images/food-app.png"
+              alt="maniwebdev cheap freelance website developer near me"
+              width="64"
+              height="64"
+            ></Image>
+            <span className="re">
+              <h2 onClick={food} className="he1">
+               Food App
+              </h2>
+            </span>
+            <span className="pre">
+              <p onClick={food} className="pp1">
+              Food order app design, restaurant pages and dishes. React native and 
+              reuseable components.
               </p>
             </span>
           </div>
