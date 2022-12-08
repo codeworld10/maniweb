@@ -864,19 +864,19 @@ div .secicon2 {
 div .secicon:hover {
   transform: translate(10px, -10px);
   transition: 1s;
-  background-color: #f714866c;
+  background-color: #bae4f88e;
 }
 
 div .secicon1:hover {
   transform: translate(10px, -10px);
   transition: 1s;
-  background-color: #f714866c;
+  background-color: #bae4f88e;
 }
 
 div .secicon2:hover {
   transform: translate(10px, -10px);
   transition: 1s;
-  background-color: #f714866c;
+  background-color: #bae4f88e;
 }
 
 .he2:hover {
