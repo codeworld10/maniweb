@@ -1563,7 +1563,7 @@ div .toolimg1 {
   .logomob {
     display: flex;
     justify-content: center;
-    background-color: #e8fcff;
+    background-color: skyblue;
   }
 
   /* centered the hamburger menu */
@@ -1571,7 +1571,7 @@ div .toolimg1 {
   .burger {
     display: flex;
     justify-content: center;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
   }
 
   .me {
