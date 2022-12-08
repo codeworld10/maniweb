@@ -4,6 +4,7 @@ import Image from "next/image";
 import Head from "next/head";
 import Footer from "../Components/Footer";
 import FBPIXEL from "../Components/FBPIXEL";
+import styles from "../styles/aboutme.module.css";
 
 const index = () => {
   const worker = () => {
@@ -60,13 +61,11 @@ const index = () => {
       <div className="section1">
         <div className="text">
           <div className="head">
-            <h1>Your Site Builder</h1>
+            <h1>Hi, I am Usman!</h1>
           </div>
-          <p className="para">My passion can drive your business growth</p>
+          <p className="para">A passionate software developer!</p>
           <span>
-            <p className="para">
-              I can create a professional website for your company
-            </p>
+            <p className="para">I like to work with teams and companies.</p>
           </span>
 
           <div className="butto">
@@ -84,13 +83,33 @@ const index = () => {
         <div className="img">
           <Image
             className="topimg"
-            src="/images/homtop.png"
+            src="/images/usm.png"
             alt="maniwebdev Freelance website developer"
             width="420"
             height="420"
           ></Image>
         </div>
       </div>
+      <div className="Line"></div>
+      {/* section1 ends */}
+      {/* section2 starts */}
+      <div className={styles.story}>
+        <h3>About me</h3>
+      </div>
+      <div className={styles.main_abt}>
+        <div className={styles.aboutmee}>
+          <p className={styles.stres}>
+            I have over 3 years of experience in developing websites and mobile
+            applications. I am able to translate business requirements and
+            Figma/Adobe XD designs into fully functioning websites or mobile
+            applications. I also have my personal real-world react native mobile
+            app that is growing continuously. I am handling everything by myself
+            from an idea to a product (Marketing, Customer support, Social
+            media).
+          </p>
+        </div>
+      </div>
+
       <div className="how">
         <h2>Portfolio</h2>
       </div>
@@ -183,8 +202,8 @@ const index = () => {
             </span>
             <span className="pre">
               <p className="pp1" onClick={notes}>
-                Technologies: React native, MongoDb, Expressjs, Nodejs 
-                private notes app.
+                Technologies: React native, MongoDb, Expressjs, Nodejs private
+                notes app.
               </p>
             </span>
           </div>
@@ -200,13 +219,13 @@ const index = () => {
             ></Image>
             <span className="re">
               <h2 onClick={fake} className="he1">
-               Fake-API fetch
+                Fake-API fetch
               </h2>
             </span>
             <span className="pre">
               <p onClick={fake} className="pp1">
-               fetching products from a fake-api and displaying them on the screen.
-               React native and fake-api.
+                fetching products from a fake-api and displaying them on the
+                screen. React native and fake-api.
               </p>
             </span>
           </div>
@@ -222,80 +241,177 @@ const index = () => {
             ></Image>
             <span className="re">
               <h2 onClick={food} className="he1">
-               Food App
+                Food App
               </h2>
             </span>
             <span className="pre">
               <p onClick={food} className="pp1">
-              Food order app design, restaurant pages and dishes. React native and 
-              reuseable components.
+                Food order app design, restaurant pages and dishes. React native
+                and reuseable components.
               </p>
             </span>
           </div>
         </div>
       </div>
-
-      <div className="choose">
-        <div className="cho">
-          <h3>Why Choose Me?</h3>
-        </div>
+      <div className="tol">
+        <h3>My Skills</h3>
       </div>
-      <div className="cho_icon">
-        <div className="choo_icons">
+      <div className="tolls">
+        <div className="tollimg">
           <Image
-            className="iconimg"
-            src="/images/responsive.png"
-            alt="maniwebdev responsive website icon image"
-            width="64"
-            height="64"
+            className="toolimg"
+            src="/images/htm.png"
+            alt="mani web dev create website with html"
+            width="50"
+            height="50"
           ></Image>
           <span>
-            <h4>Fast/Responsive</h4>
+            <p className="tlnam">HTML5</p>
           </span>
         </div>
-        <div className="choo_icons">
+        <div className="tollimg">
           <Image
-            className="iconimg"
-            src="/images/low.png"
-            alt="maniwebdev low cost in maniwebde icon image"
-            width="64"
-            height="64"
+            className="toolimg"
+            src="/images/cs3.png"
+            alt="mani web dev creates website with css3"
+            width="60"
+            height="50"
           ></Image>
           <span>
-            <h4>Affordable</h4>
+            <p className="tlnam">CSS3</p>
           </span>
         </div>
-        <div className="choo_icons">
+        <div className="tollimg">
           <Image
-            className="iconimg"
-            src="/images/support.png"
-            alt="maniwebdevfreelancer website developer for hire"
-            width="64"
-            height="64"
+            className="toolimg"
+            src="/images/js.png"
+            alt="mani web dev creates website with javascript"
+            width="70"
+            height="50"
           ></Image>
           <span>
-            <h4>Support</h4>
+            <p className="tlnam">Javascript</p>
           </span>
         </div>
-        <div className="choo_icons">
-          <Image
-            className="iconimg"
-            src="/images/revision.png"
-            alt="maniwebdev hire freelancer website developer"
-            width="64"
-            height="64"
-          ></Image>
-          <span>
-            <h4>Revision</h4>
-          </span>
-        </div>
-      </div>
-      <div className="abt">
-        <Link href="/aboutme">
-          <button className="abt_me">About Me</button>
-        </Link>
       </div>
 
+      <div className="tolls1">
+      <div className="tollimg1">
+      <Image
+        className="toolimg1"
+        src="/images/rea.png"
+        alt="mani web dev creates website with nextjs"
+        width="50"
+        height="50"
+      ></Image>
+      <span>
+        <p className="tlnam">React Native</p>
+      </span>
+    </div>
+        <div className="tollimg1">
+          <Image
+            className="toolimg1"
+            src="/images/nex.png"
+            alt="mani web dev creates website with nextjs"
+            width="70"
+            height="50"
+          ></Image>
+          <span>
+            <p className="tlnam">Next Js</p>
+          </span>
+        </div>
+        <div className="tollimg">
+          <Image
+            className="toolimg"
+            src="/images/rea.png"
+            alt="mani web dev creates website with reactjs"
+            width="50"
+            height="50"
+          ></Image>
+          <span>
+            <p className="tlnam">React Js</p>
+          </span>
+        </div>
+      </div>
+     
+      <div className="tolls1">
+      <div className="tollimg1">
+      <Image
+        className="toolimg1"
+        src="/images/mongo.png"
+        alt="mani web dev creates website with nextjs"
+        width="50"
+        height="50"
+      ></Image>
+      <span>
+        <p className="tlnam">MongoDb</p>
+      </span>
+    </div>
+        <div className="tollimg1">
+          <Image
+            className="toolimg1"
+            src="/images/js.png"
+            alt="mani web dev creates website with nextjs"
+            width="50"
+            height="50"
+          ></Image>
+          <span>
+            <p className="tlnam">ExpressJs</p>
+          </span>
+        </div>
+        <div className="tollimg1">
+          <Image
+            className="toolimg1"
+            src="/images/node.png"
+            alt="mani web dev creates websites with wordpess"
+            width="50"
+            height="50"
+          ></Image>
+          <span>
+            <p className="tlnam">NodeJs</p>
+          </span>
+        </div>
+       
+      </div>
+      <div className="tolls">
+      <div className="tollimg1">
+      <Image
+        className="toolimg1"
+        src="/images/word.png"
+        alt="mani web dev creates websites with wordpess"
+        width="50"
+        height="50"
+      ></Image>
+      <span>
+        <p className="tlnam">WordPress</p>
+      </span>
+    </div>
+      <div className="tollimg1">
+      <Image
+        className="toolimg1"
+        src="/images/fig.png"
+        alt="mani web dev design website with figma"
+        width="50"
+        height="50"
+      ></Image>
+      <span>
+        <p className="tlnam">Figma</p>
+      </span>
+    </div>
+    <div className="tollimg1">
+    <Image
+      className="toolimg1"
+      src="/images/illustrator.png"
+      alt="mani web dev design website with figma"
+      width="70"
+      height="50"
+    ></Image>
+    <span>
+      <p className="tlnam">Illustrator</p>
+    </span>
+  </div>
+        
+      </div>
       <Footer />
     </>
   );

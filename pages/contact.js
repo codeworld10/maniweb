@@ -60,8 +60,17 @@ const contact = () => {
 
       <Form/>
 
-      <div className={styles.quick}><h2>For Quick Response</h2></div>
+      <div className={styles.quick}><h2>Social Contact</h2></div>
       <div className={styles.social_cnt}>
+      <div className={styles.cntmedia}>
+          <Image
+            onClick={facecnt}
+            src="/images/github.png"
+            alt="contact with maniwebdev on github."
+            width="60"
+            height="60"
+          ></Image>
+        </div>
         <div className={styles.cntmedia}>
           <Image
             onClick={facecnt}

@@ -2,13 +2,7 @@ div .contact_main{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(
-      79deg,
-      rgba(0, 0, 0, 1) 40%,
-      rgba(0, 0, 0, 1) 90%,
-      rgba(51, 51, 51, 1) 90%
-    );
+    background-color: skyblue;
     height: 700px;
 }
 .cnt_text{
@@ -54,7 +48,7 @@ div .contact_main{
       justify-content: center;
      
       align-items: center;
-      background-color: #6464648e;
+      background-color: #bae4f88e;
       padding: 10px 10px 10px 10px;
   }
   .cntmedia{

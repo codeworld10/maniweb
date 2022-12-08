@@ -33,7 +33,7 @@ const Navv = () => {
       <div className="navbar">
         <div className="pcmenu">
           <div className="logomain">
-            <Image className="logos" src="/images/Maniweb.png" width="100" height="100"></Image>
+            <Image className="logos" src="/images/Maniweb.png" width="80" height="80"></Image>
           </div>
           <ul>
             <li className="list">
@@ -44,11 +44,6 @@ const Navv = () => {
             <li className="list">
               <Link href="/services">
                 <a className="active">Services</a>
-              </Link>
-            </li>
-            <li className="list">
-              <Link href="/aboutme">
-                <a className="active">About</a>
               </Link>
             </li>
             <li className="list">
@@ -99,11 +94,6 @@ const Navv = () => {
             <li>
               <Link href="/services">
                 <a className="action">Services</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/aboutme">
-                <a className="action">About</a>
               </Link>
             </li>
             <li>

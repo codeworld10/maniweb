@@ -100,41 +100,39 @@ const services = () => {
         <div className="sertext2">
           <Image
             className="serimg2"
-            src="/images/redweb.png"
+            src="/images/mobile-app.png"
             alt="maniwebdev find freelance website developer"
             width="540"
             height="420"
           ></Image>
         </div>
         <div className="seerimg2">
-          <h2 className="wbd3">Website Redesign</h2>
+          <h2 className="wbd3">App Developemnt</h2>
           <span>
             <p className="serpara2">
-              If you have an old or unprofessional website design and looking to
-              renew, then you are at the right place. I will build a responsive
-              website design for you in Figma, then show you a copy of it,
-              consider changes when you are satisfied, I will start building it.
+            I will develop a hybrid app for you in React Native. If you have any design in AdobeXd or Figma
+            I will convert it into a functional mobile application. I also have my personal real-world growing 
+            app from where I learned so much about design and how to engage the users etc.
             </p>
           </span>
         </div>
       </div>
       <div className="sersec5">
         <div className="serimg33">
-          <h2 className="wbd4">Search Engine Optimization</h2>
+          <h2 className="wbd4">Social Media Marketing</h2>
           <span>
             <p className="serpara4">
-              For ranking on Google SEO is important. First, I need to do
-              research about your business what people are searching for on
-              google. Then I will collect and add low competition keywords so
-              that your site comes in search results of Google. I will also
-              submit it in the google search console, Etc.
+            Social media marketing is the best way to brand awareness and lead generation.
+            Now everyone has a mobile phone. So, it's a great opportunity for you to promote your business on social media.
+             I will promote your business on social media and generate leads for you.
+             I am also doing marketing on my personal projects.
             </p>
           </span>
         </div>
         <div className="sertext4">
           <Image
             className="serimg3"
-            src="/images/seoo.png"
+            src="/images/marketing.png"
             alt="maniwebdev search engine optimization service in maniwebdev"
             width="540"
             height="420"
