@@ -20,6 +20,9 @@ const contact = () => {
       const facecnt = () => {
         window.open("https://web.facebook.com/maniwebdev");
       }
+      const github = () => {
+        window.open("https://github.com/codeworld10");
+      }
 
       
   return (
@@ -64,7 +67,7 @@ const contact = () => {
       <div className={styles.social_cnt}>
       <div className={styles.cntmedia}>
           <Image
-            onClick={facecnt}
+            onClick={github}
             src="/images/github.png"
             alt="contact with maniwebdev on github."
             width="60"
