@@ -30,7 +30,7 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>Home | Your Site Builder</title>
+        <title>Usman | Software Developer</title>
 
         <meta
           name="description"
