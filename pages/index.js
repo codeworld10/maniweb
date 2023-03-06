@@ -99,7 +99,7 @@ const index = () => {
       <div className={styles.main_abt}>
         <div className={styles.aboutmee}>
           <p className={styles.stres}>
-            I have over 3 years of experience in developing websites and mobile
+            I have over 4+ years of experience in developing websites and mobile
             applications. I am able to translate business requirements and
             Figma/Adobe XD designs into fully functioning websites or mobile
             applications. I also have my personal real-world react native mobile
