@@ -19,9 +19,6 @@ const Navv = () => {
   const linke = () => {
     window.open("https://www.linkedin.com/in/muhammad-usman-8444bb21a/");
   }
-  const what = () => {
-    window.open("https://wa.me/+923413160032");
-  }
   const face = () => {
     window.open("https://web.facebook.com/maniwebdev");
   }
@@ -64,9 +61,6 @@ const Navv = () => {
             </div>
             <div className="media">
               <Image onClick={twit} src="/images/twii.png" alt="maniwebdev Freelance web developer for hire" width="20" height="25"></Image>
-            </div>
-            <div className="media">
-              <Image onClick={what} src="/images/whee.png" alt="maniwebdev website developer services" width="20" height="25"></Image>
             </div>
           </div>
         </div>
