@@ -11,6 +11,16 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: var(--red);
+  transform-origin: 0%;
+}
+
 /*--------------------Landing page Electric heater --------------*/
 .heater_top {
   display: flex;
@@ -1812,7 +1822,7 @@ div .toolimg1 {
   }
 
   .topimg {
-    object-fit: contain;
+    object-fit: 'contain';
   }
 
   p .para {

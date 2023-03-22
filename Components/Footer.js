@@ -5,8 +5,8 @@ const Footer = () => {
       <footer className="fote">
         <div className="links">
           <div className="lin_ku">
-            <Link href="/privacy">
-              <a className="plcy">Privacy Policy</a>
+            <Link href="/privacy" passHref className='plcy'>
+             Privacy
             </Link>
           </div>
         </div>

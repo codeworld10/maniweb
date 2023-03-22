@@ -4,5 +4,5 @@ module.exports = {
     locales: ["en"],
     defaultLocale: "en",
   },
-  webpack5: false,
+  webpack5: true,
 }

@@ -1,5 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
+import React, { useState } from "react";
+
+const variants = {
+  open: { opacity: 1, x: 0 },
+  closed: { opacity: 0, x: "-100%" },
+};
+
+
 
 const Navv = () => {
   const handle = () => {
@@ -12,16 +20,16 @@ const Navv = () => {
   };
   const insta = () => {
     window.open("https://www.instagram.com/maniwebdev/");
-  }
+  };
   const twit = () => {
     window.open("https://twitter.com/maniwebdev");
-  }
+  };
   const linke = () => {
     window.open("https://www.linkedin.com/in/muhammad-usman-8444bb21a/");
-  }
+  };
   const face = () => {
     window.open("https://web.facebook.com/maniwebdev");
-  }
+  };
 
   return (
     //created menu for pc
@@ -30,37 +38,66 @@ const Navv = () => {
       <div className="navbar">
         <div className="pcmenu">
           <div className="logomain">
-            <Image className="logos" src="/images/Maniweb.png" width="80" height="80"></Image>
+            <Image
+              className="logos"
+              src="/images/Maniweb.png"
+              width="80"
+              height="80"
+            ></Image>
           </div>
           <ul>
             <li className="list">
-              <Link href="/">
-                <a className="active">Home</a>
+              <Link href="/" passHref className="active">
+               Home
               </Link>
             </li>
             <li className="list">
-              <Link href="/services">
-                <a className="active">Services</a>
+              <Link href="/services" passHref className="active">
+                Services
               </Link>
             </li>
             <li className="list">
-              <Link href="/contact">
-                <a className="active">Contact</a>
+              <Link href="/contact" passHref className="active">
+               Contact
               </Link>
             </li>
           </ul>
           <div className="social">
             <div className="media">
-            <Image onClick={face} src="/images/fbb.png" alt="maniwebdev Freelance website developer and designer" width="20" height="25"></Image>
+              <Image
+                onClick={face}
+                src="/images/fbb.png"
+                alt="maniwebdev Freelance website developer and designer"
+                width="20"
+                height="25"
+              ></Image>
             </div>
             <div className="media">
-              <Image onClick={insta} src="/images/iniis.png" alt="maniwebdev best website developer near me" width="20" height="25"></Image>
+              <Image
+                onClick={insta}
+                src="/images/iniis.png"
+                alt="maniwebdev best website developer near me"
+                width="20"
+                height="25"
+              ></Image>
             </div>
             <div className="media">
-              <Image onClick={linke} src="/images/lii.png" alt="maniwebdev website developer" width="20" height="25"></Image>
+              <Image
+                onClick={linke}
+                src="/images/lii.png"
+                alt="maniwebdev website developer"
+                width="20"
+                height="25"
+              ></Image>
             </div>
             <div className="media">
-              <Image onClick={twit} src="/images/twii.png" alt="maniwebdev Freelance web developer for hire" width="20" height="25"></Image>
+              <Image
+                onClick={twit}
+                src="/images/twii.png"
+                alt="maniwebdev Freelance web developer for hire"
+                width="20"
+                height="25"
+              ></Image>
             </div>
           </div>
         </div>
@@ -70,6 +107,7 @@ const Navv = () => {
         <div className="logomob">
           <Image src="/images/Maniweb.png" width="150" height="150"></Image>
         </div>
+
         <nav className="topnav">
           <div className="burger">
             <div onClick={handle} className="mee">
@@ -81,18 +119,18 @@ const Navv = () => {
 
           <ul id="menu">
             <li>
-              <Link href="/">
-                <a className="action">Home</a>
+              <Link href="/" passHref className='action'>
+               Home
               </Link>
             </li>
             <li>
-              <Link href="/services">
-                <a className="action">Services</a>
+              <Link href="/services" passHref className='action'>
+               Services
               </Link>
             </li>
             <li>
-              <Link href="/contact">
-                <a className="action">Contact</a>
+              <Link href="/contact" passHref className='action'>
+               Contact
               </Link>
             </li>
           </ul>
@@ -100,6 +138,6 @@ const Navv = () => {
       </header>
     </>
   );
-}
+};
 
 export default Navv;

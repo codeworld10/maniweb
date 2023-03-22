@@ -150,7 +150,7 @@ const services = () => {
           </p>
         </div>
         <br></br>
-        <Link href="/contact">
+        <Link href="/contact" passHref>
           <button className="serbtnn1">Tell Us About Your Project</button>
         </Link>
       </div>
