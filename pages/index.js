@@ -8,6 +8,8 @@ import styles from "../styles/aboutme.module.css";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import Divider from "@mui/material/Divider";
+import React, {useState} from "react";
+import Progress from "../Components/Progress";
 
 const darkTheme = createTheme({
   palette: {
@@ -36,6 +38,7 @@ const index = () => {
   const fake = () => {
     window.open("https://github.com/codeworld10/fake-API-fetching");
   };
+
   return (
     <>
       <ThemeProvider theme={darkTheme}>
@@ -281,97 +284,9 @@ const index = () => {
         </div>
         <Divider className="divide" light />
         <div className="tol">
-          <h3>My Skills</h3>
+          <h3>Technologies</h3>
         </div>
-        <div className="tolls">
-          <div className="tollimg">
-            <Image
-              className="toolimg"
-              src="/images/htm.png"
-              alt="mani web dev create website with html"
-              width="50"
-              height="50"
-            ></Image>
-          </div>
-          <div className="tollimg">
-            <Image
-              className="toolimg"
-              src="/images/cs3.png"
-              alt="mani web dev creates website with css3"
-              width="60"
-              height="50"
-            ></Image>
-          </div>
-          <div className="tollimg">
-            <Image
-              className="toolimg"
-              src="/images/js.png"
-              alt="mani web dev creates website with javascript"
-              width="70"
-              height="50"
-            ></Image>
-          </div>
-        </div>
-
-        <div className="tolls1">
-          <div className="tollimg1">
-            <Image
-              className="toolimg1"
-              src="/images/rea.png"
-              alt="mani web dev creates website with nextjs"
-              width="50"
-              height="50"
-            ></Image>
-          </div>
-          <div className="tollimg1">
-            <Image
-              className="toolimg1"
-              src="/images/nex.png"
-              alt="mani web dev creates website with nextjs"
-              width="70"
-              height="50"
-            ></Image>
-          </div>
-          <div className="tollimg">
-            <Image
-              className="toolimg"
-              src="/images/rea.png"
-              alt="mani web dev creates website with reactjs"
-              width="50"
-              height="50"
-            ></Image>
-          </div>
-        </div>
-
-        <div className="tolls1">
-          <div className="tollimg1">
-            <Image
-              className="toolimg1"
-              src="/images/mongo.png"
-              alt="mani web dev creates website with nextjs"
-              width="50"
-              height="50"
-            ></Image>
-          </div>
-          <div className="tollimg1">
-            <Image
-              className="toolimg1"
-              src="/images/js.png"
-              alt="mani web dev creates website with nextjs"
-              width="50"
-              height="50"
-            ></Image>
-          </div>
-          <div className="tollimg1">
-            <Image
-              className="toolimg1"
-              src="/images/node.png"
-              alt="mani web dev creates websites with wordpess"
-              width="50"
-              height="50"
-            ></Image>
-          </div>
-        </div>
+       <Progress />
         <Footer />
       </ThemeProvider>
     </>
