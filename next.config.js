@@ -4,5 +4,11 @@ module.exports = {
     locales: ["en"],
     defaultLocale: "en",
   },
-  webpack5: true,
+  images: {
+    domains: ['http://localhost:3000/'],
+  },
+  webpack: (config, { isServer }) => {
+    // Custom webpack configuration goes here
+    return config
+  },
 }

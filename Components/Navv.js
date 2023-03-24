@@ -2,13 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
 
-const variants = {
-  open: { opacity: 1, x: 0 },
-  closed: { opacity: 0, x: "-100%" },
-};
-
-
-
 const Navv = () => {
   const handle = () => {
     var x = document.getElementById("menu");

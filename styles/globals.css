@@ -11,101 +11,6 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-.progress-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 10px;
-  background: var(--red);
-  transform-origin: 0%;
-}
-
-/*--------------------Landing page Electric heater --------------*/
-.heater_top {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background: rgba(238, 163, 20, 0.2);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(238, 163, 20, 0.3);
-  background: rgba(238, 163, 20, 0.2);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(238, 163, 20, 0.3);
-  font-weight: bold;
-  height: 600px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.heater {
-  border-radius: 20px;
-}
-.dreo {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 60px;
-  font-weight: bold;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.deals {
-  text-align: center;
-}
-.heat_btn {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-}
-.heat_design {
-  background-color: #FF9900;
-  border-radius: 10px;
-  padding: 10px;
-  cursor: pointer;
-  margin-top: 50px;
-}
-
-@media (max-width: 823px) {
-  .heater_top {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 900px;
-  }
-  .prices {
-    text-align: center;
-    font-size: 26px;
-  }
-  .dreo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    font-weight: bold;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .Dreo_text {
-    text-align: center;
-  }
-}
-@media (max-width: 421px) {
-  .prices {
-    text-align: center;
-    font-size: 20px;
-  }
-  .Dreo_text {
-    font-size: 20px;
-  }
- 
-}
-
 /*--------------------Landing page Global Worker --------------*/
 .Global-head {
   text-align: center;
@@ -645,7 +550,6 @@ div .Global-images {
 
 .navbar {
   height: 100px;
-  background-color: skyblue;
 }
 
 .logomain {
@@ -711,7 +615,6 @@ div .section1 {
   align-items: center;
   height: 600px;
   width: 100%;
-  background-color: skyblue;
 }
 
 .head {
@@ -797,12 +700,6 @@ div .section1 {
   font-size: 17px;
 }
 
-.Line {
-  width: 100%;
-  height: 1px;
-  background-color: #a7a7a7;
-  margin-top: 10px;
-}
 
 
 
@@ -826,6 +723,26 @@ div .section1 {
   color: #f00f80;
 }
 
+.section2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+}
+
+.secicon{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #eeeeee;
+  width: 400px;
+  height: 250px;
+  border-radius: 15px;
+}
+
 .img {
   margin-right: 50px;
 }
@@ -833,60 +750,8 @@ div .section1 {
 .container {
   background-color: rgba(128, 128, 128, 0.261);
 }
-
-div .section2 {
-  display: flex;
-  justify-content: center;
-  padding: 10px 5px 5px 20px;
-  background-color: #ffffff;
-}
-
-div .secicon {
-  width: 320px;
-  height: 260px;
-  margin: 5px;
-  border-radius: 20px 0px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 5px;
-  padding: 10px 10px 10px 10px;
-  background-color: white;
-}
-
-div .secicon1 {
-  width: 355px;
-  height: 250px;
-  margin: 5px;
-  border-radius: 20px 0px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 5px;
-  padding: 15px 15px 15px 15px;
-  background-color: white;
-}
-
-div .secicon2 {
-  width: 320px;
-  height: 260px;
-  margin: 5px;
-  border-radius: 20px 0px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 5px;
-  padding: 10px 10px 10px 10px;
-  background-color: white;
-}
-
-div .secicon:hover {
-  transform: translate(10px, -10px);
-  transition: 1s;
-  background-color: #bae4f88e;
-}
-
-div .secicon1:hover {
-  transform: translate(10px, -10px);
-  transition: 1s;
-  background-color: #bae4f88e;
-}
-
-div .secicon2:hover {
-  transform: translate(10px, -10px);
-  transition: 1s;
-  background-color: #bae4f88e;
+.he1 {
+color: #f00f80;
 }
 
 .he2:hover {
@@ -906,60 +771,6 @@ div .section3 {
   justify-content: center;
   padding: 10px 5px 5px 20px;
   background-color: #ffffff;
-}
-
-div .seecicon {
-  width: 320px;
-  height: 250px;
-  margin: 5px;
-  border-radius: 20px 0px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  padding: 10px 10px 10px 10px;
-  background-color: white;
-}
-
-div .seecicon1 {
-  width: 360px;
-  height: 250px;
-  margin: 5px;
-  border-radius: 20px 0px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  padding: 10px 10px 10px 10px;
-  background-color: white;
-}
-
-div .seecicon2 {
-  width: 330px;
-  height: 250px;
-  margin: 5px;
-  border-radius: 20px 0px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  padding: 10px 10px 10px 10px;
-  background-color: white;
-}
-
-div .seecicon:hover {
-  transform: translate(10px, -10px);
-  transition: 1s;
-  background-color: #f714866c;
-}
-
-div .seecicon1:hover {
-  transform: translate(10px, -10px);
-  transition: 1s;
-  background-color: #f714866c;
-}
-
-div .seecicon2:hover {
-  transform: translate(10px, -10px);
-  transition: 1s;
-  background-color: #f714866c;
 }
 
 .re {
@@ -1025,6 +836,11 @@ div .cardmain {
 .aboutmee {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.divide {
+padding-top: 20px;
+height: 20px;
 }
 
 .frtxt {
@@ -1272,16 +1088,20 @@ div .serpara2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #bae4f88e;
-padding: 10px 5px 5px 5px;
+  padding-top: 10;
+  padding-bottom: 10;
+  padding-left: 10;
+  padding-right: 10;
 }
 
 .tolls1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
- 
-  background-color:#bae4f88e;
+  padding-top: 10;
+  padding-bottom: 10;
+  padding-left: 50;
+  padding-right: 50;
 }
 
 .serbtn1 {
@@ -1305,11 +1125,6 @@ padding: 10px 5px 5px 5px;
 }
 
 div .toolimg1 {
-  text-align: center;
-}
-
-.tlnam {
-  color: rgb(0, 0, 0);
   text-align: center;
 }
 
@@ -1431,11 +1246,6 @@ div .toolimg1 {
 }
 
 @media (max-width: 987px) {
-  div .section2 {
-    display: flex;
-    justify-content: center;
-    padding: 5px 5px 5px 5px;
-  }
 
   .re {
     font-family: "Raleway", sans-serif;
@@ -1443,12 +1253,14 @@ div .toolimg1 {
 
   h2.he1 {
     font-size: 20px;
+    color: #f00f80;
   }
 
   .pp1 {
     font-size: 16px;
     color: grey;
   }
+
 
   div .section3 {
     display: flex;
@@ -1477,48 +1289,18 @@ div .toolimg1 {
   }
 }
 
-@media (max-width: 931px) {
-  div .secicon {
-    width: 320px;
-    height: 280px;
-    margin: 5px;
-  }
-
-  div .secicon1 {
-    width: 360px;
-    height: 270px;
-    margin: 5px;
-  }
-
-  div .secicon2 {
-    width: 320px;
-    height: 280px;
-    margin: 5px;
-  }
-
-  div .seecicon {
-    width: 320px;
-    height: 270px;
-    margin: 5px;
-  }
-
-  div .seecicon1 {
-    width: 360px;
-    height: 270px;
-    margin: 5px;
-  }
-
-  div .seecicon2 {
-    width: 320px;
-    height: 270px;
-    margin: 5px;
+@media (max-width: 871px){
+  .secicon{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
   }
 }
+
 
 @media (max-width: 797px) {
   div .section1 {
     display: flex;
-
     flex-direction: column;
     align-items: center;
     height: 800px;
@@ -1541,6 +1323,11 @@ div .toolimg1 {
     flex-direction: column;
     align-items: center;
     height: 800px;
+  }
+  .secicon{
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
   }
 }
 
@@ -1573,7 +1360,6 @@ div .toolimg1 {
   .logomob {
     display: flex;
     justify-content: center;
-    background-color: skyblue;
   }
 
   /* centered the hamburger menu */
@@ -1628,15 +1414,6 @@ div .toolimg1 {
     border-top: 1px solid white;
   }
 
-  div .section2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    margin-top: 10px;
-  }
-
   div .section3 {
     display: flex;
     flex-direction: column;
@@ -1644,41 +1421,7 @@ div .toolimg1 {
     align-items: center;
   }
 
-  div .secicon {
-    width: 650px;
-    height: 180px;
-    margin: 5px;
-  }
 
-  div .secicon1 {
-    width: 650px;
-    height: 180px;
-    margin: 5px;
-  }
-
-  div .secicon2 {
-    width: 650px;
-    height: 180px;
-    margin: 5px;
-  }
-
-  div .seecicon {
-    width: 650px;
-    height: 180px;
-    margin: 5px;
-  }
-
-  div .seecicon1 {
-    width: 650px;
-    height: 180px;
-    margin: 5px;
-  }
-
-  div .seecicon2 {
-    width: 650px;
-    height: 180px;
-    margin: 5px;
-  }
 
   .pp1 {
     font-size: 16px;
@@ -1691,41 +1434,11 @@ div .toolimg1 {
   }
 }
 
-@media (max-width: 694px) {
-  div .secicon {
-    width: 600px;
-    height: 180px;
-    margin: 5px;
-  }
-
-  div .secicon1 {
-    width: 600px;
-    height: 195px;
-    margin: 5px;
-  }
-
-  div .secicon2 {
-    width: 600px;
-    height: 180px;
-    margin: 5px;
-  }
-
-  div .seecicon {
-    width: 600px;
-    height: 180px;
-    margin: 5px;
-  }
-
-  div .seecicon1 {
-    width: 600px;
-    height: 180px;
-    margin: 5px;
-  }
-
-  div .seecicon2 {
-    width: 600px;
-    height: 180px;
-    margin: 5px;
+@media(max-width:671px){
+  .secicon{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
   }
 }
 
@@ -1759,44 +1472,6 @@ div .toolimg1 {
   }
 }
 
-@media (max-width: 638px) {
-  div .secicon {
-    width: 550px;
-    height: 180px;
-    margin: 5px;
-  }
-
-  div .secicon1 {
-    width: 550px;
-    height: 195px;
-    margin: 5px;
-  }
-
-  div .secicon2 {
-    width: 550px;
-    height: 180px;
-    margin: 5px;
-  }
-
-  div .seecicon {
-    width: 550px;
-    height: 180px;
-    margin: 5px;
-  }
-
-  div .seecicon1 {
-    width: 550px;
-    height: 180px;
-    margin: 5px;
-  }
-
-  div .seecicon2 {
-    width: 550px;
-    height: 180px;
-    margin: 5px;
-  }
-}
-
 @media (max-width: 600px) {
   /* top nav styles */
 
@@ -1813,7 +1488,6 @@ div .toolimg1 {
     flex-direction: column;
     justify-content: center;
     height: 800px;
-    background-color: skyblue;
   }
 
   .img {
@@ -1847,155 +1521,35 @@ div .toolimg1 {
   }
 }
 
-@media (max-width: 589px) {
-  div .secicon {
-    width: 500px;
-    height: 200px;
-    margin: 5px;
-  }
-
-  div .secicon1 {
-    width: 500px;
-    height: 195px;
-    margin: 5px;
-  }
-
-  div .secicon2 {
-    width: 500px;
-    height: 180px;
-    margin: 5px;
-  }
-
-  div .seecicon {
-    width: 500px;
-    height: 180px;
-    margin: 5px;
-  }
-
-  div .seecicon1 {
-    width: 500px;
-    height: 180px;
-    margin: 5px;
-  }
-
-  div .seecicon2 {
-    width: 500px;
-    height: 180px;
-    margin: 5px;
+@media(max-width: 571px){
+  .secicon{
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
   }
 }
 
-@media (max-width: 538px) {
-  div .secicon {
-    width: 450px;
-    height: 200px;
-    margin: 5px;
+@media(max-width:465px){
+  .section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
   }
-
-  div .secicon1 {
-    width: 450px;
-    height: 195px;
-    margin: 5px;
-  }
-
-  div .secicon2 {
-    width: 450px;
-    height: 200px;
-    margin: 5px;
-  }
-
-  div .seecicon {
-    width: 450px;
-    height: 180px;
-    margin: 5px;
-  }
-
-  div .seecicon1 {
-    width: 450px;
-    height: 200px;
-    margin: 5px;
-  }
-
-  div .seecicon2 {
-    width: 450px;
-    height: 180px;
-    margin: 5px;
-  }
-}
-
-@media (max-width: 492px) {
-  div .secicon {
-    width: 400px;
-    height: 200px;
-    margin: 5px;
-  }
-
-  div .secicon1 {
-    width: 400px;
-    height: 215px;
-    margin: 5px;
-  }
-
-  div .secicon2 {
-    width: 400px;
-    height: 200px;
-    margin: 5px;
-  }
-
-  div .seecicon {
-    width: 400px;
-    height: 180px;
-    margin: 5px;
-  }
-
-  div .seecicon1 {
-    width: 400px;
-    height: 200px;
-    margin: 5px;
-  }
-
-  div .seecicon2 {
-    width: 400px;
-    height: 180px;
-    margin: 5px;
-  }
-}
-
-@media (max-width: 441px) {
-  div .secicon {
+  .secicon{
     width: 350px;
-    height: 220px;
-    margin: 5px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
-
-  div .secicon1 {
+  .topimg {
+    object-fit: 'contain';
+    height: 350px;
     width: 350px;
-    height: 215px;
-    margin: 5px;
-  }
-
-  div .secicon2 {
-    width: 350px;
-    height: 200px;
-    margin: 5px;
-  }
-
-  div .seecicon {
-    width: 350px;
-    height: 200px;
-    margin: 5px;
-  }
-
-  div .seecicon1 {
-    width: 350px;
-    height: 200px;
-    margin: 5px;
-  }
-
-  div .seecicon2 {
-    width: 350px;
-    height: 200px;
-    margin: 5px;
   }
 }
 
@@ -2013,43 +1567,13 @@ div .toolimg1 {
     font-size: 16px;
     color: grey;
   }
-}
-
-@media (max-width: 384px) {
-  div .secicon {
+  .secicon{
     width: 300px;
-    height: 220px;
-    margin: 5px;
-  }
-
-  div .secicon1 {
-    width: 300px;
-    height: 237px;
-    margin: 5px;
-  }
-
-  div .secicon2 {
-    width: 300px;
-    height: 220px;
-    margin: 5px;
-  }
-
-  div .seecicon {
-    width: 300px;
-    height: 200px;
-    margin: 5px;
-  }
-
-  div .seecicon1 {
-    width: 300px;
-    height: 220px;
-    margin: 5px;
-  }
-
-  div .seecicon2 {
-    width: 300px;
-    height: 200px;
-    margin: 5px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
@@ -2066,6 +1590,19 @@ div .toolimg1 {
   .pp2 {
     font-size: 16px;
     color: grey;
+  }
+  .secicon{
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .topimg {
+    object-fit: 'contain';
+    height: 300px;
+    width: 300px;
   }
 }
 
@@ -2086,79 +1623,19 @@ div .toolimg1 {
 
 }
 
-@media (max-width: 323px) {
-  div .secicon {
+@media(max-width:312px){
+  .secicon{
     width: 250px;
-    height: 242px;
-    margin: 5px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
-
-  div .secicon1 {
+  .topimg {
+    object-fit: 'contain';
+    height: 250px;
     width: 250px;
-    height: 259px;
-    margin: 5px;
-  }
-
-  div .secicon2 {
-    width: 250px;
-    height: 242px;
-    margin: 5px;
-  }
-
-  div .seecicon {
-    width: 250px;
-    height: 220px;
-    margin: 5px;
-  }
-
-  div .seecicon1 {
-    width: 250px;
-    height: 242px;
-    margin: 5px;
-  }
-
-  div .seecicon2 {
-    width: 250px;
-    height: 220px;
-    margin: 5px;
-  }
-}
-
-@media (max-width: 287px) {
-  div .secicon {
-    width: 200px;
-    height: 264px;
-    margin: 5px;
-  }
-
-  div .secicon1 {
-    width: 200px;
-    height: 281px;
-    margin: 5px;
-  }
-
-  div .secicon2 {
-    width: 200px;
-    height: 264px;
-    margin: 5px;
-  }
-
-  div .seecicon {
-    width: 200px;
-    height: 242px;
-    margin: 5px;
-  }
-
-  div .seecicon1 {
-    width: 200px;
-    height: 252px;
-    margin: 5px;
-  }
-
-  div .seecicon2 {
-    width: 200px;
-    height: 242px;
-    margin: 5px;
   }
 }
 
@@ -2201,6 +1678,19 @@ div .toolimg1 {
     font-size: 16px;
     color: grey;
   }
+  .secicon{
+    width: 220px;
+    height: 260px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .topimg {
+    object-fit: 'contain';
+    height: 230px;
+    width: 230px;
+  }
 }
 
 @media (max-width: 240px) {
@@ -2217,45 +1707,22 @@ div .toolimg1 {
     font-size: 16px;
     color: grey;
   }
-}
-
-@media (max-width: 232px) {
-  div .secicon {
-    width: 150px;
-    height: 350px;
-    margin: 5px;
+  .secicon{
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
-
-  div .secicon1 {
-    width: 150px;
-    height: 361px;
-    margin: 5px;
-  }
-
-  div .secicon2 {
-    width: 150px;
-    height: 320px;
-    margin: 5px;
-  }
-
-  div .seecicon {
-    width: 150px;
-    height: 275px;
-    margin: 5px;
-  }
-
-  div .seecicon1 {
-    width: 150px;
-    height: 292px;
-    margin: 5px;
-  }
-
-  div .seecicon2 {
-    width: 150px;
-    height: 270px;
-    margin: 5px;
+  .topimg {
+    object-fit: 'contain';
+    height: 200px;
+    width: 200px;
   }
 }
+
+
 
 /*--------------------                over        ------------Home page over------------------     over                                ------------------- */
 /*--------------------                over        ------------Home page over------------------     over                                ------------------- */
