@@ -39,6 +39,15 @@ const index = () => {
   const fake = () => {
     window.open("https://github.com/codeworld10/fake-API-fetching");
   };
+  const twit = () => {
+    window.open("https://twitter.com/maniwebdev");
+  };
+  const linke = () => {
+    window.open("https://www.linkedin.com/in/muhammad-usman-8444bb21a/");
+  };
+  const face = () => {
+    window.open("https://web.facebook.com/maniwebdev");
+  };
 
   return (
     <>
@@ -74,7 +83,8 @@ const index = () => {
           />
           <FBPIXEL />
         </Head>
-        <Navv />
+        <Navv/>
+        
         {/* section1 starts */}
         <div className="section1">
           <div className="text">
@@ -88,11 +98,11 @@ const index = () => {
 
             <div className="butto">
               <span>
-                <Link href="/services" passHref>
-                  <button className="btn">Services</button>
+                <Link href="#portfolio" passHref>
+                  <button className="btn">Portfolio</button>
                 </Link>
-                <Link href="/contact" passHref>
-                  <button className="btn2">Contact me</button>
+                <Link href="#about" passHref>
+                  <button className="btn2">About me</button>
                 </Link>
               </span>
             </div>
@@ -111,9 +121,11 @@ const index = () => {
         <Divider className="divide" light />
         {/* section1 ends */}
         {/* section2 starts */}
+        <section id="about">
         <div className={styles.story}>
           <h3>About me</h3>
         </div>
+        
         <div className={styles.main_abt}>
           <div className={styles.aboutmee}>
             <p className={styles.stres}>
@@ -138,7 +150,9 @@ const index = () => {
             </p>
           </div>
         </div>
+        </section>
         <Divider className="divide" light />
+        <section id="portfolio">
         <div className="how">
           <h2>Portfolio</h2>
         </div>
@@ -283,13 +297,16 @@ const index = () => {
             </div>
           </div>
         </div>
+        </section>
         <Divider className="divide" light />
         <div className="tol">
           <h3>Technologies</h3>
         </div>
        <Progress />
        <Divider className="divide" light />
+       <section id="contact">
        <Contact />
+       </section>
       </ThemeProvider>
       <Footer />
     </>

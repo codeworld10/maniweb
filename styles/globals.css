@@ -293,7 +293,7 @@ div .Global-images {
 }
 
 .btrr:hover {
-  background-color: #bae4f88e;
+  background-color: #f00f80;
   color: #ffffff;
   cursor: pointer;
   transform: scale(1.1);
@@ -303,7 +303,7 @@ div .Global-images {
 .ctbtn {
   display: flex;
   justify-content: center;
-  margin-right: 50px;
+  align-self: center;
 }
 
 .frmpr_r {
@@ -616,7 +616,7 @@ div .section1 {
 }
 
 .head {
-  color: rgb(117, 117, 117);
+  color: #f00f80;
   font-family: "Raleway", sans-serif;
 }
 
@@ -667,7 +667,7 @@ div .section1 {
 }
 
 .btn:hover {
-  background-color: #bae4f88e;
+  background-color: #f00f80;
   color: #ffffff;
   cursor: pointer;
   transform: scale(1.1);
@@ -675,7 +675,7 @@ div .section1 {
 }
 
 .btn2:hover {
-  background-color: #bae4f88e;
+  background-color: #f00f80;
   color: #ffffff;
   cursor: pointer;
   transform: scale(1.1);

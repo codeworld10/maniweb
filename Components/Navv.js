@@ -40,8 +40,20 @@ const Navv = () => {
           </div>
           <ul>
             <li className="list">
-              <Link href="/" passHref className="active">
-               Home
+              <Link href="#home" passHref className="active">
+                Home
+              </Link>
+
+              <Link href="#about" passHref className="active">
+                About me
+              </Link>
+
+              <Link href="#portfolio" passHref className="active">
+                Portfolio
+              </Link>
+
+              <Link href="#contact" passHref className="active">
+                Contact
               </Link>
             </li>
           </ul>
@@ -85,7 +97,6 @@ const Navv = () => {
           </div>
         </div>
       </div>
-
       <header className="mobile-container ">
         <div className="logomob">
           <Image src="/images/Maniweb.png" width="150" height="150"></Image>
@@ -102,9 +113,18 @@ const Navv = () => {
 
           <ul id="menu">
             <li>
-              <Link href="/" passHref className='action'>
-               Home
+              <Link href="/" passHref className="action">
+                Home
               </Link>
+              <Link href="#about" passHref className="action">
+              About me
+            </Link>
+            <Link href="#portfolio" passHref className="action">
+            Portfolio
+          </Link>
+          <Link href="#contact" passHref className="action">
+          Contact
+        </Link>
             </li>
           </ul>
         </nav>
