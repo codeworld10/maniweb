@@ -843,6 +843,21 @@ height: 20px;
   color: rgb(255, 255, 255);
 }
 
+.ball {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  z-index: 9999;
+  pointer-events: none;
+  transform: translate(-25px, -25px);
+  transition: transform 0.1s ease-out;
+}
+
+
 /*--------------------                over        ------------Home page over------------------     over                                ------------------- */
 /*--------------------                over        ------------Home page over------------------     over                                ------------------- */
 /*--------------------                over        ------------Home page over------------------     over                                ------------------- */
@@ -1553,7 +1568,7 @@ div .serpara2 {
   }
 
   .topimg {
-    object-fit: 'contain';
+    object-fit: 'cover';
   }
 
   p .para {

@@ -11,7 +11,9 @@ import Divider from "@mui/material/Divider";
 import React, { useState, useEffect } from "react";
 import Progress from "../Components/Progress";
 import Contact from "../Components/Contact";
-import { height } from "@mui/system";
+//import Ball from "../Components/Ball";
+import styled from 'styled-components';
+import BlinkingStars from "../Components/BlinkingStars";
 
 const darkTheme = createTheme({
   palette: {
@@ -19,8 +21,20 @@ const darkTheme = createTheme({
   },
 });
 
+const Ball = styled.div`
+width: 50px;
+height: 50px;
+border-radius: 25px;
+background-color: #f00f80;
+position: fixed;
+top: ${({ y }) => y}px;
+left: ${({ x }) => x}px;
+z-index: 9999;
+`;
+
 const index = () => {
   const [isLoading, setIsLoading] = useState(true);
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     // simulate page loading for 2 seconds
@@ -28,6 +42,19 @@ const index = () => {
       setIsLoading(false);
     }, 2000);
   }, []);
+
+  useEffect(() => {
+    const handleMouseMove = e => {
+      setMousePos({ x: e.clientX, y: e.clientY });
+    };
+
+    window.addEventListener('mousemove', handleMouseMove);
+
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove);
+    };
+  }, []);
+
   const worker = () => {
     window.open(
       "https://play.google.com/store/apps/details?id=com.maniwebdev.globalworker"
@@ -67,6 +94,7 @@ const index = () => {
 
   return (
     <>
+    <Ball x={mousePos.x} y={mousePos.y} />
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
         <Head>
@@ -154,6 +182,7 @@ const index = () => {
         {/* section1 ends */}
         {/* section2 starts */}
         <section id="about">
+        <BlinkingStars count={100} />
           <div className={styles.story}>
             <h3>About me</h3>
           </div>
