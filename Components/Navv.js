@@ -11,6 +11,7 @@ const Navv = () => {
       x.style.display = "block";
     }
   };
+
   const insta = () => {
     window.open("https://www.instagram.com/maniwebdev/");
   };

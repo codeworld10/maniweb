@@ -8,7 +8,7 @@ import styles from "../styles/aboutme.module.css";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import Divider from "@mui/material/Divider";
-import React, {useState} from "react";
+import React, { useState, useEffect } from "react";
 import Progress from "../Components/Progress";
 import Contact from "../Components/Contact";
 
@@ -19,6 +19,14 @@ const darkTheme = createTheme({
 });
 
 const index = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // simulate page loading for 2 seconds
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
   const worker = () => {
     window.open(
       "https://play.google.com/store/apps/details?id=com.maniwebdev.globalworker"
@@ -39,15 +47,22 @@ const index = () => {
   const fake = () => {
     window.open("https://github.com/codeworld10/fake-API-fetching");
   };
-  const twit = () => {
-    window.open("https://twitter.com/maniwebdev");
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
-  const linke = () => {
-    window.open("https://www.linkedin.com/in/muhammad-usman-8444bb21a/");
-  };
-  const face = () => {
-    window.open("https://web.facebook.com/maniwebdev");
-  };
+
+  if (isLoading) {
+    return (
+      <Image
+        className="loader"
+        src="/images/usm.png"
+        alt="maniwebdev Freelance website developer"
+        width="150"
+        height="150"
+      ></Image>
+    );
+  }
 
   return (
     <>
@@ -83,8 +98,22 @@ const index = () => {
           />
           <FBPIXEL />
         </Head>
-        <Navv/>
-        
+        <Navv />
+        <button
+          onClick={scrollToTop}
+          style={{
+            position: "fixed",
+            bottom: "20px",
+            right: "20px",
+            cursor: "pointer",
+            background: "pink",
+            borderTopRightRadius: "50%",
+            borderTopLeftRadius: "50%",
+            borderColor: "#f00f80",
+          }}
+        >
+          ^
+        </button>
         {/* section1 starts */}
         <div className="section1">
           <div className="text">
@@ -122,191 +151,192 @@ const index = () => {
         {/* section1 ends */}
         {/* section2 starts */}
         <section id="about">
-        <div className={styles.story}>
-          <h3>About me</h3>
-        </div>
-        
-        <div className={styles.main_abt}>
-          <div className={styles.aboutmee}>
-            <p className={styles.stres}>
-              🚀 Welcome! I am a highly skilled Full Stack Developer with over
-              4+ years of experience in developing websites and mobile
-              applications using MERN stack and React Native. 👨‍💻 I specialize in
-              translating business requirements and Figma/Adobe XD designs into
-              fully functional websites or mobile applications. My technical
-              skills include front-end and back-end technologies such as HTML,
-              CSS, JavaScript, React JS, React Native, Node JS, and MongoDB. I
-              am also familiar with tools like Git, VS Code, and Firebase. 📱 In
-              addition to my professional experience, I have also developed a
-              real-world React Native mobile app that is continuously growing.
-              This showcases my expertise in handling everything from ideation
-              to product development. 💼 My portfolio includes several projects
-              demonstrating my proficiency in developing highly functional and
-              user-friendly websites and mobile applications. I am a quick
-              learner and have a keen interest in staying up-to-date with the
-              latest technologies and trends. 🌟 If you are looking for a highly
-              skilled and reliable Full Stack Developer, I am available to
-              discuss your requirements.
-            </p>
+          <div className={styles.story}>
+            <h3>About me</h3>
           </div>
-        </div>
+
+          <div className={styles.main_abt}>
+            <div className={styles.aboutmee}>
+              <p className={styles.stres}>
+                🚀 Welcome! I am a highly skilled Full Stack Developer with over
+                4+ years of experience in developing websites and mobile
+                applications using MERN stack and React Native. 👨‍💻 I specialize
+                in translating business requirements and Figma/Adobe XD designs
+                into fully functional websites or mobile applications. My
+                technical skills include front-end and back-end technologies
+                such as HTML, CSS, JavaScript, React JS, React Native, Node JS,
+                and MongoDB. I am also familiar with tools like Git, VS Code,
+                and Firebase. 📱 In addition to my professional experience, I
+                have also developed a real-world React Native mobile app that is
+                continuously growing. This showcases my expertise in handling
+                everything from ideation to product development. 💼 My portfolio
+                includes several projects demonstrating my proficiency in
+                developing highly functional and user-friendly websites and
+                mobile applications. I am a quick learner and have a keen
+                interest in staying up-to-date with the latest technologies and
+                trends. 🌟 If you are looking for a highly skilled and reliable
+                Full Stack Developer, I am available to discuss your
+                requirements.
+              </p>
+            </div>
+          </div>
         </section>
         <Divider className="divide" light />
         <section id="portfolio">
-        <div className="how">
-          <h2>Portfolio</h2>
-        </div>
+          <div className="how">
+            <h2>Portfolio</h2>
+          </div>
 
-        <div className="section2">
-          <div className="secicon">
-            <div className="icon">
-              <Image
-                className="topimgg"
-                src="/images/icon2.png"
-                alt="maniwebdev freelance website designer near me"
-                width="64"
-                height="64"
-              ></Image>
-              <span className="re">
-                <h2 onClick={worker} className="he1">
-                  Android App
-                </h2>
-              </span>
-              <span className="pre">
-                <p className="pp1" onClick={worker}>
-                  Technologies: React native, MongoDB, Express.js, Nodejs Amazon
-                  S3 bucket, Adobe illustrator, Figma.
-                </p>
-              </span>
+          <div className="section2">
+            <div className="secicon">
+              <div className="icon">
+                <Image
+                  className="topimgg"
+                  src="/images/icon2.png"
+                  alt="maniwebdev freelance website designer near me"
+                  width="64"
+                  height="64"
+                ></Image>
+                <span className="re">
+                  <h2 onClick={worker} className="he1">
+                    Android App
+                  </h2>
+                </span>
+                <span className="pre">
+                  <p className="pp1" onClick={worker}>
+                    Technologies: React native, MongoDB, Express.js, Nodejs
+                    Amazon S3 bucket, Adobe illustrator, Figma.
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div className="secicon">
+              <div className="icon">
+                <Image
+                  className="topimgg"
+                  src="/images/design.png"
+                  alt="maniwebdev cheap freeelance website designer"
+                  width="64"
+                  height="64"
+                ></Image>
+                <span className="re">
+                  <h2 onClick={carpenter} className="he1">
+                    Carpenter Website
+                  </h2>
+                </span>
+                <span className="pre">
+                  <p onClick={carpenter} className="pp1">
+                    Technologies: WordPress, Ninja Forms, Elementor, Designed
+                    according to the client specifications.
+                  </p>
+                </span>
+              </div>
             </div>
           </div>
-          <div className="secicon">
-            <div className="icon">
-              <Image
-                className="topimgg"
-                src="/images/design.png"
-                alt="maniwebdev cheap freeelance website designer"
-                width="64"
-                height="64"
-              ></Image>
-              <span className="re">
-                <h2 onClick={carpenter} className="he1">
-                  Carpenter Website
-                </h2>
-              </span>
-              <span className="pre">
-                <p onClick={carpenter} className="pp1">
-                  Technologies: WordPress, Ninja Forms, Elementor, Designed
-                  according to the client specifications.
-                </p>
-              </span>
-            </div>
-          </div>
-        </div>
 
-        <div className="section2">
-          <div className="secicon">
-            <div className="icon">
-              <Image
-                className="topimgg"
-                src="/images/notebook.png"
-                alt="maniwebdev freelance website designer near me"
-                width="64"
-                height="64"
-              ></Image>
-              <span className="re">
-                <h2 onClick={notes} className="he1">
-                  Notes App
-                </h2>
-              </span>
-              <span className="pre">
-                <p className="pp1" onClick={notes}>
-                  Technologies: React native, MongoDB, Express.js, Nodejs
-                  private CRUD notes app for saving notes.
-                </p>
-              </span>
+          <div className="section2">
+            <div className="secicon">
+              <div className="icon">
+                <Image
+                  className="topimgg"
+                  src="/images/notebook.png"
+                  alt="maniwebdev freelance website designer near me"
+                  width="64"
+                  height="64"
+                ></Image>
+                <span className="re">
+                  <h2 onClick={notes} className="he1">
+                    Notes App
+                  </h2>
+                </span>
+                <span className="pre">
+                  <p className="pp1" onClick={notes}>
+                    Technologies: React native, MongoDB, Express.js, Nodejs
+                    private CRUD notes app for saving notes.
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div className="secicon">
+              <div className="icon">
+                <Image
+                  className="topimgg"
+                  src="/images/fake-api.png"
+                  alt="maniwebdev cheap freeelance website designer"
+                  width="64"
+                  height="64"
+                ></Image>
+                <span className="re">
+                  <h2 onClick={fake} className="he1">
+                    Fake-API fetch
+                  </h2>
+                </span>
+                <span className="pre">
+                  <p onClick={fake} className="pp1">
+                    Fetching products from a fake API and displaying them on the
+                    screen. React native and fake-API.
+                  </p>
+                </span>
+              </div>
             </div>
           </div>
-          <div className="secicon">
-            <div className="icon">
-              <Image
-                className="topimgg"
-                src="/images/fake-api.png"
-                alt="maniwebdev cheap freeelance website designer"
-                width="64"
-                height="64"
-              ></Image>
-              <span className="re">
-                <h2 onClick={fake} className="he1">
-                  Fake-API fetch
-                </h2>
-              </span>
-              <span className="pre">
-                <p onClick={fake} className="pp1">
-                  Fetching products from a fake API and displaying them on the
-                  screen. React native and fake-API.
-                </p>
-              </span>
-            </div>
-          </div>
-        </div>
 
-        <div className="section2">
-          <div className="secicon">
-            <div className="icon">
-              <Image
-                className="topimgg"
-                src="/images/iniis.png"
-                alt="maniwebdev cheap freelance website developer near me"
-                width="64"
-                height="64"
-              ></Image>
-              <span className="re">
-                <h2 onClick={insta} className="he1">
-                  Instagram
-                </h2>
-              </span>
-              <span className="pre">
-                <p onClick={insta} className="pp1">
-                  Instagram pages. I have created the bottom tab nav without the
-                  bottom tab navigation package.
-                </p>
-              </span>
+          <div className="section2">
+            <div className="secicon">
+              <div className="icon">
+                <Image
+                  className="topimgg"
+                  src="/images/iniis.png"
+                  alt="maniwebdev cheap freelance website developer near me"
+                  width="64"
+                  height="64"
+                ></Image>
+                <span className="re">
+                  <h2 onClick={insta} className="he1">
+                    Instagram
+                  </h2>
+                </span>
+                <span className="pre">
+                  <p onClick={insta} className="pp1">
+                    Instagram pages. I have created the bottom tab nav without
+                    the bottom tab navigation package.
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div className="secicon">
+              <div className="icon">
+                <Image
+                  className="topimgg"
+                  src="/images/food-app.png"
+                  alt="maniwebdev cheap freelance website developer near me"
+                  width="64"
+                  height="64"
+                ></Image>
+                <span className="re">
+                  <h2 onClick={food} className="he1">
+                    Food App
+                  </h2>
+                </span>
+                <span className="pre">
+                  <p onClick={food} className="pp1">
+                    Food order app design, restaurant pages, and dishes. React
+                    Native and reusable components.
+                  </p>
+                </span>
+              </div>
             </div>
           </div>
-          <div className="secicon">
-            <div className="icon">
-              <Image
-                className="topimgg"
-                src="/images/food-app.png"
-                alt="maniwebdev cheap freelance website developer near me"
-                width="64"
-                height="64"
-              ></Image>
-              <span className="re">
-                <h2 onClick={food} className="he1">
-                  Food App
-                </h2>
-              </span>
-              <span className="pre">
-                <p onClick={food} className="pp1">
-                  Food order app design, restaurant pages, and dishes. React
-                  Native and reusable components.
-                </p>
-              </span>
-            </div>
-          </div>
-        </div>
         </section>
         <Divider className="divide" light />
         <div className="tol">
           <h3>Technologies</h3>
         </div>
-       <Progress />
-       <Divider className="divide" light />
-       <section id="contact">
-       <Contact />
-       </section>
+        <Progress />
+        <Divider className="divide" light />
+        <section id="contact">
+          <Contact />
+        </section>
       </ThemeProvider>
       <Footer />
     </>
