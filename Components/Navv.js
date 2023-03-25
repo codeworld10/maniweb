@@ -44,16 +44,6 @@ const Navv = () => {
                Home
               </Link>
             </li>
-            <li className="list">
-              <Link href="/services" passHref className="active">
-                Services
-              </Link>
-            </li>
-            <li className="list">
-              <Link href="/contact" passHref className="active">
-               Contact
-              </Link>
-            </li>
           </ul>
           <div className="social">
             <div className="media">
@@ -114,16 +104,6 @@ const Navv = () => {
             <li>
               <Link href="/" passHref className='action'>
                Home
-              </Link>
-            </li>
-            <li>
-              <Link href="/services" passHref className='action'>
-               Services
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact" passHref className='action'>
-               Contact
               </Link>
             </li>
           </ul>

@@ -10,6 +10,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Divider from "@mui/material/Divider";
 import React, {useState} from "react";
 import Progress from "../Components/Progress";
+import Contact from "../Components/contact";
 
 const darkTheme = createTheme({
   palette: {
@@ -287,8 +288,10 @@ const index = () => {
           <h3>Technologies</h3>
         </div>
        <Progress />
-        <Footer />
+       <Divider className="divide" light />
+       <Contact />
       </ThemeProvider>
+      <Footer />
     </>
   );
 };

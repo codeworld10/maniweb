@@ -1,10 +1,4 @@
-div .contact_main{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: skyblue;
-    height: 700px;
-}
+
 .cnt_text{
     color: white;
     
@@ -12,13 +6,16 @@ div .contact_main{
     font-family: "Raleway", sans-serif;
 }
 
-
+.headcont{
+  text-align: center;
+}
 .headcont:hover{
   color: #f00f80;
  
 }
 .spen{
   font-size: 17px;
+  text-align: center;
 }
 
 .ct_para{
@@ -26,11 +23,6 @@ div .contact_main{
 }
 .spen {
   color: grey;
-}
-
-.cntnimg{
-    border-radius: 50%;
-    animation: zoom-in-zoom-out 7s ease-out infinite;
 }
 @keyframes zoom-in-zoom-out {
     0% {
@@ -45,80 +37,28 @@ div .contact_main{
   }
   .social_cnt{
       display: flex;
-      justify-content: center;
-     
+      justify-content: right;
       align-items: center;
-      background-color: #bae4f88e;
-      padding: 10px 10px 10px 10px;
+      padding: 2px 2px 2px 2px;
   }
   .cntmedia{
       cursor: pointer;
-      margin-top: 10px;
-      margin: 15px;
+      margin: 5px;
   }
   .cntmedia:hover{
-    
       transform: rotate(360deg);
       transition: 3s;
-  
-  }
-  .quick{
-      text-align: center;
-      font-size: 18px;
-     
-     
   }
  
   @media (max-width: 870px) {
-    div .contact_main{
-      height: 860px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-    }
    .cnt_text{
      text-align: center;
    }
 
   }
-
-  @media (max-width: 400px) {
-
-div .contact_main{
-height: 700px;
-}
-
-
-.quick{
-  font-size: 18px;
-}
-  }
   
   @media (max-width: 294px) {
     .cnt_text{
       font-size: 18px;
-    }
-    .quick{
-      font-size: 18px;
-    }
-
-
-  }
-
-  @media (max-width: 257px) {
-
-   div .contact_main{
-      height: 500px;
-    }
-    
-    .quick{
-      font-size: 16px;
-    }
-  }
-  @media (max-width: 224px) {
-   
-    .quick{
-      font-size: 13px;
     }
   }
