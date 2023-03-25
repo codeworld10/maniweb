@@ -11,6 +11,7 @@ import Divider from "@mui/material/Divider";
 import React, { useState, useEffect } from "react";
 import Progress from "../Components/Progress";
 import Contact from "../Components/Contact";
+import { height } from "@mui/system";
 
 const darkTheme = createTheme({
   palette: {
@@ -106,13 +107,15 @@ const index = () => {
             bottom: "20px",
             right: "20px",
             cursor: "pointer",
-            background: "pink",
+            background: "#f00f80",
             borderTopRightRadius: "50%",
             borderTopLeftRadius: "50%",
             borderColor: "#f00f80",
+            width: '10px',
+            height: '50px',
           }}
         >
-          ^
+       
         </button>
         {/* section1 starts */}
         <div className="section1">

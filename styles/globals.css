@@ -254,8 +254,8 @@ div .Global-images {
 /*--------------------contact form --------------*/
 
 .formwork {
-  color: rgb(107, 107, 107);
-  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  background-color: #f00f80;
   width: 770px;
   padding: 10px 0px 10px 25px;
   border-radius: 5px;
@@ -840,7 +840,7 @@ height: 20px;
 }
 
 .frtxt {
-  color: grey;
+  color: rgb(255, 255, 255);
 }
 
 /*--------------------                over        ------------Home page over------------------     over                                ------------------- */
