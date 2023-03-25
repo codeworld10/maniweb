@@ -10,7 +10,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Divider from "@mui/material/Divider";
 import React, {useState} from "react";
 import Progress from "../Components/Progress";
-import Contact from "../Components/contact";
+import Contact from "../Components/Contact";
 
 const darkTheme = createTheme({
   palette: {
