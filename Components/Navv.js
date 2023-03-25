@@ -41,7 +41,7 @@ const Navv = () => {
           </div>
           <ul>
             <li className="list">
-              <Link href="#home" passHref className="active">
+              <Link href="#home" passHref className="active" >
                 Home
               </Link>
 
