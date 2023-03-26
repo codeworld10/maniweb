@@ -32,10 +32,11 @@
   font-weight: 600;
   font-family: "Raleway", sans-serif;
   width: 950px;
-  box-shadow: rgba(0, 0, 0, 0.2) 2px 4px 0px;
+  box-shadow: rgba(145, 145, 145, 0.2) 2px 4px 0px;
   padding: 20px 20px 20px 20px;
   border: 1px solid rgb(241, 31, 112);
   border-radius: 10px;
+  background-color: black;
 }
 
 .main_abt {
