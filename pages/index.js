@@ -182,7 +182,7 @@ const index = () => {
         {/* section1 ends */}
         {/* section2 starts */}
         <section id="about">
-        <BlinkingStars count={50} />
+        <BlinkingStars count={5} />
           <div className={styles.story}>
             <h3>About me</h3>
           </div>

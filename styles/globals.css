@@ -651,7 +651,7 @@ div .section1 {
   color: #f00f80;
 }
  img {
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .para {
@@ -1558,11 +1558,11 @@ div .serpara2 {
 
   .img {
     margin-right: 0px;
-    border-radius: 50%;
+    border-radius: 10%;
   }
 
   .topimg {
-    object-fit: 'cover';
+    object-fit: contain
   }
 
   p .para {
