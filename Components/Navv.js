@@ -61,6 +61,7 @@ const Navv = () => {
           <div className="social">
             <div className="media">
               <Image
+              className="Social"
                 onClick={face}
                 src="/images/fbb.png"
                 alt="maniwebdev Freelance website developer and designer"
@@ -70,6 +71,7 @@ const Navv = () => {
             </div>
             <div className="media">
               <Image
+              className="Social"
                 onClick={insta}
                 src="/images/iniis.png"
                 alt="maniwebdev best website developer near me"
@@ -79,6 +81,7 @@ const Navv = () => {
             </div>
             <div className="media">
               <Image
+              className="Social"
                 onClick={linke}
                 src="/images/lii.png"
                 alt="maniwebdev website developer"
@@ -88,6 +91,7 @@ const Navv = () => {
             </div>
             <div className="media">
               <Image
+              className="Social"
                 onClick={twit}
                 src="/images/twii.png"
                 alt="maniwebdev Freelance web developer for hire"

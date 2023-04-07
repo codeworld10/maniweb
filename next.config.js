@@ -4,9 +4,6 @@ module.exports = {
     locales: ["en"],
     defaultLocale: "en",
   },
-  images: {
-    domains: ['http://localhost:3000/'],
-  },
   webpack: (config, { isServer }) => {
     // Custom webpack configuration goes here
     return config

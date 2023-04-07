@@ -61,6 +61,7 @@ const Form = (props) => {
             <div className={styles.social_cnt}>
               <div className={styles.cntmedia}>
                 <Image
+                className="Social"
                   onClick={github}
                   src="/images/github.png"
                   alt="contact with maniwebdev on github."
@@ -70,6 +71,7 @@ const Form = (props) => {
               </div>
               <div className={styles.cntmedia}>
                 <Image
+                className="Social"
                   onClick={facecnt}
                   src="/images/fbb.png"
                   alt="contact with maniwebdev on facebook page"
@@ -79,6 +81,7 @@ const Form = (props) => {
               </div>
               <div className={styles.cntmedia}>
                 <Image
+                className="Social"
                   onClick={instacnt}
                   src="/images/iniis.png"
                   alt="contact with maniwebdev on instagram"
@@ -88,6 +91,7 @@ const Form = (props) => {
               </div>
               <div className={styles.cntmedia}>
                 <Image
+                className="Social"
                   onClick={linkecnt}
                   src="/images/lii.png"
                   alt="contact with maniwebdev on linkedin"
@@ -97,6 +101,7 @@ const Form = (props) => {
               </div>
               <div className={styles.cntmedia}>
                 <Image
+                className="Social"
                   onClick={twitcnt}
                   src="/images/twii.png"
                   alt="contact with maniwebdev on twitter"

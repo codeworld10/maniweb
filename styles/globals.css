@@ -652,6 +652,7 @@ div .section1 {
 }
  img {
   border-radius: 10%;
+  object-fit: cover;
 }
 
 .para {
@@ -715,6 +716,14 @@ div .section1 {
 
 
 /* ------------------section1 over--------------- */
+
+.topimgg {
+  object-fit: cover;
+}
+
+.Social {
+  object-fit: cover;
+}
 
 .para3 {
   font-family: "Raleway", sans-serif;
