@@ -12,7 +12,7 @@ import React, { useState, useEffect } from "react";
 import Progress from "../Components/Progress";
 import Contact from "../Components/Contact";
 //import Ball from "../Components/Ball";
-import styled from 'styled-components';
+import styled from "styled-components";
 import BlinkingStars from "../Components/BlinkingStars";
 
 const darkTheme = createTheme({
@@ -22,14 +22,14 @@ const darkTheme = createTheme({
 });
 
 const Ball = styled.div`
-width: 50px;
-height: 50px;
-border-radius: 25px;
-background-color: #f00f80;
-position: fixed;
-top: ${({ y }) => y}px;
-left: ${({ x }) => x}px;
-z-index: 9999;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #f00f80;
+  position: fixed;
+  top: ${({ y }) => y}px;
+  left: ${({ x }) => x}px;
+  z-index: 9999;
 `;
 
 const index = () => {
@@ -44,14 +44,14 @@ const index = () => {
   }, []);
 
   useEffect(() => {
-    const handleMouseMove = e => {
+    const handleMouseMove = (e) => {
       setMousePos({ x: e.clientX, y: e.clientY });
     };
 
-    window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener("mousemove", handleMouseMove);
 
     return () => {
-      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener("mousemove", handleMouseMove);
     };
   }, []);
 
@@ -94,7 +94,7 @@ const index = () => {
 
   return (
     <>
-    <Ball x={mousePos.x} y={mousePos.y} />
+      <Ball x={mousePos.x} y={mousePos.y} />
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
         <Head>
@@ -102,12 +102,13 @@ const index = () => {
 
           <meta
             name="description"
-            content="maniwebdev is providing best website development services from national to international clients. maniwebdev best website developer and designer. We work with passion and guarantee."
+            content="Looking for a skilled MERN Stack Developer with expertise in React, Node.js, Express, and MongoDB? Look no further! With over 4+ years of experience, I specialize in developing functional websites and mobile applications that meet business requirements. I am proficient in HTML, CSS, JavaScript, and various tools like Git, VS Code, and Firebase. My portfolio showcases my proficiency in delivering highly functional and user-friendly websites and mobile applications. Contact me today for your web and mobile app development needs."
           />
           <meta
             name="keywords"
-            content=" maniwebdev,freelance Website developer near me, Website company near me, Front end developer, Wordpress developer, Website desingner, Cheap website developer, cheap website developer company, website developer, website designer,"
+            content="MERN Stack Developer, React Developer, Node.js Developer, Express Developer, MongoDB Developer, Web and Mobile App Developer, Front-end Developer, Back-end Developer, React Native Developer, Full Stack Developer, website development, website design, front-end development, WordPress development, affordable website development, web design company"
           />
+
           <meta name="author" content="Usman" />
           <meta
             name="viewport"
@@ -139,12 +140,10 @@ const index = () => {
             borderTopRightRadius: "50%",
             borderTopLeftRadius: "50%",
             borderColor: "#f00f80",
-            width: '10px',
-            height: '50px',
+            width: "10px",
+            height: "50px",
           }}
-        >
-       
-        </button>
+        ></button>
         {/* section1 starts */}
         <div className="section1">
           <div className="text">
@@ -182,7 +181,7 @@ const index = () => {
         {/* section1 ends */}
         {/* section2 starts */}
         <section id="about">
-        <BlinkingStars count={5} />
+          <BlinkingStars count={5} />
           <div className={styles.story}>
             <h3>About me</h3>
           </div>
