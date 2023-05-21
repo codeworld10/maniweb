@@ -631,19 +631,17 @@ div .section1 {
 .head {
   color: #f00f80;
   font-family: "Raleway", sans-serif;
+  animation: fadeIn 1s ease-in-out;
 }
 
-@keyframes zoom-in-zoom-out {
+@keyframes fadeIn {
   0% {
-    transform: scale(1, 1);
+    opacity: 0;
+    transform: translateY(-20px);
   }
-
-  50% {
-    transform: scale(1.1, 1.1);
-  }
-
   100% {
-    transform: scale(1, 1);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -655,6 +653,27 @@ div .section1 {
   object-fit: cover;
 }
 
+.img:hover .topimg {
+  transform: scale(1.1);
+}
+
+.topimg {
+  animation: spin 3s  ease;
+  transition: transform 0.3s ease;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .para {
   line-height: 26px;
   color: grey;
@@ -662,6 +681,19 @@ div .section1 {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 17px;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .butto {
