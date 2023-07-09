@@ -98,7 +98,7 @@ const index = () => {
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
         <Head>
-          <title>Usman | Software Developer</title>
+          <title>Usman | Web/App Developer</title>
 
           <meta
             name="description"

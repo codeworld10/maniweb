@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer">
-          <p className="ftrpara">© 2022 ManiWebDev All rights reserved</p>
+          <p className="ftrpara">© 2023 ManiWebDev All rights reserved</p>
         </div>
       </footer>
     </>

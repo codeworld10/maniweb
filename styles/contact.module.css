@@ -8,6 +8,7 @@
 
 .headcont{
   text-align: center;
+  color: grey;
 }
 .headcont:hover{
   color: #f00f80;
