@@ -259,6 +259,12 @@ div .Global-images {
   width: 770px;
   padding: 10px 0px 10px 25px;
   border-radius: 5px;
+  border: 1px solid white;
+}
+
+.formwork:hover{
+  background-color: grey;
+  border: 1px solid #f00f80;
 }
 
 .input100 {
@@ -289,7 +295,7 @@ div .Global-images {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   border: 2px solid #f00f80;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .btrr:hover {
@@ -297,7 +303,7 @@ div .Global-images {
   color: #ffffff;
   cursor: pointer;
   transform: scale(1.1);
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 .ctbtn {
@@ -497,6 +503,9 @@ div .Global-images {
 .fote {
   background-color: black;
   margin-top: 15px;
+  border-top: 1px solid white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 @keyframes shake-animation {
@@ -650,7 +659,7 @@ div .section1 {
   color: #f00f80;
 }
  img {
-  border-radius: 10%;
+  border-radius: 3%;
   object-fit: cover;
 }
 
@@ -794,14 +803,13 @@ div .section1 {
   background-color: #eeeeee;
   width: 400px;
   height: 250px;
-  border-top-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-color: #7c7c7c;
-  border-width: 2px;
+  border: 1px solid rgba(255, 0, 98, 0.493);
+  border-top-left-radius: 15px;
 }
 
 .secicon:hover{
   background-color: rgba(255, 0, 98, 0.493);
+  border: 1px solid white;
 }
 
 .img {

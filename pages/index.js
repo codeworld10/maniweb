@@ -150,9 +150,9 @@ const index = () => {
             <div className="head">
               <h1>Hi, I am Usman!</h1>
             </div>
-            <p className="para">A passionate software developer!</p>
+            <p className="para">I'm a passionate software developer.</p>
             <span>
-              <p className="para">I like to work with teams and companies.</p>
+            <p className="para">Collaborating with teams and companies is what I love.</p>
             </span>
 
             <div className="butto">
