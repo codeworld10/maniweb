@@ -99,7 +99,6 @@ const index = () => {
         <CssBaseline />
         <Head>
           <title>Usman | Web/App Developer</title>
-
           <meta
             name="description"
             content="Looking for a skilled MERN Stack Developer with expertise in React, Node.js, Express, and MongoDB? Look no further! With over 4+ years of experience, I specialize in developing functional websites and mobile applications that meet business requirements. I am proficient in HTML, CSS, JavaScript, and various tools like Git, VS Code, and Firebase. My portfolio showcases my proficiency in delivering highly functional and user-friendly websites and mobile applications. Contact me today for your web and mobile app development needs."
