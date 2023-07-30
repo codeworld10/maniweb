@@ -97,6 +97,7 @@ const index = () => {
       <Ball x={mousePos.x} y={mousePos.y} />
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
+        <div>
         <Head>
           <title>Usman | Web/App Developer</title>
           <meta
@@ -127,6 +128,7 @@ const index = () => {
           />
           <FBPIXEL />
         </Head>
+        </div>
         <Navv />
         <button
           onClick={scrollToTop}
