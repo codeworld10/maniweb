@@ -30,6 +30,11 @@ const Ball = styled.div`
   top: ${({ y }) => y}px;
   left: ${({ x }) => x}px;
   z-index: 9999;
+  
+  @media (max-width: 768px) {
+    /* For tablet devices and smaller */
+    display: none;
+  }
 `;
 
 const index = () => {
