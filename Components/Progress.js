@@ -9,6 +9,7 @@ const Progress = () => {
   const [node, setNode] = useState(65);
   const [express, setExpress] = useState(60);
   const [mongo, setMongo] = useState(62);
+  const [word, setWord] = useState(85);
   return (
     <>
       <div className="Progress_center">
@@ -88,6 +89,19 @@ const Progress = () => {
             className="MONGO"
             style={{
               width: `${mongo}%`,
+              transition: "width 10.5s ease-in-out",
+            }}
+          ></div>
+        </div>
+      </div>
+
+      <div className="Progress_center">
+        WordPress 85%
+        <div className="progress-bar-container">
+          <div
+            className="Word"
+            style={{
+              width: `${word}%`,
               transition: "width 10.5s ease-in-out",
             }}
           ></div>

@@ -1237,6 +1237,15 @@ div .serpara2 {
   align-items: center;
 }
 
+.Word{
+  height: 100%;
+  background-color: #0c5cd4;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 10px;
+  align-items: center;
+}
+
 .serbtn1 {
   color: white;
   background-color: rgb(70, 70, 70);

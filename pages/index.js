@@ -119,10 +119,7 @@ const index = () => {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
-          <meta
-            name="google-site-verification"
-            content="8bUUelhJ0BI6lihtctl8Z4z0WDDIODpITpFxGf5QUpE"
-          />
+          <meta name="google-site-verification" content="8bUUelhJ0BI6lihtctl8Z4z0WDDIODpITpFxGf5QUpE" />
           <meta
             name="p:domain_verify"
             content="8cca891bf62b699c49c89a16eef4146a"
@@ -158,7 +155,7 @@ const index = () => {
             </div>
             <p className="para">I'm a passionate software developer.</p>
             <span>
-            <p className="para">Collaborating with teams and companies is what I love.</p>
+            <p className="para">🚀 Helping Small Businesses Grow Online.</p>
             </span>
 
             <div className="butto">
