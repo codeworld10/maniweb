@@ -103,33 +103,33 @@ const index = () => {
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
         <div>
-        <Head>
-          <title>Usman | Web/App Developer</title>
-          <meta
-            name="description"
-            content="Looking for a skilled MERN Stack Developer with expertise in React, Node.js, Express, and MongoDB? Look no further! With over 4+ years of experience, I specialize in developing functional websites and mobile applications that meet business requirements. I am proficient in HTML, CSS, JavaScript, and various tools like Git, VS Code, and Firebase. My portfolio showcases my proficiency in delivering highly functional and user-friendly websites and mobile applications. Contact me today for your web and mobile app development needs."
-          />
-          <meta
-            name="keywords"
-            content="MERN Stack Developer, React Developer, Node.js Developer, Express Developer, MongoDB Developer, Web and Mobile App Developer, Front-end Developer, Back-end Developer, React Native Developer, Full Stack Developer, website development, website design, front-end development, WordPress development, affordable website development, web design company"
-          />
+          <Head>
+            <title>Usman|Web/App Developer</title>
+            <meta
+              name="description"
+              content="Looking for a skilled MERN Stack Developer with expertise in React, Node.js, Express, and MongoDB? Look no further! With over 4+ years of experience, I specialize in developing functional websites and mobile applications that meet business requirements. I am proficient in HTML, CSS, JavaScript, and various tools like Git, VS Code, and Firebase. My portfolio showcases my proficiency in delivering highly functional and user-friendly websites and mobile applications. Contact me today for your web and mobile app development needs."
+            />
+            <meta
+              name="keywords"
+              content="MERN Stack Developer, React Developer, Node.js Developer, Express Developer, MongoDB Developer, Web and Mobile App Developer, Front-end Developer, Back-end Developer, React Native Developer, Full Stack Developer, website development, website design, front-end development, WordPress development, affordable website development, web design company"
+            />
 
-          <meta name="author" content="Usman" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          />
-          <meta name="google-site-verification" content="8bUUelhJ0BI6lihtctl8Z4z0WDDIODpITpFxGf5QUpE" />
-          <meta
-            name="p:domain_verify"
-            content="8cca891bf62b699c49c89a16eef4146a"
-          />
-          <meta
-            name="facebook-domain-verification"
-            content="zbf1k5wh1s6xdap2occ0q3w3z557ix"
-          />
-          <FBPIXEL />
-        </Head>
+            <meta name="author" content="Usman" />
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1.0"
+            />
+            <meta name="google-site-verification" content="8bUUelhJ0BI6lihtctl8Z4z0WDDIODpITpFxGf5QUpE" />
+            <meta
+              name="p:domain_verify"
+              content="8cca891bf62b699c49c89a16eef4146a"
+            />
+            <meta
+              name="facebook-domain-verification"
+              content="zbf1k5wh1s6xdap2occ0q3w3z557ix"
+            />
+            <FBPIXEL />
+          </Head>
         </div>
         <Navv />
         <button
@@ -155,7 +155,7 @@ const index = () => {
             </div>
             <p className="para">I'm a passionate software developer.</p>
             <span>
-            <p className="para">🚀 Helping Small Businesses Grow Online.</p>
+              <p className="para">🚀 Helping Small Businesses Grow Online.</p>
             </span>
 
             <div className="butto">
