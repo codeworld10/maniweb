@@ -192,25 +192,15 @@ const index = () => {
           <div className={styles.main_abt}>
             <div className={styles.aboutmee}>
               <p className={styles.stres}>
-                🚀 Welcome! I am a highly skilled Full Stack Developer with over
-                4+ years of experience in developing websites and mobile
-                applications using MERN stack and React Native. 👨‍💻 I specialize
-                in translating business requirements and Figma/Adobe XD designs
-                into fully functional websites or mobile applications. My
-                technical skills include front-end and back-end technologies
-                such as HTML, CSS, JavaScript, React JS, React Native, Node JS,
-                and MongoDB. I am also familiar with tools like Git, VS Code,
-                and Firebase. 📱 In addition to my professional experience, I
-                have also developed a real-world React Native mobile app that is
-                continuously growing. This showcases my expertise in handling
-                everything from ideation to product development. 💼 My portfolio
-                includes several projects demonstrating my proficiency in
-                developing highly functional and user-friendly websites and
-                mobile applications. I am a quick learner and have a keen
-                interest in staying up-to-date with the latest technologies and
-                trends. 🌟 If you are looking for a highly skilled and reliable
-                Full Stack Developer, I am available to discuss your
-                requirements.
+              🚀 Welcome! I am a highly skilled MERN Stack Developer with over 4+ years of experience in developing websites and mobile applications using React, Node.js, Express, and MongoDB.<br></br>
+               <br></br>
+              👨‍💻 I specialize in translating business requirements and Figma/Adobe XD designs into fully functional websites or mobile applications. My technical skills include front-end and back-end technologies such as HTML, CSS, JavaScript, React JS, React Native, Node JS, and MongoDB. I am also familiar with tools like Git, VS Code, and Firebase.<br></br>
+              <br></br>
+              📱 In addition to my professional experience, I have also developed a real-world React Native mobile app that is continuously growing. This showcases my expertise in handling everything from ideation to product development.<br></br>
+              <br></br>
+              💼 My portfolio includes several projects demonstrating my proficiency in developing highly functional and user-friendly websites and mobile applications. I am a quick learner and have a keen interest in staying up-to-date with the latest technologies and trends.<br></br>
+              <br></br>
+              🌟 If you are looking for a highly skilled and reliable MERN Stack Developer, I am available to discuss your requirements.<br></br>
               </p>
             </div>
           </div>
