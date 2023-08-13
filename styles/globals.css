@@ -290,11 +290,10 @@ div .Global-images {
 
 .btrr {
   color: white;
-  background-color: grey;
+  background-color: rgb(39, 39, 39);
   padding: 7px 25px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  border: 2px solid #f00f80;
   border-radius: 5px;
 }
 
@@ -618,7 +617,7 @@ div .Global-images {
   text-decoration: none;
   margin: 7px;
   font-size: 24px;
-  color: grey;
+  color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
 }
@@ -686,7 +685,7 @@ div .section1 {
 
 .para {
   line-height: 26px;
-  color: grey;
+  color: rgb(255, 255, 255);
   margin-right: 80px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -714,11 +713,10 @@ div .section1 {
 .btn {
   margin-right: 15px;
   color: white;
-  background-color: rgb(128, 128, 128);
+  background-color: rgb(49, 49, 49);
   padding: 7px 25px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  border: 1px solid #f00f80;
   border-radius: 15px;
 }
 
@@ -727,7 +725,7 @@ div .section1 {
   color: #ffffff;
   cursor: pointer;
   transform: scale(1.1);
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 .btn2:hover {
@@ -735,17 +733,16 @@ div .section1 {
   color: #ffffff;
   cursor: pointer;
   transform: scale(1.1);
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 .btn2 {
   color: white;
-  background-color: grey;
+  background-color: rgb(49, 49, 49);
   padding: 7px 25px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   border-radius: 15px;
-  border: 1px solid #f00f80;
 }
 
 .porth {
@@ -779,7 +776,7 @@ div .section1 {
   text-align: center;
   font-family: "Ubuntu", sans-serif;
   font-size: large;
-  color: grey;
+  color: rgb(255, 255, 255);
 }
 
 .how:hover {
@@ -866,7 +863,7 @@ div .cardmain {
 
 .pp1 {
   font-size: 16px;
-  color: grey;
+  color: rgb(0, 0, 0);
   cursor: pointer;
 }
 
@@ -888,11 +885,11 @@ height: 20px;
 }
 
 .frmt {
-  color: rgb(218, 218, 218);
+  color: rgb(255, 255, 255);
 }
 
 .frtxt {
-  color: rgb(218, 218, 218);
+  color: rgb(255, 255, 255);
 }
 
 .ball {
@@ -1141,7 +1138,7 @@ div .serpara2 {
   text-align: center;
   font-size: 25px;
   font-family: "Ubuntu", sans-serif;
-  color: grey;
+  color: rgb(255, 255, 255);
 }
 
 .tol:hover {
@@ -1154,7 +1151,7 @@ div .serpara2 {
   flex-direction: column;
   align-items: center ; 
   font-size: 14px; 
-  color: #7c7c7c;
+  color: #ffffff;
 }
 
 .progress-bar-container {

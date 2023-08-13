@@ -35,6 +35,7 @@ const Navv = () => {
             <Image
               className="logos"
               src="/images/Maniweb.png"
+              alt="maniwebdev website and mobile app developer"
               width="80"
               height="80"
             ></Image>

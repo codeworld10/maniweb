@@ -145,8 +145,9 @@ const index = () => {
             borderColor: "#f00f80",
             width: "10px",
             height: "50px",
+            textAlign: "center"
           }}
-        ></button>
+        >^</button>
         {/* section1 starts */}
         <div className="section1">
           <div className="text">

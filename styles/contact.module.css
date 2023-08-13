@@ -8,7 +8,7 @@
 
 .headcont{
   text-align: center;
-  color: grey;
+  color: rgb(255, 255, 255);
 }
 .headcont:hover{
   color: #f00f80;
@@ -23,7 +23,7 @@
     font-size: 19px;
 }
 .spen {
-  color: grey;
+  color: rgb(255, 255, 255);
 }
 @keyframes zoom-in-zoom-out {
     0% {
