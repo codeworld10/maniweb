@@ -107,13 +107,12 @@ const index = () => {
             <title>Usman|Web/App Developer</title>
             <meta
               name="description"
-              content="Looking for a skilled MERN Stack Developer with expertise in React, Node.js, Express, and MongoDB? Look no further! With over 4+ years of experience, I specialize in developing functional websites and mobile applications that meet business requirements. I am proficient in HTML, CSS, JavaScript, and various tools like Git, VS Code, and Firebase. My portfolio showcases my proficiency in delivering highly functional and user-friendly websites and mobile applications. Contact me today for your web and mobile app development needs."
+              content="Looking for a skilled MERN Stack Developer with expertise in React, Node.js, Express, and MongoDB? Look no further! With over 4+ years of experience, I specialize in developing functional websites and mobile applications that meet business requirements. Contact me today for your web and mobile app development needs."
             />
             <meta
               name="keywords"
               content="MERN Stack Developer, React Developer, Node.js Developer, Express Developer, MongoDB Developer, Web and Mobile App Developer, Front-end Developer, Back-end Developer, React Native Developer, Full Stack Developer, website development, website design, front-end development, WordPress development, affordable website development, web design company"
             />
-
             <meta name="author" content="Usman" />
             <meta
               name="viewport"
@@ -128,6 +127,17 @@ const index = () => {
               name="facebook-domain-verification"
               content="zbf1k5wh1s6xdap2occ0q3w3z557ix"
             />
+            {/* Open Graph and Twitter Card meta tags */}
+            <meta property="og:title" content="MERN Stack Developer | Usman - Web/App Developer" />
+            <meta property="og:description" content="Looking for a skilled MERN Stack Developer? With over 4+ years of experience, I specialize in developing functional websites and mobile applications. Contact me today for your web and mobile app development needs." />
+            <meta property="og:type" content="website" />
+            <meta property="og:image" content="/images/usm.png" />
+            <meta property="og:url" content="https://maniwebdev.com" />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:site" content="@maniwebdev" />
+
+            {/* Canonical URL */}
+            <link rel="canonical" href="https://maniwebdev.com" />
             <FBPIXEL />
           </Head>
         </div>
