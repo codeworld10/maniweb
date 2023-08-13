@@ -105,7 +105,7 @@ const Navv = () => {
       </div>
       <header className="mobile-container ">
         <div className="logomob">
-          <Image src="/images/Maniweb.png" width="150" height="150"/>
+          <Image src="/images/Maniweb.png" alt="maniwebdev best website developer near me." width="150" height="150"/>
         </div>
 
         <nav className="topnav">
