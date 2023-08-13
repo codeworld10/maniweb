@@ -45,7 +45,7 @@ const index = () => {
     // simulate page loading for 2 seconds
     setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 100);
   }, []);
 
   useEffect(() => {
@@ -174,7 +174,7 @@ const index = () => {
             <Image
               className="topimg"
               src="/images/usm.png"
-              alt="maniwebdev Freelance website developer"
+              alt="maniwebdev web/app developer"
               width="420"
               height="420"
             ></Image>
