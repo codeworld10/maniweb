@@ -14,6 +14,7 @@ import Contact from "../Components/Contact";
 //import Ball from "../Components/Ball";
 import styled from "styled-components";
 import BlinkingStars from "../Components/BlinkingStars";
+import GoogleAnalytics from "../Components/GoogleAnalytics";
 
 const darkTheme = createTheme({
   palette: {
@@ -139,6 +140,7 @@ const index = () => {
             {/* Canonical URL */}
             <link rel="canonical" href="https://maniwebdev.com" />
             <FBPIXEL />
+            <GoogleAnalytics />
           </Head>
         </div>
         <Navv />
