@@ -67,7 +67,7 @@ const Form = (props) => {
                   alt="contact with maniwebdev on github."
                   width="30"
                   height="30"
-                ></Image>
+                />
               </div>
               <div className={styles.cntmedia}>
                 <Image
@@ -77,7 +77,7 @@ const Form = (props) => {
                   alt="contact with maniwebdev on facebook page"
                   width="30"
                   height="30"
-                ></Image>
+                />
               </div>
               <div className={styles.cntmedia}>
                 <Image
@@ -87,7 +87,7 @@ const Form = (props) => {
                   alt="contact with maniwebdev on instagram"
                   width="30"
                   height="30"
-                ></Image>
+                />
               </div>
               <div className={styles.cntmedia}>
                 <Image
@@ -97,7 +97,7 @@ const Form = (props) => {
                   alt="contact with maniwebdev on linkedin"
                   width="30"
                   height="30"
-                ></Image>
+                />
               </div>
               <div className={styles.cntmedia}>
                 <Image
@@ -107,7 +107,7 @@ const Form = (props) => {
                   alt="contact with maniwebdev on twitter"
                   width="30"
                   height="30"
-                ></Image>
+                />
               </div>
             </div>
             <h2 className="frmt">Get In touch</h2>

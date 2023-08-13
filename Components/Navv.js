@@ -38,7 +38,7 @@ const Navv = () => {
               alt="maniwebdev website and mobile app developer"
               width="80"
               height="80"
-            ></Image>
+            />
           </div>
           <ul>
             <li className="list">
@@ -68,7 +68,7 @@ const Navv = () => {
                 alt="maniwebdev Freelance website developer and designer"
                 width="20"
                 height="25"
-              ></Image>
+              />
             </div>
             <div className="media">
               <Image
@@ -78,7 +78,7 @@ const Navv = () => {
                 alt="maniwebdev best website developer near me"
                 width="20"
                 height="25"
-              ></Image>
+              />
             </div>
             <div className="media">
               <Image
@@ -88,7 +88,7 @@ const Navv = () => {
                 alt="maniwebdev website developer"
                 width="20"
                 height="25"
-              ></Image>
+              />
             </div>
             <div className="media">
               <Image
@@ -98,14 +98,14 @@ const Navv = () => {
                 alt="maniwebdev Freelance web developer for hire"
                 width="20"
                 height="25"
-              ></Image>
+              />
             </div>
           </div>
         </div>
       </div>
       <header className="mobile-container ">
         <div className="logomob">
-          <Image src="/images/Maniweb.png" width="150" height="150"></Image>
+          <Image src="/images/Maniweb.png" width="150" height="150"/>
         </div>
 
         <nav className="topnav">

@@ -93,7 +93,7 @@ const index = () => {
         alt="maniwebdev Freelance website developer"
         width="150"
         height="150"
-      ></Image>
+      />
     );
   }
 
@@ -176,9 +176,9 @@ const index = () => {
               className="topimg"
               src="/images/usm.png"
               alt="maniwebdev web/app developer"
-              width="420"
-              height="420"
-            ></Image>
+              width={420}
+              height={420}
+            />
           </div>
         </div>
         <Divider className="divide" light />
@@ -224,7 +224,7 @@ const index = () => {
                   alt="maniwebdev freelance website designer near me"
                   width="64"
                   height="64"
-                ></Image>
+                />
                 <span className="re">
                   <h2 onClick={worker} className="he1">
                     Android App
@@ -246,7 +246,7 @@ const index = () => {
                   alt="maniwebdev cheap freeelance website designer"
                   width="64"
                   height="64"
-                ></Image>
+                />
                 <span className="re">
                   <h2 onClick={carpenter} className="he1">
                     Carpenter Website
@@ -271,7 +271,7 @@ const index = () => {
                   alt="maniwebdev freelance website designer near me"
                   width="64"
                   height="64"
-                ></Image>
+                />
                 <span className="re">
                   <h2 onClick={notes} className="he1">
                     Notes App
@@ -293,7 +293,7 @@ const index = () => {
                   alt="maniwebdev cheap freeelance website designer"
                   width="64"
                   height="64"
-                ></Image>
+                />
                 <span className="re">
                   <h2 onClick={fake} className="he1">
                     Fake-API fetch
@@ -318,7 +318,7 @@ const index = () => {
                   alt="maniwebdev cheap freelance website developer near me"
                   width="64"
                   height="64"
-                ></Image>
+                />
                 <span className="re">
                   <h2 onClick={insta} className="he1">
                     Instagram
@@ -340,7 +340,7 @@ const index = () => {
                   alt="maniwebdev cheap freelance website developer near me"
                   width="64"
                   height="64"
-                ></Image>
+                />
                 <span className="re">
                   <h2 onClick={food} className="he1">
                     Food App
