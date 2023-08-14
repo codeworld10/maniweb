@@ -14,6 +14,7 @@ import Contact from "../Components/Contact";
 //import Ball from "../Components/Ball";
 import styled from "styled-components";
 import BlinkingStars from "../Components/BlinkingStars";
+import GoogleAnalytics from "../Components/GoogleAnalytics";
 
 const darkTheme = createTheme({
   palette: {
@@ -139,18 +140,7 @@ const index = () => {
             {/* Canonical URL */}
             <link rel="canonical" href="https://maniwebdev.com" />
             <FBPIXEL />
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-TKRL2H1FM8"></script>
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  
-                  gtag('config', 'G-TKRL2H1FM8');
-                `,
-              }}
-            />
+           <GoogleAnalytics />
           </Head>
         </div>
         <Navv />
@@ -200,6 +190,7 @@ const index = () => {
               alt="maniwebdev web/app developer"
               width={420}
               height={420}
+              priority={false}
             />
           </div>
         </div>
