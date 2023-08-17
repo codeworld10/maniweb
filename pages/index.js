@@ -91,7 +91,7 @@ const index = () => {
       <Image
         className="loader"
         src="/images/usm.png"
-        alt="maniwebdev Freelance website developer"
+        alt="maniwebdev website, web app and mobile app developer."
         width="150"
         height="150"
       />
