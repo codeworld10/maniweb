@@ -3,14 +3,14 @@ import Image from "next/image";
 import React, { useState } from "react";
 
 const Navv = () => {
-  const handle = () => {
-    var x = document.getElementById("menu");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  };
+   const handle = () => {
+     var x = document.getElementById("menu");
+     if (x.style.display === "block") {
+       x.style.display = "none";
+     } else {
+       x.style.display = "block";
+     }
+   };
 
   const insta = () => {
     window.open("https://www.instagram.com/maniwebdev/");

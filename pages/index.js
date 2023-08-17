@@ -106,6 +106,7 @@ const index = () => {
         <div>
           <Head>
             <title>Usman|Web/App Developer</title>
+            <GoogleAnalytics />
             <meta
               name="description"
               content="Looking for a skilled MERN Stack Developer with expertise in React, Node.js, Express, and MongoDB? Look no further! With over 4+ years of experience, I specialize in developing functional websites and mobile applications that meet business requirements. Contact me today for your web and mobile app development needs."
@@ -140,7 +141,6 @@ const index = () => {
             {/* Canonical URL */}
             <link rel="canonical" href="https://maniwebdev.com" />
             <FBPIXEL />
-           <GoogleAnalytics />
           </Head>
         </div>
         <Navv />
