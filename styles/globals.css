@@ -666,23 +666,6 @@ div .section1 {
   transform: scale(1.1);
 }
 
-.topimg {
-  animation: spin 1s  ease;
-  transition: transform 0.1s ease;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(180deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 .para {
   line-height: 26px;
   color: rgb(255, 255, 255);

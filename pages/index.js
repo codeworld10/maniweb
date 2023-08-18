@@ -94,6 +94,7 @@ const index = () => {
         alt="maniwebdev website, web app and mobile app developer."
         width="150"
         height="150"
+        priority={true}
       />
     );
   }
@@ -201,7 +202,7 @@ const index = () => {
               alt="maniwebdev web/app developer"
               width={420}
               height={420}
-              priority={false}
+              priority={true}
             />
           </div>
         </div>
