@@ -14,7 +14,7 @@ import Contact from "../Components/Contact";
 //import Ball from "../Components/Ball";
 import styled from "styled-components";
 import BlinkingStars from "../Components/BlinkingStars";
-import Script from 'next/script'
+import GoogleAnalytics from "../Components/GoogleAnalytics";
 
 const darkTheme = createTheme({
   palette: {
@@ -107,6 +107,7 @@ const index = () => {
         <div>
           <Head>
             <title>Usman|Web/App Developer</title>
+            <GoogleAnalytics />
             <meta
               name="description"
               content="Looking for a skilled MERN Stack Developer with expertise in React, Node.js, Express, and MongoDB? Look no further! With over 4+ years of experience, I specialize in developing functional websites and mobile applications that meet business requirements. Contact me today for your web and mobile app development needs."
@@ -141,18 +142,6 @@ const index = () => {
             {/* Canonical URL */}
             <link rel="canonical" href="https://maniwebdev.com" />
             <FBPIXEL />
-            <Script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-TKRL2H1FM8"
-            strategy="afterInteractive"
-          >
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-TKRL2H1FM8');
-            `}
-          </Script>
           </Head>
         </div>
         <Navv />
