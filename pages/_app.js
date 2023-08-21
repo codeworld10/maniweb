@@ -1,12 +1,13 @@
-import '../styles/globals.css'
-import Analytics from '@vercel/analytics';
+// pages/_app.js
+import React from 'react';
+import Layout from '../Components/Layout';
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div>
-      <Analytics />
+    <Layout>
       <Component {...pageProps} />
-    </div>
+    </Layout>
   );
 }
 
