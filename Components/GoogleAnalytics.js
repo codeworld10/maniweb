@@ -1,11 +1,13 @@
 import React from "react";
-import Script from 'next/script'
 
 const GoogleAnalytics = () => {
+  const console = () =>{
+    console.log("working")
+  }
   return (
     <React.Fragment>
-      <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-TKRL2H1FM8"/>
-      <Script
+      <script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-TKRL2H1FM8"/>
+      <script
         id='google-analytics'
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
@@ -17,6 +19,7 @@ const GoogleAnalytics = () => {
               page_path: window.location.pathname,
             });
           `,
+         
           }}
       />
     </React.Fragment>
