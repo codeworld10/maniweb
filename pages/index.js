@@ -90,6 +90,16 @@ const index = () => {
     window.open("https://github.com/codeworld10/fake-API-fetching");
   };
 
+  const linked = () => {
+    window.open("https://linkedin-clone-azure-nu.vercel.app/");
+  };
+
+  const quotes = () => {
+    window.open("https://acts-of-kindness-generator.vercel.app/");
+  };
+
+  
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -330,6 +340,53 @@ const index = () => {
               </div>
             </div>
           </div>
+
+          <div className="section2">
+            <div className="secicon">
+              <div className="icon">
+                <Image
+                  className="topimgg"
+                  src="/images/lii.png"
+                  alt="maniwebdev freelance website designer near me"
+                  width="64"
+                  height="64"
+                />
+                <span className="re">
+                  <h2 onClick={linked} className="he1">
+                    LinkedIn
+                  </h2>
+                </span>
+                <span className="pre">
+                  <p className="pp1" onClick={linked}>
+                    Technologies: Created LinkedIn design using NextJs.
+                    Click here to check live project.
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div className="secicon">
+              <div className="icon">
+                <Image
+                  className="topimgg"
+                  src="/images/quotes.png"
+                  alt="maniwebdev cheap freeelance website designer"
+                  width="64"
+                  height="64"
+                />
+                <span className="re">
+                  <h2 onClick={quotes} className="he1">
+                    Quotes Generator
+                  </h2>
+                </span>
+                <span className="pre">
+                  <p onClick={quotes} className="pp1">
+                    Acts of kindness generator a tool that generates acts of kindess when you click on generate button.
+                  </p>
+                </span>
+              </div>
+            </div>
+          </div>
+
 
           <div className="section2">
             <div className="secicon">
