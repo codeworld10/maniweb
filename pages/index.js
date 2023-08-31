@@ -14,7 +14,6 @@ import Contact from "../Components/Contact";
 //import Ball from "../Components/Ball";
 import styled from "styled-components";
 import BlinkingStars from "../Components/BlinkingStars";
-import { initGA, logPageView } from '../analytics'
 
 const darkTheme = createTheme({
   palette: {
@@ -47,14 +46,6 @@ const index = () => {
     setTimeout(() => {
       setIsLoading(false);
     }, 100);
-  }, []);
-
-  useEffect(() => {
-    if (!window.GA_INITIALIZED) {
-      initGA();
-      window.GA_INITIALIZED = true;
-    }
-    logPageView();
   }, []);
 
   useEffect(() => {
