@@ -15,6 +15,7 @@ import Contact from "../Components/Contact";
 import styled from "styled-components";
 import BlinkingStars from "../Components/BlinkingStars";
 import Portfolio from "../Components/Portfolio";
+import Aboutme from "../Components/Aboutme";
 
 const darkTheme = createTheme({
   palette: {
@@ -192,31 +193,8 @@ const index = () => {
         <Divider className="divide" light />
         {/* section1 ends */}
         {/* section2 starts */}
-        <section id="about">
-          <BlinkingStars count={5} />
-          <div className={styles.story}>
-            <h3>About me</h3>
-          </div>
-
-          <div className={styles.main_abt}>
-            <div className={styles.aboutmee}>
-              <p className={styles.stres}>
-                🚀 Hello and welcome! I'm a seasoned MERN Stack Developer with an exceptional track record of crafting stunning websites and dynamic mobile applications for over 4+ years. My toolkit includes React, Node.js, Express, and MongoDB, forming the foundation for my innovation and expertise.<br /><br />
-
-                👨‍💻 My specialty lies in transforming business visions and design concepts from Figma or Adobe XD into living, breathing digital experiences. Seamlessly melding front-end and back-end technologies like HTML, CSS, JavaScript, React JS, React Native, Node JS, and MongoDB, I create cohesive and functional solutions. My toolset extends to familiar platforms like Git, VS Code, and Firebase for a comprehensive approach.<br /><br />
-
-                📱 Beyond my professional journey, I've brought to life a thriving React Native mobile app that's continuously evolving. This serves as a testament to my proficiency in every phase of development, from conceptualization to the final product.<br /><br />
-
-                💼 With a passion for driving growth, I take pride in helping small businesses establish a powerful online presence. My portfolio showcases a range of projects that illustrate my ability to craft highly functional and user-centric websites and mobile applications, tailored to the unique needs of each business. With a voracious appetite for learning, I'm dedicated to remaining at the forefront of emerging technologies and industry trends.<br /><br />
-
-                🌟 If you're in search of an adept and reliable MERN Stack Developer who not only understands technology but also understands your business goals, I'm readily available to discuss and bring your unique requirements to fruition.<br /><br />
-
-                Let's embark on a journey to turn your digital aspirations into reality!
-              </p>
-            </div>
-          </div>
-
-        </section>
+        <BlinkingStars count={5} />
+        <Aboutme />
         <Divider className="divide" light />
         <section>
         <Portfolio />
