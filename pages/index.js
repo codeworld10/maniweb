@@ -4,18 +4,17 @@ import Image from "next/image";
 import Head from "next/head";
 import Footer from "../Components/Footer";
 import FBPIXEL from "../Components/FBPIXEL";
-import styles from "../styles/aboutme.module.css";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import Divider from "@mui/material/Divider";
 import React, { useState, useEffect } from "react";
 import Progress from "../Components/Progress";
 import Contact from "../Components/Contact";
-//import Ball from "../Components/Ball";
 import styled from "styled-components";
 import BlinkingStars from "../Components/BlinkingStars";
 import Portfolio from "../Components/Portfolio";
 import Aboutme from "../Components/Aboutme";
+import Testimonials from "../Components/Testimonials";
 
 const darkTheme = createTheme({
   palette: {
@@ -199,6 +198,8 @@ const index = () => {
         <section>
         <Portfolio />
         </section>
+        <Divider className="divide" light />
+        <Testimonials />
         <Divider className="divide" light />
         <div className="tol">
           <h3>Technologies</h3>

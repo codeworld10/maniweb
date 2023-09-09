@@ -1,6 +1,11 @@
 import React from 'react'
+import Image from "next/image";
+import {FcGoogle} from 'react-icons/fc'
 
 const Testimonials = () => {
+const google = () => {
+  window.open("https://goo.gl/maps/9UgPSVrKKowZyLdF9")
+}
   return (
     <div>
     <div className="test">
@@ -10,7 +15,7 @@ const Testimonials = () => {
     <div className="card">
       <Image
         className="cardimg"
-        src="/images/girl.jpg"
+        src="/images/Maria.jpg"
         alt="kay"
         width="120"
         height="120"
@@ -30,7 +35,7 @@ const Testimonials = () => {
     <div className="card2">
       <Image
         className="cardimg"
-        src="/images/man.jpg"
+        src="/images/mr.jpg"
         alt="kay"
         width="120"
         height="120"
@@ -40,9 +45,9 @@ const Testimonials = () => {
       </span>
       <span>
         <p className="testip">
-          I have received my work on time. he has done this job quick and
-          i'm very satisified with his work so far. i will give him more
-          jobs for sure if he wants in the future. well done and thx a lot.
+          I have received my work on time. He has done this job quick and
+          I'm very satisified with his work so far. I will give him more
+          jobs for sure if he wants in the future. Well done and thx a lot.
         </p>
       </span>
     </div>
@@ -67,8 +72,8 @@ const Testimonials = () => {
       </span>
     </div>
   </div>
-  <div className="revi">
-    <p>NOTE! All These Reviews Are Available On My Profiles.</p>
+  <div onClick={google} className="revi">
+  <button className='google-btn'>More on {''} <FcGoogle style={{paddingLeft:"5px"}} size={20} /></button>
   </div>
     </div>
   )
