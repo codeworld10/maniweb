@@ -4,8 +4,8 @@ import { Analytics } from '@vercel/analytics/react';
 
 const Layout = ({ children }) => (
   <div>
-    <Analytics />
     {children}
+    <Analytics />
   </div>
 );
 
