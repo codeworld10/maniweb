@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import FBPIXEL from "../Components/FBPIXEL";
 import Navv from "../Components/Navv";
 import Image from "next/image";
 import Footer from "../Components/Footer";
@@ -45,8 +44,6 @@ const globalworker = () => {
         />
         <meta name="author" content="Usman" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        <FBPIXEL />
       </Head>
       <Navv />
 
