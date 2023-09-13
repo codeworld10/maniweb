@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import {FcGoogle} from 'react-icons/fc'
+import Head from 'next/head';
 
 const Testimonials = () => {
 const google = () => {
@@ -8,6 +9,17 @@ const google = () => {
 }
   return (
     <div>
+    <Head>
+    {/* Add meta tags for SEO */}
+    <meta
+        name="description"
+        content="Read what our clients have to say about our web and mobile app development services. Check out these testimonials from satisfied customers."
+    />
+    <meta
+        name="keywords"
+        content="testimonials, client reviews, web development, mobile app development"
+    />
+</Head>
     <div className="test">
     <h3>Testimonials</h3>
   </div>
