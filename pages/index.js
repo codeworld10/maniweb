@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
 import Footer from "../Components/Footer";
-import FBPIXEL from "../Components/FBPIXEL";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import Divider from "@mui/material/Divider";
@@ -15,6 +14,7 @@ import BlinkingStars from "../Components/BlinkingStars";
 import Portfolio from "../Components/Portfolio";
 import Aboutme from "../Components/Aboutme";
 import Testimonials from "../Components/Testimonials";
+
 
 const darkTheme = createTheme({
   palette: {
@@ -134,8 +134,27 @@ const index = () => {
             />
             {/* Canonical URL */}
             <link rel="canonical" href="https://maniwebdev.com" />
-            <FBPIXEL />
-
+            <script type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "http://schema.org",
+                "@type": "Person",
+                "name": "Muhammad Usman",
+                "jobTitle": "Website, Web App, and Mobile App Developer",
+                "url": "https://maniwebdev.com",
+                "image": "https://maniwebdev.com/images/usm.png",
+                "description": "I am Muhammad Usman, a MERN Stack Developer with a passion for creating stunning websites, web apps, and mobile apps. At maniwebdev, I offer a range of services, including website development, web app development, mobile app development, design services, and SEO. Let's bring your digital ideas to life!",
+                "sameAs": [
+                  "https://www.facebook.com/maniwebdev/",
+                  "https://www.tiktok.com/@maniwebdev",
+                  "https://www.linkedin.com/in/usman-software-developer/",
+                  "https://www.instagram.com/maniwebdev/",
+                  "https://twitter.com/maniwebdev",
+                  "https://github.com/codeworld10"
+                ]
+              })
+            }}
+            />
           </Head>
         </div>
         <Navv />
