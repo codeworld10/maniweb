@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from "next/image";
-import Head from 'next/head';
 
 const Portfolio = () => {
 
@@ -34,17 +33,6 @@ const Portfolio = () => {
   };
   return (
     <div>
-      <Head>
-        {/* Add meta tags for SEO */}
-        <meta
-          name="description"
-          content="Explore Muhammad Usman's portfolio of web and mobile app development projects. View our work and get in touch for your project needs."
-        />
-        <meta
-          name="keywords"
-          content="portfolio, web development, mobile app development, React, React Native, projects"
-        />
-      </Head>
       <section id="portfolio">
         <div className="how">
           <h2>Portfolio</h2>
