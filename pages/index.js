@@ -61,7 +61,7 @@ const index = () => {
     };
   }, []);
 
-  
+
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -101,7 +101,9 @@ const index = () => {
               name="viewport"
               content="width=device-width, initial-scale=1.0"
             />
+            <meta name="ahrefs-site-verification" content="844e7bb048f68dcad1d4d275e67d157c593ebbd7084414eb95a28cf97578b398" />
             <meta name="google-site-verification" content="8bUUelhJ0BI6lihtctl8Z4z0WDDIODpITpFxGf5QUpE" />
+
             <meta
               name="p:domain_verify"
               content="8cca891bf62b699c49c89a16eef4146a"
@@ -120,8 +122,8 @@ const index = () => {
             <meta name="twitter:site" content="@maniwebdev" />
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-TKRL2H1FM8"></script>
             <script
-                dangerouslySetInnerHTML={{
-                    __html: `window.dataLayer = window.dataLayer || [];
+              dangerouslySetInnerHTML={{
+                __html: `window.dataLayer = window.dataLayer || [];
                             function gtag(){dataLayer.push(arguments);}
                             gtag('js', new Date());
                             
@@ -130,30 +132,30 @@ const index = () => {
                             
                             gtag('config', 'G-TKRL2H1FM8');
                     `,
-                }}
+              }}
             />
             {/* Canonical URL */}
             <link rel="canonical" href="https://maniwebdev.com" />
             <script type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "http://schema.org",
-                "@type": "Person",
-                "name": "Muhammad Usman",
-                "jobTitle": "Website, Web App, and Mobile App Developer",
-                "url": "https://maniwebdev.com",
-                "image": "https://maniwebdev.com/images/usm.png",
-                "description": "I am Muhammad Usman, a MERN Stack Developer with a passion for creating stunning websites, web apps, and mobile apps. At maniwebdev, I offer a range of services, including website development, web app development, mobile app development, design services, and SEO. Let's bring your digital ideas to life!",
-                "sameAs": [
-                  "https://www.facebook.com/maniwebdev/",
-                  "https://www.tiktok.com/@maniwebdev",
-                  "https://www.linkedin.com/in/usman-software-developer/",
-                  "https://www.instagram.com/maniwebdev/",
-                  "https://twitter.com/maniwebdev",
-                  "https://github.com/codeworld10"
-                ]
-              })
-            }}
+              dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                  "@context": "http://schema.org",
+                  "@type": "Person",
+                  "name": "Muhammad Usman",
+                  "jobTitle": "Website, Web App, and Mobile App Developer",
+                  "url": "https://maniwebdev.com",
+                  "image": "https://maniwebdev.com/images/usm.png",
+                  "description": "I am Muhammad Usman, a MERN Stack Developer with a passion for creating stunning websites, web apps, and mobile apps. At maniwebdev, I offer a range of services, including website development, web app development, mobile app development, design services, and SEO. Let's bring your digital ideas to life!",
+                  "sameAs": [
+                    "https://www.facebook.com/maniwebdev/",
+                    "https://www.tiktok.com/@maniwebdev",
+                    "https://www.linkedin.com/in/usman-software-developer/",
+                    "https://www.instagram.com/maniwebdev/",
+                    "https://twitter.com/maniwebdev",
+                    "https://github.com/codeworld10"
+                  ]
+                })
+              }}
             />
           </Head>
         </div>
@@ -215,7 +217,7 @@ const index = () => {
         <Aboutme />
         <Divider className="divide" light />
         <section>
-        <Portfolio />
+          <Portfolio />
         </section>
         <Divider className="divide" light />
         <Testimonials />
