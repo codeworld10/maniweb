@@ -87,7 +87,7 @@ const index = () => {
         <CssBaseline />
         <div>
           <Head>
-            <title>Usman|Web/App Developer</title>
+            <title>Usman | Web/App Developer</title>
             <meta
               name="description"
               content="Looking for a skilled MERN Stack Developer with expertise in React, Node.js, Express, and MongoDB? Look no further! With over 4+ years of experience, I specialize in developing functional websites and mobile applications that meet business requirements. Contact me today for your web and mobile app development needs."
@@ -182,7 +182,7 @@ const index = () => {
             <div className="head">
               <h1>Hi, I am Usman!</h1>
             </div>
-            <p className="para">I'm a passionate software developer.</p>
+            <p className="para">A Passionate Web/App Developer.</p>
             <span>
               <p className="para">🚀 Helping Small Businesses Grow Online.</p>
             </span>
