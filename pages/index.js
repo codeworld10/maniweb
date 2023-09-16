@@ -192,8 +192,8 @@ const index = () => {
                 <Link href="#portfolio" passHref>
                   <button className="btn">Portfolio</button>
                 </Link>
-                <Link href="#about" passHref>
-                  <button className="btn2">About me</button>
+                <Link href="#contact" passHref>
+                  <button className="btn2">Contact me</button>
                 </Link>
               </span>
             </div>
