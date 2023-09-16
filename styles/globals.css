@@ -701,6 +701,7 @@ div .section1 {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   border-radius: 15px;
+  border-width: 0px;
 }
 
 .btn:hover {
@@ -721,11 +722,14 @@ div .section1 {
 
 .btn2 {
   color: white;
-  background-color: rgb(49, 49, 49);
+  background-color: #f00f80;
   padding: 7px 25px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   border-radius: 15px;
+  border-width: 0px;
+  transform: scale(1.1);
+  transition: 0.1s;
 }
 
 .porth {
