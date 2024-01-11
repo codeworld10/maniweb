@@ -12,7 +12,7 @@ const Aboutme = () => {
         <div className={styles.main_abt}>
           <div className={styles.aboutmee}>
             <p className={styles.stres}>
-              🚀 Hello! I'm an experienced Web and Mobile App Developer with over 4+ years of know-how. I'm here to make great websites and mobile apps happen, using cool stuff like React, Node.js, Express, and MongoDB.<br></br>
+              🚀 Hello! I'm an experienced Web and Mobile App Developer with over 5+ years of know-how. I'm here to make great websites and mobile apps happen, using cool stuff like React, Node.js, Express, and MongoDB.<br></br>
               <br></br>
               💼 What I do best is turn design ideas into real, working websites and apps. I use a bunch of techie stuff like HTML, CSS, JavaScript, React JS, NextJs, React Native, Node JS, and MongoDB. Plus, I'm always learning about new tech to stay up-to-date.<br></br>
               <br></br>

@@ -20,8 +20,8 @@ const Portfolio = () => {
   const notes = () => {
     window.open("https://github.com/codeworld10/notebook");
   };
-  const fake = () => {
-    window.open("https://github.com/codeworld10/fake-API-fetching");
+  const Wage = () => {
+    window.open("https://www.wagewar.com/");
   };
 
   const linked = () => {
@@ -39,6 +39,28 @@ const Portfolio = () => {
         </div>
 
         <div className="section2">
+        <div className="secicon">
+            <div className="icon">
+              <Image
+                className="topimgg"
+                src="/images/logo.png"
+                alt="maniwebdev cheap freeelance website designer"
+                width="64"
+                height="64"
+              />
+              <span className="re">
+                <h2 onClick={Wage} className="he1">
+                  Wage War
+                </h2>
+              </span>
+              <span className="pre">
+                <p onClick={Wage} className="pp1">
+                  Technologies: NextJs, MongoDB, Express.js, Nodejs
+                  Amazon S3 bucket, Stripe, socket io, Adobe illustrator, Figma.
+                </p>
+              </span>
+            </div>
+          </div>
           <div className="secicon">
             <div className="icon">
               <Image
@@ -61,7 +83,12 @@ const Portfolio = () => {
               </span>
             </div>
           </div>
-          <div className="secicon">
+          
+          
+        </div>
+
+        <div className="section2">
+        <div className="secicon">
             <div className="icon">
               <Image
                 className="topimgg"
@@ -83,9 +110,6 @@ const Portfolio = () => {
               </span>
             </div>
           </div>
-        </div>
-
-        <div className="section2">
           <div className="secicon">
             <div className="icon">
               <Image
@@ -104,28 +128,6 @@ const Portfolio = () => {
                 <p className="pp1" onClick={notes}>
                   Technologies: React native, MongoDB, Express.js, Nodejs
                   private CRUD notes app for saving notes.
-                </p>
-              </span>
-            </div>
-          </div>
-          <div className="secicon">
-            <div className="icon">
-              <Image
-                className="topimgg"
-                src="/images/fake-api.png"
-                alt="maniwebdev cheap freeelance website designer"
-                width="64"
-                height="64"
-              />
-              <span className="re">
-                <h2 onClick={fake} className="he1">
-                  Fake-API fetch
-                </h2>
-              </span>
-              <span className="pre">
-                <p onClick={fake} className="pp1">
-                  Fetching products from a fake API and displaying them on the
-                  screen. React native and fake-API.
                 </p>
               </span>
             </div>
