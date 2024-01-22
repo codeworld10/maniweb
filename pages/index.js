@@ -14,7 +14,7 @@ import BlinkingStars from "../Components/BlinkingStars";
 import Portfolio from "../Components/Portfolio";
 import Aboutme from "../Components/Aboutme";
 import Testimonials from "../Components/Testimonials";
-
+import { track } from '@vercel/analytics';
 
 const darkTheme = createTheme({
   palette: {
@@ -43,11 +43,12 @@ const index = () => {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
-    // simulate page loading for 2 seconds
     setTimeout(() => {
       setIsLoading(false);
+      track('page_load_completed');
     }, 100);
   }, []);
+
 
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -63,8 +64,14 @@ const index = () => {
 
 
 
+  // You can wrap the tracking logic in a function
+  const handleButtonClick = (buttonName) => {
+    track('button_clicked', { buttonName });
+  };
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
+    track('scroll_to_top_clicked');
   };
 
   if (isLoading) {
@@ -190,10 +197,10 @@ const index = () => {
             <div className="butto">
               <span>
                 <Link href="#portfolio" passHref>
-                  <button className="btn">Portfolio</button>
+                  <button className="btn" onClick={() => handleButtonClick('Portfolio')}>Portfolio</button>
                 </Link>
                 <Link href="#contact" passHref>
-                  <button className="btn2">Contact me</button>
+                  <button className="btn2" onClick={() => handleButtonClick('Contact me')}>Contact me</button>
                 </Link>
               </span>
             </div>

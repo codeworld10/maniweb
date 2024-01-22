@@ -1,3 +1,4 @@
+require('dotenv').config();
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Image from "next/image";
@@ -20,8 +21,8 @@ const Form = (props) => {
 
     emailjs
       .sendForm(
-        "service_b0n4upa",
-        "template_9np2vfo",
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
         e.target,
         "user_n4Y2Swbi2MnJJLYCunc9c"
       )
@@ -61,7 +62,7 @@ const Form = (props) => {
             <div className={styles.social_cnt}>
               <div className={styles.cntmedia}>
                 <Image
-                className="Social"
+                  className="Social"
                   onClick={github}
                   src="/images/github.png"
                   alt="contact with maniwebdev on github."
@@ -71,7 +72,7 @@ const Form = (props) => {
               </div>
               <div className={styles.cntmedia}>
                 <Image
-                className="Social"
+                  className="Social"
                   onClick={facecnt}
                   src="/images/fbb.png"
                   alt="contact with maniwebdev on facebook page"
@@ -81,7 +82,7 @@ const Form = (props) => {
               </div>
               <div className={styles.cntmedia}>
                 <Image
-                className="Social"
+                  className="Social"
                   onClick={instacnt}
                   src="/images/iniis.png"
                   alt="contact with maniwebdev on instagram"
@@ -91,7 +92,7 @@ const Form = (props) => {
               </div>
               <div className={styles.cntmedia}>
                 <Image
-                className="Social"
+                  className="Social"
                   onClick={linkecnt}
                   src="/images/lii.png"
                   alt="contact with maniwebdev on linkedin"
@@ -101,7 +102,7 @@ const Form = (props) => {
               </div>
               <div className={styles.cntmedia}>
                 <Image
-                className="Social"
+                  className="Social"
                   onClick={twitcnt}
                   src="/images/twii.png"
                   alt="contact with maniwebdev on twitter"

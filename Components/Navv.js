@@ -1,16 +1,24 @@
 import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
+import { track } from '@vercel/analytics';
 
 const Navv = () => {
-   const handle = () => {
-     var x = document.getElementById("menu");
-     if (x.style.display === "block") {
-       x.style.display = "none";
-     } else {
-       x.style.display = "block";
-     }
-   };
+  const handleMenuToggle = () => {
+    var x = document.getElementById("menu");
+    const isMenuOpen = x.style.display === "block";
+    if (isMenuOpen) {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+    track('menu_toggle', { isOpen: !isMenuOpen });
+  };
+
+
+  const handleNavClick = (navItem) => {
+    track('navigation_click', { item: navItem });
+  };
 
   const insta = () => {
     window.open("https://www.instagram.com/maniwebdev/");
@@ -25,6 +33,10 @@ const Navv = () => {
     window.open("https://web.facebook.com/maniwebdev");
   };
 
+  const handleSocialClick = (socialPlatform) => {
+    track('social_click', { platform: socialPlatform });
+  };
+
   return (
     //created menu for pc
 
@@ -32,17 +44,19 @@ const Navv = () => {
       <div className="navbar">
         <div className="pcmenu">
           <div className="logomain">
-            <Image
-              className="logos"
-              src="/images/Maniweb.png"
-              alt="maniwebdev website and mobile app developer"
-              width="80"
-              height="80"
-            />
+            <Link href='/'>
+              <Image
+                className="logos"
+                src="/images/Maniweb.png"
+                alt="maniwebdev website and mobile app developer"
+                width="80"
+                height="80"
+              />
+            </Link>
           </div>
           <ul>
             <li className="list">
-              <Link href="/" passHref className="active" >
+              <Link href="/" passHref onClick={() => handleNavClick('Home')} className="active">
                 Home
               </Link>
 
@@ -62,8 +76,8 @@ const Navv = () => {
           <div className="social">
             <div className="media">
               <Image
-              className="Social"
-                onClick={face}
+                className="Social"
+                onClick={() => { face(); handleSocialClick('Facebook'); }}
                 src="/images/fbb.png"
                 alt="maniwebdev Freelance website developer and designer"
                 width="20"
@@ -72,8 +86,8 @@ const Navv = () => {
             </div>
             <div className="media">
               <Image
-              className="Social"
-                onClick={insta}
+                className="Social"
+                onClick={() => { insta(); handleSocialClick('Instagram'); }}
                 src="/images/iniis.png"
                 alt="maniwebdev best website developer near me"
                 width="20"
@@ -82,8 +96,8 @@ const Navv = () => {
             </div>
             <div className="media">
               <Image
-              className="Social"
-                onClick={linke}
+                className="Social"
+                onClick={() => { linke(); handleSocialClick('LinkedIn'); }}
                 src="/images/lii.png"
                 alt="maniwebdev website developer"
                 width="20"
@@ -92,8 +106,8 @@ const Navv = () => {
             </div>
             <div className="media">
               <Image
-              className="Social"
-                onClick={twit}
+                className="Social"
+                onClick={() => { twit(); handleSocialClick('Twitter'); }}
                 src="/images/twii.png"
                 alt="maniwebdev Freelance web developer for hire"
                 width="20"
@@ -105,12 +119,12 @@ const Navv = () => {
       </div>
       <header className="mobile-container ">
         <div className="logomob">
-          <Image src="/images/Maniweb.png" alt="maniwebdev best website developer near me." width="150" height="150"/>
+          <Image src="/images/Maniweb.png" alt="maniwebdev best website developer near me." width="150" height="150" />
         </div>
 
         <nav className="topnav">
           <div className="burger">
-            <div onClick={handle} className="mee">
+            <div onClick={handleMenuToggle} className="mee">
               <div className="me"></div>
               <div className="me"></div>
               <div className="me"></div>
@@ -123,14 +137,14 @@ const Navv = () => {
                 Home
               </Link>
               <Link href="#about" passHref className="action">
-              About me
-            </Link>
-            <Link href="#portfolio" passHref className="action">
-            Portfolio
-          </Link>
-          <Link href="#contact" passHref className="action">
-          Contact
-        </Link>
+                About me
+              </Link>
+              <Link href="#portfolio" passHref className="action">
+                Portfolio
+              </Link>
+              <Link href="#contact" passHref className="action">
+                Contact
+              </Link>
             </li>
           </ul>
         </nav>

@@ -1,8 +1,9 @@
 import React from 'react'
 import Image from "next/image";
+import { useRouter } from 'next/router';
 
 const Portfolio = () => {
-
+  const router = useRouter();
   const worker = () => {
     window.open(
       "https://play.google.com/store/apps/details?id=com.maniwebdev.globalworker"
@@ -31,6 +32,15 @@ const Portfolio = () => {
   const quotes = () => {
     window.open("https://acts-of-kindness-generator.vercel.app/");
   };
+
+  const visitProject = () => {
+    alert("Coming soon")
+  }
+
+  const learnMore = () => {
+    router.push('/wagewar')
+  }
+
   return (
     <div>
       <section id="portfolio">
@@ -39,12 +49,12 @@ const Portfolio = () => {
         </div>
 
         <div className="section2">
-        <div className="secicon">
+          <div className="secicon">
             <div className="icon">
               <Image
                 className="topimgg"
                 src="/images/logo.png"
-                alt="maniwebdev cheap freeelance website designer"
+                alt="maniwebdev cheap freelance website designer"
                 width="64"
                 height="64"
               />
@@ -55,12 +65,14 @@ const Portfolio = () => {
               </span>
               <span className="pre">
                 <p onClick={Wage} className="pp1">
-                  Technologies: NextJs, MongoDB, Express.js, Nodejs
-                  Amazon S3 bucket, Stripe, socket io, Adobe illustrator, Figma.
+                  Technologies: NextJs, MongoDB, Express.js, Nodejs, Amazon S3 bucket, Stripe, socket io, Adobe illustrator, Figma.
                 </p>
               </span>
+              <button onClick={Wage} className="visit-btn">Visit</button>
+              <button onClick={visitProject} className="learn-more-btn">Learn More</button>
             </div>
           </div>
+
           <div className="secicon">
             <div className="icon">
               <Image
@@ -81,14 +93,16 @@ const Portfolio = () => {
                   Amazon S3 bucket, Adobe illustrator, Figma.
                 </p>
               </span>
+              <button onClick={worker} className="visit-btn">Visit</button>
+              <button onClick={visitProject} className="learn-more-btn">Learn More</button>
             </div>
           </div>
-          
-          
+
+
         </div>
 
         <div className="section2">
-        <div className="secicon">
+          <div className="secicon">
             <div className="icon">
               <Image
                 className="topimgg"
@@ -108,6 +122,8 @@ const Portfolio = () => {
                   according to the client specifications.
                 </p>
               </span>
+              <button onClick={carpenter} className="visit-btn">Visit</button>
+              <button onClick={visitProject} className="learn-more-btn">Learn More</button>
             </div>
           </div>
           <div className="secicon">
@@ -130,6 +146,8 @@ const Portfolio = () => {
                   private CRUD notes app for saving notes.
                 </p>
               </span>
+              <button onClick={notes} className="visit-btn">Visit</button>
+              <button onClick={visitProject} className="learn-more-btn">Learn More</button>
             </div>
           </div>
         </div>
@@ -155,6 +173,8 @@ const Portfolio = () => {
                   Click here to check live project.
                 </p>
               </span>
+              <button onClick={linked} className="visit-btn">Visit</button>
+              <button onClick={visitProject} className="learn-more-btn">Learn More</button>
             </div>
           </div>
           <div className="secicon">
@@ -176,6 +196,8 @@ const Portfolio = () => {
                   Acts of kindness generator a tool that generates acts of kindess when you click on generate button.
                 </p>
               </span>
+              <button onClick={quotes} className="visit-btn">Visit</button>
+              <button onClick={visitProject} className="learn-more-btn">Learn More</button>
             </div>
           </div>
         </div>
@@ -202,6 +224,8 @@ const Portfolio = () => {
                   the bottom tab navigation package.
                 </p>
               </span>
+              <button onClick={insta} className="visit-btn">Visit</button>
+              <button onClick={visitProject} className="learn-more-btn">Learn More</button>
             </div>
           </div>
           <div className="secicon">
@@ -224,6 +248,8 @@ const Portfolio = () => {
                   Native and reusable components.
                 </p>
               </span>
+              <button onClick={food} className="visit-btn">Visit</button>
+              <button onClick={visitProject} className="learn-more-btn">Learn More</button>
             </div>
           </div>
         </div>
@@ -232,4 +258,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Portfolio;
