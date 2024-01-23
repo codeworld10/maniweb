@@ -1506,7 +1506,7 @@ div .serpara2 {
 @media (max-width: 871px){
   .secicon{
     width: 350px;
-    height: 250px;
+    height: auto;
     border-radius: 15px;
   }
 }
@@ -1546,7 +1546,7 @@ div .serpara2 {
   }
   .secicon{
     width: 300px;
-    height: 250px;
+    height: auto;
     border-radius: 15px;
   }
 }
@@ -1675,7 +1675,7 @@ div .serpara2 {
 @media(max-width:671px){
   .secicon{
     width: 250px;
-    height: 250px;
+    height: auto;
     border-radius: 15px;
   }
   .progress-bar-container {
@@ -1768,7 +1768,7 @@ div .serpara2 {
 @media(max-width: 571px){
   .secicon{
     width: 200px;
-    height: 300px;
+    height: auto;
     border-radius: 15px;
   }
   .card, .card2, .card3 {
@@ -1799,7 +1799,7 @@ div .serpara2 {
   }
   .secicon{
     width: 350px;
-    height: 250px;
+    height: auto;
     border-radius: 15px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -1837,7 +1837,7 @@ div .serpara2 {
   }
   .secicon{
     width: 300px;
-    height: 250px;
+    height: auto;
     border-radius: 15px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -1870,7 +1870,7 @@ div .serpara2 {
   }
   .secicon{
     width: 300px;
-    height: 250px;
+    height: auto;
     border-radius: 15px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -1909,7 +1909,7 @@ div .serpara2 {
 @media(max-width:312px){
   .secicon{
     width: 250px;
-    height: 250px;
+    height: auto;
     border-radius: 15px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -1969,7 +1969,7 @@ div .serpara2 {
   }
   .secicon{
     width: 220px;
-    height: 260px;
+    height: auto;
     border-radius: 15px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -1998,7 +1998,7 @@ div .serpara2 {
   }
   .secicon{
     width: 200px;
-    height: 300px;
+    height: auto;
     border-radius: 15px;
     margin-bottom: 10px;
     margin-left: 10px;
