@@ -657,13 +657,11 @@ div .section1 {
 .head:hover {
   color: #f00f80;
 }
- img {
-  border-radius: 3%;
-  object-fit: cover;
-}
 
-.img:hover .topimg {
-  transform: scale(1.1);
+.demoVideo {
+  width: 100%; /* Responsive video width */
+  max-width: 500px; /* Max width to maintain aspect ratio */
+  border-radius: 5px; /* Rounded corners for video */
 }
 
 .para {
@@ -810,9 +808,6 @@ div .section1 {
   border: 1px solid white;
 }
 
-.img {
-  margin-right: 50px;
-}
 
 .container {
   background-color: rgba(128, 128, 128, 0.261);
@@ -1523,7 +1518,7 @@ div .serpara2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 800px;
+    height: auto;
   }
 
   div .text {
@@ -1542,7 +1537,7 @@ div .serpara2 {
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    height: 800px;
+    height: auto;
   }
   .secicon{
     width: 300px;
@@ -1728,16 +1723,7 @@ div .serpara2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 700px;
-  }
-
-  .img {
-    margin-right: 0px;
-    border-radius: 10%;
-  }
-
-  .topimg {
-    object-fit: contain
+    height: auto;
   }
 
   p .para {
@@ -1805,13 +1791,9 @@ div .serpara2 {
     margin-left: 10px;
     margin-right: 10px;
   }
-  .topimg {
-    object-fit: 'contain';
-    height: 350px;
-    width: 350px;
-  }
+
   div .section1 {
-    height: 600px;
+    height: auto;
   }
 }
 
@@ -1823,7 +1805,7 @@ div .serpara2 {
 
 @media (max-width: 430px) {
   div .section1 {
-    height: 600px;
+    height: auto;
   }
 
   .pp1 {
@@ -1856,7 +1838,7 @@ div .serpara2 {
 
 @media (max-width: 360px) {
   div .section1 {
-    height: 600px;
+    height: auto;
   }
 
   .pp1 {
@@ -1876,11 +1858,6 @@ div .serpara2 {
     margin-left: 10px;
     margin-right: 10px;
   }
-  .topimg {
-    object-fit: 'contain';
-    height: 300px;
-    width: 300px;
-  }
 }
 
 @media (max-width: 334px) {
@@ -1891,7 +1868,7 @@ div .serpara2 {
 
 @media (max-width: 320px) {
   div .section1 {
-    height: 600px;
+    height: auto;
   }
 
   .pp1 {
@@ -1915,11 +1892,7 @@ div .serpara2 {
     margin-left: 10px;
     margin-right: 10px;
   }
-  .topimg {
-    object-fit: 'contain';
-    height: 250px;
-    width: 250px;
-  }
+
 }
 
 @media (max-width: 298px) {
@@ -1930,7 +1903,7 @@ div .serpara2 {
 
 @media (max-width: 290px) {
   div .section1 {
-    height: 650px;
+    height: auto;
   }
 
   .butto {
@@ -1956,7 +1929,7 @@ div .serpara2 {
 
 @media (max-width: 268px) {
   div .section1 {
-    height: 500px;
+    height: auto;
   }
 
   .pp1 {
@@ -1975,16 +1948,12 @@ div .serpara2 {
     margin-left: 10px;
     margin-right: 10px;
   }
-  .topimg {
-    object-fit: 'contain';
-    height: 230px;
-    width: 230px;
-  }
+
 }
 
 @media (max-width: 240px) {
   div .section1 {
-    height: 900px;
+    height: auto;
   }
 
   .pp1 {
@@ -2003,11 +1972,6 @@ div .serpara2 {
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-  }
-  .topimg {
-    object-fit: 'contain';
-    height: 200px;
-    width: 200px;
   }
 }
 

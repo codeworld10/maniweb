@@ -205,16 +205,12 @@ const index = () => {
               </span>
             </div>
           </div>
-          {/* Adding the image of section1 */}
+          {/* Adding the video of section1 */}
           <div className="img">
-            <Image
-              className="topimg"
-              src="/images/usm.png"
-              alt="maniwebdev web/app developer"
-              width={420}
-              height={420}
-              priority={true}
-            />
+            <video className='demoVideo' width="500" height="280" controls loop muted>
+              <source src="/video/maniwebdevintro.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
         <Divider className="divide" light />
