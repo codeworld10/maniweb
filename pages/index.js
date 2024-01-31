@@ -217,10 +217,12 @@ const index = () => {
         {/* section1 ends */}
         {/* section2 starts */}
         <BlinkingStars count={5} />
-        <Aboutme />
-        <Divider className="divide" light />
         <section>
           <Portfolio />
+        </section>
+        <Divider className="divide" light />
+        <section>
+          <Aboutme />
         </section>
         <Divider className="divide" light />
         <Testimonials />

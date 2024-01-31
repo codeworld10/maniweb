@@ -60,12 +60,12 @@ const Navv = () => {
                 Home
               </Link>
 
-              <Link href="#about" passHref className="active">
-                About me
-              </Link>
-
               <Link href="#portfolio" passHref className="active">
                 Portfolio
+              </Link>
+
+              <Link href="#about" passHref className="active">
+                About me
               </Link>
 
               <Link href="#contact" passHref className="active">
@@ -136,11 +136,11 @@ const Navv = () => {
               <Link href="/" passHref className="action">
                 Home
               </Link>
-              <Link href="#about" passHref className="action">
-                About me
-              </Link>
               <Link href="#portfolio" passHref className="action">
                 Portfolio
+              </Link>
+              <Link href="#about" passHref className="action">
+                About me
               </Link>
               <Link href="#contact" passHref className="action">
                 Contact
