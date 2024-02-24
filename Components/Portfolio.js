@@ -25,8 +25,8 @@ const Portfolio = () => {
     window.open("https://www.wagewar.com/");
   };
 
-  const linked = () => {
-    window.open("https://linkedin-clone-azure-nu.vercel.app/");
+  const Dental = () => {
+    window.open("https://www.dentistcollection.com/");
   };
 
   const quotes = () => {
@@ -37,10 +37,6 @@ const Portfolio = () => {
     alert("Coming soon")
   }
 
-  const learnMore = () => {
-    router.push('/wagewar')
-  }
-
   return (
     <div>
       <section id="portfolio">
@@ -49,6 +45,29 @@ const Portfolio = () => {
         </div>
 
         <div className="section2">
+          <div className="secicon">
+            <div className="icon">
+              <Image
+                className="topimgg"
+                src="/images/dlogo.png"
+                alt="maniwebdev cheap freelance website designer"
+                width="64"
+                height="64"
+              />
+              <span className="re">
+                <h2 onClick={Dental} className="he1">
+                  Dentist Collection
+                </h2>
+              </span>
+              <span className="pre">
+                <p onClick={Dental} className="pp1">
+                  Technologies: NextJs, MongoDB, Express.js, Nodejs, Amazon S3 bucket, Adobe illustrator, Figma.
+                </p>
+              </span>
+              <button onClick={Dental} className="visit-btn">Visit</button>
+              <button onClick={visitProject} className="learn-more-btn">Learn More</button>
+            </div>
+          </div>
           <div className="secicon">
             <div className="icon">
               <Image
@@ -72,33 +91,6 @@ const Portfolio = () => {
               <button onClick={visitProject} className="learn-more-btn">Learn More</button>
             </div>
           </div>
-
-          <div className="secicon">
-            <div className="icon">
-              <Image
-                className="topimgg"
-                src="/images/icon2.png"
-                alt="maniwebdev freelance website designer near me"
-                width="64"
-                height="64"
-              />
-              <span className="re">
-                <h2 onClick={worker} className="he1">
-                  Android App
-                </h2>
-              </span>
-              <span className="pre">
-                <p className="pp1" onClick={worker}>
-                  Technologies: React native, MongoDB, Express.js, Nodejs
-                  Amazon S3 bucket, Adobe illustrator, Figma.
-                </p>
-              </span>
-              <button onClick={worker} className="visit-btn">Visit</button>
-              <button onClick={visitProject} className="learn-more-btn">Learn More</button>
-            </div>
-          </div>
-
-
         </div>
 
         <div className="section2">
@@ -130,6 +122,33 @@ const Portfolio = () => {
             <div className="icon">
               <Image
                 className="topimgg"
+                src="/images/icon2.png"
+                alt="maniwebdev freelance website designer near me"
+                width="64"
+                height="64"
+              />
+              <span className="re">
+                <h2 onClick={worker} className="he1">
+                  Android App
+                </h2>
+              </span>
+              <span className="pre">
+                <p className="pp1" onClick={worker}>
+                  Technologies: React native, MongoDB, Express.js, Nodejs
+                  Amazon S3 bucket, Adobe illustrator, Figma.
+                </p>
+              </span>
+              <button onClick={worker} className="visit-btn">Visit</button>
+              <button onClick={visitProject} className="learn-more-btn">Learn More</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="section2">
+          <div className="secicon">
+            <div className="icon">
+              <Image
+                className="topimgg"
                 src="/images/notebook.png"
                 alt="maniwebdev freelance website designer near me"
                 width="64"
@@ -147,33 +166,6 @@ const Portfolio = () => {
                 </p>
               </span>
               <button onClick={notes} className="visit-btn">Visit</button>
-              <button onClick={visitProject} className="learn-more-btn">Learn More</button>
-            </div>
-          </div>
-        </div>
-
-        <div className="section2">
-          <div className="secicon">
-            <div className="icon">
-              <Image
-                className="topimgg"
-                src="/images/lii.png"
-                alt="maniwebdev freelance website designer near me"
-                width="64"
-                height="64"
-              />
-              <span className="re">
-                <h2 onClick={linked} className="he1">
-                  LinkedIn
-                </h2>
-              </span>
-              <span className="pre">
-                <p className="pp1" onClick={linked}>
-                  Technologies: Created LinkedIn design using NextJs.
-                  Click here to check live project.
-                </p>
-              </span>
-              <button onClick={linked} className="visit-btn">Visit</button>
               <button onClick={visitProject} className="learn-more-btn">Learn More</button>
             </div>
           </div>
