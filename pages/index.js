@@ -236,7 +236,7 @@ const index = () => {
           <Contact />
         </section>
       </ThemeProvider>
-      <Footer />
+      <Footer /> 
     </>
   );
 };

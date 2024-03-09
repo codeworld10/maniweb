@@ -33,6 +33,10 @@ const Portfolio = () => {
     window.open("https://acts-of-kindness-generator.vercel.app/");
   };
 
+  const dentist = () => {
+    router.push('/dentistcollection');
+  }
+
   const visitProject = () => {
     alert("Coming soon")
   }
@@ -65,7 +69,7 @@ const Portfolio = () => {
                 </p>
               </span>
               <button onClick={Dental} className="visit-btn">Visit</button>
-              <button onClick={visitProject} className="learn-more-btn">Learn More</button>
+              <button onClick={dentist} className="learn-more-btn">Learn More</button>
             </div>
           </div>
           <div className="secicon">

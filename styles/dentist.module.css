@@ -1,0 +1,77 @@
+/* dentist.module.css */
+.caseStudyContainer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .videoContainer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .videoEmbed {
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .content {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .content h1 {
+    color: #017065;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .content h2 {
+    color: #024d4c;
+    margin-top: 20px;
+  }
+  
+  .content p {
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .content ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .content ul li::before {
+    content: '✓';
+    color: #017065;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 768px) {
+    .videoEmbed {
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .content h1, .content h2 {
+      font-size: 20px;
+    }
+  
+    .content p, .content ul li {
+      font-size: 14px;
+    }
+  }
+  
