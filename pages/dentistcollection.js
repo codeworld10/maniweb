@@ -33,7 +33,7 @@ const dentistcollection = () => {
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:site" content="@maniwebdev" />
             </Head>
-            <p onClick={homePage} style={{paddingLeft:'10px'}}>Home</p>
+            <p onClick={homePage} style={{paddingLeft:'10px', cursor:'pointer', fontWeight:'bold'}}>Home</p>
             <div className={styles.caseStudyContainer}>
                 <div className={styles.videoContainer}>
                     <iframe

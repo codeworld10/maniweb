@@ -6,12 +6,12 @@ const Footer = () => {
         <div className="links">
           <div className="lin_ku">
             <Link href="/privacy" passHref className='plcy'>
-             Privacy
+              Privacy
             </Link>
           </div>
         </div>
         <div className="footer">
-          <p className="ftrpara">© 2023 ManiWebDev All rights reserved</p>
+          <p className="ftrpara"> © {new Date().getFullYear()} ManiWebDev All rights reserved</p>
         </div>
       </footer>
     </>
