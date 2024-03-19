@@ -207,8 +207,8 @@ const index = () => {
           </div>
           {/* Adding the video of section1 */}
           <div className="img">
-            <video className='demoVideo' width="500" height="280" controls loop muted>
-              <source src="/video/maniwebdevintro.mp4" type="video/mp4" />
+            <video className='demoVideo' width="500" height="280" controls>
+              <source src="/video/maniwebdev.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
